@@ -22,6 +22,8 @@ This is an unofficial project, not affiliated with the authors or the IGY Founda
 
 ```
 site/index.html        the built page (self-contained HTML, no server needed)
+main.py                tiny static server for site/ on $PORT (used by Railway)
+railway.json           Railway start command: python main.py
 src/
   paths.py             where everything lives
   extract_text.py      1. PDF -> private/nomad.txt
@@ -44,6 +46,14 @@ No PDF or API key is needed for this:
 
 ```bash
 python3 src/build.py      # writes site/index.html
+```
+
+## Deploy
+
+`site/index.html` is a single self-contained file, so any static host works (GitHub Pages, Netlify and so on). For Railway, `railway.json` sets the start command to `python main.py`, which serves `site/` on the port Railway provides. It uses only the standard library, so the packages in `requirements.txt` aren't needed at run time. To run it locally:
+
+```bash
+python3 main.py      # http://localhost:8000
 ```
 
 ## Rebuild everything from scratch
