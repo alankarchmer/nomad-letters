@@ -1,0 +1,11 @@
+# The letters' text, the Jev cache (which contains that text), writer inputs and redaction lists
+private/*
+!private/README.md
+
+# Secrets
+.env
+*.key
+
+__pycache__/
+*.pyc
+.DS_Store

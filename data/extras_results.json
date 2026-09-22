@@ -1,0 +1,5008 @@
+{
+ "paths": {
+  "c4": [
+   {
+    "ref": "c4-1",
+    "i": 131,
+    "letter": 5,
+    "page": 39,
+    "score": 1.81
+   },
+   {
+    "ref": "c4-2",
+    "i": 349,
+    "letter": 10,
+    "page": 103,
+    "score": 2.84
+   },
+   {
+    "ref": "c4-3",
+    "i": 565,
+    "letter": 15,
+    "page": 163,
+    "score": 1.88
+   },
+   {
+    "ref": "c4-4",
+    "i": 612,
+    "letter": 17,
+    "page": 176,
+    "score": 2.26
+   },
+   {
+    "ref": "c4-5",
+    "i": 647,
+    "letter": 19,
+    "page": 189,
+    "score": 2.2
+   }
+  ],
+  "c14": [
+   {
+    "ref": "c14-1",
+    "i": 399,
+    "letter": 11,
+    "page": 117,
+    "score": 2.22
+   },
+   {
+    "ref": "c14-2",
+    "i": 513,
+    "letter": 14,
+    "page": 149,
+    "score": 2.89
+   },
+   {
+    "ref": "c14-3",
+    "i": 570,
+    "letter": 15,
+    "page": 164,
+    "score": 2.34
+   },
+   {
+    "ref": "c14-4",
+    "i": 673,
+    "letter": 21,
+    "page": 200,
+    "score": 2.44
+   },
+   {
+    "ref": "c14-5",
+    "i": 708,
+    "letter": 22,
+    "page": 209,
+    "score": 2.44
+   }
+  ],
+  "c5": [
+   {
+    "ref": "c5-1",
+    "i": 121,
+    "letter": 5,
+    "page": 36,
+    "score": 2.83
+   },
+   {
+    "ref": "c5-2",
+    "i": 433,
+    "letter": 12,
+    "page": 127,
+    "score": 2.34
+   },
+   {
+    "ref": "c5-3",
+    "i": 550,
+    "letter": 15,
+    "page": 159,
+    "score": 2.35
+   }
+  ],
+  "c11": [
+   {
+    "ref": "c11-1",
+    "i": 101,
+    "letter": 4,
+    "page": 31,
+    "score": 2.25
+   },
+   {
+    "ref": "c11-2",
+    "i": 118,
+    "letter": 5,
+    "page": 35,
+    "score": 2.21
+   },
+   {
+    "ref": "c11-3",
+    "i": 228,
+    "letter": 8,
+    "page": 72,
+    "score": 2.79
+   },
+   {
+    "ref": "c11-4",
+    "i": 312,
+    "letter": 9,
+    "page": 94,
+    "score": 1.87
+   },
+   {
+    "ref": "c11-5",
+    "i": 413,
+    "letter": 11,
+    "page": 121,
+    "score": 2.6
+   }
+  ],
+  "c1": [
+   {
+    "ref": "c1-1",
+    "i": 3,
+    "letter": 0,
+    "page": 5,
+    "score": 1.99
+   },
+   {
+    "ref": "c1-2",
+    "i": 22,
+    "letter": 1,
+    "page": 10,
+    "score": 1.98
+   },
+   {
+    "ref": "c1-3",
+    "i": 96,
+    "letter": 4,
+    "page": 30,
+    "score": 2.74
+   },
+   {
+    "ref": "c1-4",
+    "i": 135,
+    "letter": 5,
+    "page": 40,
+    "score": 2.51
+   },
+   {
+    "ref": "c1-5",
+    "i": 511,
+    "letter": 14,
+    "page": 148,
+    "score": 2.22
+   }
+  ],
+  "c10": [
+   {
+    "ref": "c10-1",
+    "i": 60,
+    "letter": 3,
+    "page": 21,
+    "score": 2.36
+   },
+   {
+    "ref": "c10-2",
+    "i": 126,
+    "letter": 5,
+    "page": 38,
+    "score": 2.65
+   },
+   {
+    "ref": "c10-3",
+    "i": 289,
+    "letter": 8,
+    "page": 86,
+    "score": 2.11
+   },
+   {
+    "ref": "c10-4",
+    "i": 518,
+    "letter": 14,
+    "page": 150,
+    "score": 1.93
+   },
+   {
+    "ref": "c10-5",
+    "i": 588,
+    "letter": 16,
+    "page": 170,
+    "score": 2.74
+   }
+  ],
+  "c16": [
+   {
+    "ref": "c16-1",
+    "i": 272,
+    "letter": 8,
+    "page": 84,
+    "score": 2.28
+   },
+   {
+    "ref": "c16-2",
+    "i": 396,
+    "letter": 11,
+    "page": 116,
+    "score": 1.92
+   },
+   {
+    "ref": "c16-3",
+    "i": 663,
+    "letter": 20,
+    "page": 196,
+    "score": 1.47
+   }
+  ],
+  "c9": [
+   {
+    "ref": "c9-1",
+    "i": 120,
+    "letter": 5,
+    "page": 36,
+    "score": 1.31
+   },
+   {
+    "ref": "c9-2",
+    "i": 194,
+    "letter": 7,
+    "page": 61,
+    "score": 2.56
+   },
+   {
+    "ref": "c9-3",
+    "i": 719,
+    "letter": 23,
+    "page": 214,
+    "score": 1.8
+   }
+  ],
+  "c6": [
+   {
+    "ref": "c6-1",
+    "i": 229,
+    "letter": 8,
+    "page": 73,
+    "score": 2.57
+   },
+   {
+    "ref": "c6-2",
+    "i": 383,
+    "letter": 10,
+    "page": 112,
+    "score": 2.45
+   },
+   {
+    "ref": "c6-3",
+    "i": 412,
+    "letter": 11,
+    "page": 121,
+    "score": 2.78
+   },
+   {
+    "ref": "c6-4",
+    "i": 625,
+    "letter": 18,
+    "page": 181,
+    "score": 2.14
+   },
+   {
+    "ref": "c6-5",
+    "i": 667,
+    "letter": 20,
+    "page": 196,
+    "score": 1.95
+   }
+  ],
+  "c7": [
+   {
+    "ref": "c7-1",
+    "i": 173,
+    "letter": 6,
+    "page": 53,
+    "score": 2.1
+   },
+   {
+    "ref": "c7-2",
+    "i": 266,
+    "letter": 8,
+    "page": 83,
+    "score": 2.43
+   },
+   {
+    "ref": "c7-3",
+    "i": 395,
+    "letter": 11,
+    "page": 116,
+    "score": 2.22
+   },
+   {
+    "ref": "c7-4",
+    "i": 526,
+    "letter": 14,
+    "page": 152,
+    "score": 2.19
+   },
+   {
+    "ref": "c7-5",
+    "i": 620,
+    "letter": 18,
+    "page": 180,
+    "score": 2.2
+   }
+  ],
+  "c12": [
+   {
+    "ref": "c12-1",
+    "i": 66,
+    "letter": 3,
+    "page": 22,
+    "score": 2.14
+   },
+   {
+    "ref": "c12-2",
+    "i": 198,
+    "letter": 7,
+    "page": 63,
+    "score": 2.48
+   },
+   {
+    "ref": "c12-3",
+    "i": 362,
+    "letter": 10,
+    "page": 107,
+    "score": 2.47
+   },
+   {
+    "ref": "c12-4",
+    "i": 625,
+    "letter": 18,
+    "page": 181,
+    "score": 2.21
+   },
+   {
+    "ref": "c12-5",
+    "i": 717,
+    "letter": 23,
+    "page": 214,
+    "score": 1.83
+   }
+  ],
+  "c8": [
+   {
+    "ref": "c8-1",
+    "i": 200,
+    "letter": 7,
+    "page": 63,
+    "score": 1.58
+   },
+   {
+    "ref": "c8-2",
+    "i": 278,
+    "letter": 8,
+    "page": 85,
+    "score": 1.46
+   },
+   {
+    "ref": "c8-3",
+    "i": 407,
+    "letter": 11,
+    "page": 120,
+    "score": 1.53
+   },
+   {
+    "ref": "c8-4",
+    "i": 428,
+    "letter": 12,
+    "page": 126,
+    "score": 2.76
+   },
+   {
+    "ref": "c8-5",
+    "i": 473,
+    "letter": 13,
+    "page": 136,
+    "score": 1.98
+   }
+  ],
+  "c13": [
+   {
+    "ref": "c13-1",
+    "i": 109,
+    "letter": 4,
+    "page": 33,
+    "score": 2.39
+   },
+   {
+    "ref": "c13-2",
+    "i": 123,
+    "letter": 5,
+    "page": 37,
+    "score": 2.27
+   },
+   {
+    "ref": "c13-3",
+    "i": 367,
+    "letter": 10,
+    "page": 108,
+    "score": 2.41
+   },
+   {
+    "ref": "c13-4",
+    "i": 486,
+    "letter": 13,
+    "page": 140,
+    "score": 1.57
+   },
+   {
+    "ref": "c13-5",
+    "i": 553,
+    "letter": 15,
+    "page": 160,
+    "score": 2.29
+   }
+  ],
+  "c2": [
+   {
+    "ref": "c2-1",
+    "i": 160,
+    "letter": 6,
+    "page": 50,
+    "score": 2.57
+   },
+   {
+    "ref": "c2-2",
+    "i": 354,
+    "letter": 10,
+    "page": 105,
+    "score": 2.03
+   },
+   {
+    "ref": "c2-3",
+    "i": 522,
+    "letter": 14,
+    "page": 151,
+    "score": 2.68
+   },
+   {
+    "ref": "c2-4",
+    "i": 554,
+    "letter": 15,
+    "page": 160,
+    "score": 2.57
+   },
+   {
+    "ref": "c2-5",
+    "i": 637,
+    "letter": 19,
+    "page": 187,
+    "score": 2.87
+   }
+  ],
+  "c3": [
+   {
+    "ref": "c3-1",
+    "i": 57,
+    "letter": 3,
+    "page": 20,
+    "score": 2.03
+   },
+   {
+    "ref": "c3-2",
+    "i": 81,
+    "letter": 4,
+    "page": 27,
+    "score": 2.24
+   },
+   {
+    "ref": "c3-3",
+    "i": 233,
+    "letter": 8,
+    "page": 74,
+    "score": 2.19
+   },
+   {
+    "ref": "c3-4",
+    "i": 340,
+    "letter": 10,
+    "page": 102,
+    "score": 2.24
+   },
+   {
+    "ref": "c3-5",
+    "i": 456,
+    "letter": 12,
+    "page": 132,
+    "score": 2.14
+   }
+  ],
+  "c15": [
+   {
+    "ref": "c15-1",
+    "i": 145,
+    "letter": 6,
+    "page": 46,
+    "score": 2.66
+   }
+  ]
+ },
+ "scorecard": [
+  {
+   "key": "speedway",
+   "n": 7,
+   "roles": {
+    "holding_positive": 0.65,
+    "holding_troubled": 0.013,
+    "sold": 0.001,
+    "passing": 0.177,
+    "example": 0.157,
+    "mistake": 0.001
+   },
+   "traits": {
+    "price": [
+     0.554,
+     1.54
+    ],
+    "sharing": [
+     null,
+     0.06
+    ],
+    "owner": [
+     1.0,
+     0.51
+    ],
+    "capital": [
+     0.923,
+     1.37
+    ],
+    "character": [
+     0.99,
+     0.97
+    ]
+   },
+   "view": [
+    0.628,
+    5.76
+   ],
+   "timeline": [
+    0.667,
+    0.447,
+    0.5,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "matichon",
+   "n": 11,
+   "roles": {
+    "sold": 0.007,
+    "passing": 0.173,
+    "example": 0.156,
+    "holding_positive": 0.39,
+    "mistake": 0.025,
+    "holding_troubled": 0.248
+   },
+   "traits": {
+    "price": [
+     0.572,
+     2.28
+    ],
+    "sharing": [
+     0.557,
+     0.61
+    ],
+    "owner": [
+     0.924,
+     1.97
+    ],
+    "capital": [
+     0.85,
+     2.17
+    ],
+    "character": [
+     0.899,
+     3.76
+    ]
+   },
+   "view": [
+    0.521,
+    9.1
+   ],
+   "timeline": [
+    0.675,
+    0.423,
+    0.493,
+    0.407,
+    null,
+    null,
+    null,
+    null,
+    0.453,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "xerox",
+   "n": 10,
+   "roles": {
+    "sold": 0.001,
+    "passing": 0.154,
+    "example": 0.267,
+    "mistake": 0.009,
+    "holding_troubled": 0.397,
+    "holding_positive": 0.171
+   },
+   "traits": {
+    "price": [
+     0.732,
+     4.01
+    ],
+    "sharing": [
+     null,
+     0.01
+    ],
+    "owner": [
+     0.0,
+     1.51
+    ],
+    "capital": [
+     0.529,
+     2.24
+    ],
+    "character": [
+     0.154,
+     4.08
+    ]
+   },
+   "view": [
+    0.29,
+    8.46
+   ],
+   "timeline": [
+    null,
+    0.291,
+    null,
+    null,
+    0.513,
+    0.38,
+    null,
+    null,
+    0.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "monsanto",
+   "n": 3,
+   "roles": {
+    "mistake": 0.361,
+    "sold": 0.555,
+    "holding_troubled": 0.027,
+    "holding_positive": 0.02,
+    "example": 0.007,
+    "passing": 0.03
+   },
+   "traits": {
+    "price": [
+     0.705,
+     0.87
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.24
+    ],
+    "capital": [
+     null,
+     0.18
+    ],
+    "character": [
+     0.965,
+     0.86
+    ]
+   },
+   "view": [
+    0.218,
+    2.91
+   ],
+   "timeline": [
+    null,
+    0.093,
+    0.493,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "estee",
+   "n": 3,
+   "roles": {
+    "mistake": 0.0,
+    "sold": 0.0,
+    "holding_troubled": 0.047,
+    "holding_positive": 0.01,
+    "example": 0.94,
+    "passing": 0.003
+   },
+   "traits": {
+    "price": [
+     0.667,
+     1.54
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.01
+    ],
+    "capital": [
+     0.833,
+     1.23
+    ],
+    "character": [
+     0.99,
+     0.98
+    ]
+   },
+   "view": [
+    0.528,
+    2.99
+   ],
+   "timeline": [
+    null,
+    0.833,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.375,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "costco",
+   "n": 51,
+   "roles": {
+    "passing": 0.052,
+    "mistake": 0.013,
+    "holding_positive": 0.326,
+    "holding_troubled": 0.03,
+    "sold": 0.0,
+    "example": 0.579
+   },
+   "traits": {
+    "price": [
+     0.714,
+     6.58
+    ],
+    "sharing": [
+     0.995,
+     25.0
+    ],
+    "owner": [
+     0.715,
+     6.67
+    ],
+    "capital": [
+     0.829,
+     10.7
+    ],
+    "character": [
+     0.971,
+     26.52
+    ]
+   },
+   "view": [
+    0.798,
+    48.34
+   ],
+   "timeline": [
+    null,
+    null,
+    0.865,
+    0.443,
+    null,
+    0.776,
+    0.798,
+    0.721,
+    0.667,
+    null,
+    0.917,
+    null,
+    null,
+    0.75,
+    0.987,
+    0.882,
+    0.957,
+    0.963,
+    null,
+    0.805,
+    null,
+    0.76,
+    0.748,
+    null
+   ]
+  },
+  {
+   "key": "berkshire",
+   "n": 28,
+   "roles": {
+    "holding_troubled": 0.001,
+    "passing": 0.309,
+    "sold": 0.0,
+    "holding_positive": 0.127,
+    "mistake": 0.002,
+    "example": 0.56
+   },
+   "traits": {
+    "price": [
+     0.895,
+     1.71
+    ],
+    "sharing": [
+     0.997,
+     5.76
+    ],
+    "owner": [
+     0.853,
+     3.34
+    ],
+    "capital": [
+     0.96,
+     5.4
+    ],
+    "character": [
+     0.985,
+     16.28
+    ]
+   },
+   "view": [
+    0.72,
+    19.35
+   ],
+   "timeline": [
+    null,
+    null,
+    0.823,
+    null,
+    0.583,
+    0.805,
+    0.427,
+    0.624,
+    0.692,
+    null,
+    0.735,
+    null,
+    null,
+    0.714,
+    0.377,
+    0.865,
+    0.973,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.824,
+    null
+   ]
+  },
+  {
+   "key": "stagecoach",
+   "n": 18,
+   "roles": {
+    "sold": 0.125,
+    "passing": 0.036,
+    "mistake": 0.146,
+    "holding_positive": 0.387,
+    "example": 0.231,
+    "holding_troubled": 0.074
+   },
+   "traits": {
+    "price": [
+     0.695,
+     4.1
+    ],
+    "sharing": [
+     1.0,
+     0.51
+    ],
+    "owner": [
+     0.544,
+     3.4
+    ],
+    "capital": [
+     0.61,
+     7.52
+    ],
+    "character": [
+     0.798,
+     8.93
+    ]
+   },
+   "view": [
+    0.507,
+    17.35
+   ],
+   "timeline": [
+    null,
+    null,
+    0.543,
+    null,
+    0.639,
+    0.827,
+    null,
+    null,
+    null,
+    0.717,
+    0.4,
+    0.227,
+    0.286,
+    null,
+    null,
+    null,
+    0.37,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "walmart",
+   "n": 14,
+   "roles": {
+    "sold": 0.034,
+    "passing": 0.036,
+    "mistake": 0.025,
+    "holding_positive": 0.056,
+    "example": 0.845,
+    "holding_troubled": 0.003
+   },
+   "traits": {
+    "price": [
+     0.812,
+     2.07
+    ],
+    "sharing": [
+     0.909,
+     5.83
+    ],
+    "owner": [
+     0.994,
+     3.31
+    ],
+    "capital": [
+     0.952,
+     0.42
+    ],
+    "character": [
+     0.972,
+     4.94
+    ]
+   },
+   "view": [
+    0.743,
+    13.49
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.51,
+    0.256,
+    null,
+    null,
+    null,
+    0.98,
+    null,
+    null,
+    null,
+    0.871,
+    null,
+    null,
+    null,
+    0.743,
+    0.947,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "conseco",
+   "n": 9,
+   "roles": {
+    "example": 0.154,
+    "passing": 0.138,
+    "holding_troubled": 0.11,
+    "sold": 0.034,
+    "mistake": 0.499,
+    "holding_positive": 0.064
+   },
+   "traits": {
+    "price": [
+     null,
+     0.27
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.06
+    ],
+    "capital": [
+     0.292,
+     1.71
+    ],
+    "character": [
+     0.917,
+     3.51
+    ]
+   },
+   "view": [
+    0.142,
+    7.76
+   ],
+   "timeline": [
+    null,
+    null,
+    0.055,
+    null,
+    0.017,
+    null,
+    null,
+    0.173,
+    null,
+    null,
+    0.3,
+    0.537,
+    0.032,
+    null,
+    null,
+    null,
+    0.21,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "kersaf",
+   "n": 5,
+   "roles": {
+    "holding_positive": 0.4,
+    "sold": 0.002,
+    "passing": 0.314,
+    "holding_troubled": 0.1,
+    "example": 0.174,
+    "mistake": 0.01
+   },
+   "traits": {
+    "price": [
+     null,
+     0.08
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     0.074,
+     0.54
+    ],
+    "capital": [
+     0.718,
+     1.24
+    ],
+    "character": [
+     0.759,
+     1.12
+    ]
+   },
+   "view": [
+    0.569,
+    3.43
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    0.363,
+    0.48,
+    0.877,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "weetabix",
+   "n": 15,
+   "roles": {
+    "example": 0.315,
+    "holding_troubled": 0.065,
+    "sold": 0.123,
+    "holding_positive": 0.423,
+    "passing": 0.071,
+    "mistake": 0.003
+   },
+   "traits": {
+    "price": [
+     0.808,
+     6.08
+    ],
+    "sharing": [
+     null,
+     0.01
+    ],
+    "owner": [
+     0.869,
+     4.04
+    ],
+    "capital": [
+     0.694,
+     5.65
+    ],
+    "character": [
+     0.562,
+     6.81
+    ]
+   },
+   "view": [
+    0.531,
+    13.93
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    0.716,
+    0.34,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.215,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "lucent",
+   "n": 7,
+   "roles": {
+    "holding_positive": 0.256,
+    "holding_troubled": 0.155,
+    "example": 0.262,
+    "sold": 0.269,
+    "passing": 0.057,
+    "mistake": 0.001
+   },
+   "traits": {
+    "price": [
+     0.854,
+     1.3
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.34
+    ],
+    "capital": [
+     0.698,
+     1.69
+    ],
+    "character": [
+     0.895,
+     0.86
+    ]
+   },
+   "view": [
+    0.418,
+    6.6
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    0.498,
+    0.462,
+    null,
+    null,
+    null,
+    0.003,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "erie",
+   "n": 3,
+   "roles": {
+    "passing": 0.263,
+    "mistake": 0.0,
+    "sold": 0.0,
+    "holding_positive": 0.057,
+    "holding_troubled": 0.003,
+    "example": 0.677
+   },
+   "traits": {
+    "price": [
+     null,
+     0.0
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     0.887,
+     0.8
+    ],
+    "capital": [
+     1.0,
+     0.72
+    ],
+    "character": [
+     0.897,
+     1.56
+    ]
+   },
+   "view": [
+    0.728,
+    2.21
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    0.729,
+    null,
+    null,
+    null,
+    0.727,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "jardine",
+   "n": 5,
+   "roles": {
+    "sold": 0.0,
+    "example": 0.436,
+    "mistake": 0.008,
+    "holding_positive": 0.35,
+    "holding_troubled": 0.086,
+    "passing": 0.12
+   },
+   "traits": {
+    "price": [
+     0.913,
+     2.03
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     0.258,
+     0.66
+    ],
+    "capital": [
+     0.831,
+     1.39
+    ],
+    "character": [
+     0.971,
+     3.4
+    ]
+   },
+   "view": [
+    0.661,
+    4.4
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    0.527,
+    0.545,
+    null,
+    null,
+    0.997,
+    null,
+    0.623,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "telewest",
+   "n": 5,
+   "roles": {
+    "sold": 0.014,
+    "mistake": 0.078,
+    "holding_troubled": 0.308,
+    "holding_positive": 0.32,
+    "passing": 0.172,
+    "example": 0.108
+   },
+   "traits": {
+    "price": [
+     0.858,
+     0.61
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.04
+    ],
+    "capital": [
+     0.887,
+     2.12
+    ],
+    "character": [
+     0.964,
+     1.4
+    ]
+   },
+   "view": [
+    0.46,
+    4.14
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    0.547,
+    null,
+    null,
+    null,
+    0.515,
+    null,
+    null,
+    null,
+    0.24,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "newworld",
+   "n": 3,
+   "roles": {
+    "holding_positive": 0.617,
+    "passing": 0.13,
+    "mistake": 0.0,
+    "example": 0.133,
+    "holding_troubled": 0.12,
+    "sold": 0.0
+   },
+   "traits": {
+    "price": [
+     0.876,
+     0.35
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.03
+    ],
+    "capital": [
+     0.945,
+     1.28
+    ],
+    "character": [
+     0.977,
+     0.86
+    ]
+   },
+   "view": [
+    0.595,
+    2.61
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    0.561,
+    null,
+    null,
+    null,
+    0.653,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "unioncement",
+   "n": 3,
+   "roles": {
+    "example": 0.243,
+    "sold": 0.0,
+    "mistake": 0.043,
+    "holding_troubled": 0.34,
+    "passing": 0.347,
+    "holding_positive": 0.027
+   },
+   "traits": {
+    "price": [
+     0.997,
+     1.02
+    ],
+    "sharing": [
+     null,
+     0.01
+    ],
+    "owner": [
+     null,
+     0.02
+    ],
+    "capital": [
+     0.843,
+     1.5
+    ],
+    "character": [
+     0.922,
+     1.66
+    ]
+   },
+   "view": [
+    0.514,
+    1.96
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.63,
+    null,
+    null,
+    0.35,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.44,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "amazon",
+   "n": 38,
+   "roles": {
+    "passing": 0.085,
+    "sold": 0.001,
+    "mistake": 0.003,
+    "holding_troubled": 0.007,
+    "example": 0.621,
+    "holding_positive": 0.283
+   },
+   "traits": {
+    "price": [
+     0.699,
+     3.65
+    ],
+    "sharing": [
+     0.997,
+     11.25
+    ],
+    "owner": [
+     0.94,
+     8.44
+    ],
+    "capital": [
+     0.934,
+     5.37
+    ],
+    "character": [
+     0.96,
+     18.79
+    ]
+   },
+   "view": [
+    0.753,
+    34.78
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.63,
+    0.677,
+    0.673,
+    null,
+    0.739,
+    0.866,
+    0.716,
+    0.78,
+    0.992,
+    0.596,
+    0.912,
+    0.71,
+    0.38,
+    0.85,
+    0.983,
+    0.693,
+    0.746,
+    null
+   ]
+  },
+  {
+   "key": "zimbabwe",
+   "n": 21,
+   "roles": {
+    "sold": 0.04,
+    "passing": 0.192,
+    "mistake": 0.004,
+    "holding_troubled": 0.258,
+    "example": 0.361,
+    "holding_positive": 0.145
+   },
+   "traits": {
+    "price": [
+     0.933,
+     5.9
+    ],
+    "sharing": [
+     null,
+     0.21
+    ],
+    "owner": [
+     0.578,
+     0.45
+    ],
+    "capital": [
+     0.879,
+     1.82
+    ],
+    "character": [
+     0.86,
+     7.69
+    ]
+   },
+   "view": [
+    0.404,
+    16.96
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.453,
+    0.402,
+    0.587,
+    null,
+    0.323,
+    null,
+    null,
+    null,
+    0.231,
+    null,
+    0.66,
+    null,
+    0.255,
+    null,
+    null,
+    null,
+    null,
+    0.419
+   ]
+  },
+  {
+   "key": "dell",
+   "n": 6,
+   "roles": {
+    "passing": 0.018,
+    "mistake": 0.067,
+    "sold": 0.065,
+    "holding_positive": 0.045,
+    "example": 0.65,
+    "holding_troubled": 0.155
+   },
+   "traits": {
+    "price": [
+     0.741,
+     1.35
+    ],
+    "sharing": [
+     1.0,
+     1.06
+    ],
+    "owner": [
+     0.957,
+     0.7
+    ],
+    "capital": [
+     0.835,
+     0.79
+    ],
+    "character": [
+     0.981,
+     1.58
+    ]
+   },
+   "view": [
+    0.613,
+    5.89
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.622,
+    null,
+    null,
+    null,
+    0.837,
+    null,
+    0.357,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "ebay",
+   "n": 2,
+   "roles": {
+    "mistake": 0.0,
+    "holding_troubled": 0.005,
+    "passing": 0.295,
+    "holding_positive": 0.355,
+    "example": 0.33,
+    "sold": 0.015
+   },
+   "traits": {
+    "price": [
+     null,
+     0.01
+    ],
+    "sharing": [
+     null,
+     0.07
+    ],
+    "owner": [
+     null,
+     0.01
+    ],
+    "capital": [
+     1.0,
+     0.41
+    ],
+    "character": [
+     null,
+     0.29
+    ]
+   },
+   "view": [
+    0.803,
+    1.41
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.993,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.34
+   ]
+  },
+  {
+   "key": "siam",
+   "n": 5,
+   "roles": {
+    "passing": 0.024,
+    "sold": 0.0,
+    "holding_troubled": 0.006,
+    "holding_positive": 0.294,
+    "example": 0.666,
+    "mistake": 0.01
+   },
+   "traits": {
+    "price": [
+     0.919,
+     2.84
+    ],
+    "sharing": [
+     null,
+     0.07
+    ],
+    "owner": [
+     null,
+     0.22
+    ],
+    "capital": [
+     0.474,
+     3.02
+    ],
+    "character": [
+     0.411,
+     1.51
+    ]
+   },
+   "view": [
+    0.601,
+    4.88
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.933,
+    0.516,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "northwest",
+   "n": 2,
+   "roles": {
+    "holding_troubled": 0.295,
+    "passing": 0.025,
+    "mistake": 0.0,
+    "sold": 0.0,
+    "example": 0.49,
+    "holding_positive": 0.19
+   },
+   "traits": {
+    "price": [
+     null,
+     0.05
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     0.506,
+     0.83
+    ],
+    "capital": [
+     null,
+     0.05
+    ],
+    "character": [
+     null,
+     0.26
+    ]
+   },
+   "view": [
+    0.206,
+    1.95
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.087,
+    0.323,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "liberty",
+   "n": 2,
+   "roles": {
+    "sold": 0.0,
+    "example": 0.115,
+    "holding_positive": 0.38,
+    "holding_troubled": 0.44,
+    "mistake": 0.01,
+    "passing": 0.055
+   },
+   "traits": {
+    "price": [
+     null,
+     0.19
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     null,
+     0.12
+    ],
+    "capital": [
+     0.905,
+     1.73
+    ],
+    "character": [
+     0.994,
+     1.56
+    ]
+   },
+   "view": [
+    0.581,
+    1.89
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.66,
+    null,
+    null,
+    null,
+    0.503,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "games",
+   "n": 9,
+   "roles": {
+    "sold": 0.0,
+    "mistake": 0.021,
+    "passing": 0.152,
+    "holding_positive": 0.132,
+    "example": 0.269,
+    "holding_troubled": 0.426
+   },
+   "traits": {
+    "price": [
+     0.867,
+     1.6
+    ],
+    "sharing": [
+     null,
+     0.14
+    ],
+    "owner": [
+     0.485,
+     1.03
+    ],
+    "capital": [
+     0.237,
+     2.55
+    ],
+    "character": [
+     0.64,
+     5.33
+    ]
+   },
+   "view": [
+    0.402,
+    7.63
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.223,
+    null,
+    0.403,
+    0.199,
+    null,
+    0.85,
+    0.913,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "whiteheadmann",
+   "n": 1,
+   "roles": {
+    "example": 0.01,
+    "passing": 0.0,
+    "holding_troubled": 0.98,
+    "sold": 0.0,
+    "mistake": 0.0,
+    "holding_positive": 0.01
+   },
+   "traits": {
+    "price": [
+     0.797,
+     0.64
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     0.25,
+     0.84
+    ],
+    "capital": [
+     0.025,
+     1.0
+    ],
+    "character": [
+     0.0,
+     1.0
+    ]
+   },
+   "view": [
+    0.14,
+    1.0
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.14,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "mdc",
+   "n": 3,
+   "roles": {
+    "holding_troubled": 0.017,
+    "passing": 0.057,
+    "sold": 0.0,
+    "holding_positive": 0.127,
+    "mistake": 0.0,
+    "example": 0.8
+   },
+   "traits": {
+    "price": [
+     null,
+     0.01
+    ],
+    "sharing": [
+     null,
+     0.01
+    ],
+    "owner": [
+     1.0,
+     0.94
+    ],
+    "capital": [
+     0.495,
+     1.03
+    ],
+    "character": [
+     0.901,
+     0.91
+    ]
+   },
+   "view": [
+    0.515,
+    2.83
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.515,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "airasia",
+   "n": 16,
+   "roles": {
+    "passing": 0.087,
+    "sold": 0.0,
+    "holding_troubled": 0.036,
+    "example": 0.622,
+    "holding_positive": 0.254,
+    "mistake": 0.001
+   },
+   "traits": {
+    "price": [
+     0.891,
+     3.04
+    ],
+    "sharing": [
+     0.993,
+     8.24
+    ],
+    "owner": [
+     0.963,
+     2.41
+    ],
+    "capital": [
+     0.819,
+     2.1
+    ],
+    "character": [
+     0.935,
+     7.07
+    ]
+   },
+   "view": [
+    0.751,
+    14.61
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.703,
+    0.823,
+    0.829,
+    0.91,
+    0.678,
+    null,
+    0.682,
+    null,
+    0.95,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "mbia",
+   "n": 7,
+   "roles": {
+    "sold": 0.259,
+    "mistake": 0.234,
+    "holding_troubled": 0.124,
+    "holding_positive": 0.024,
+    "example": 0.196,
+    "passing": 0.163
+   },
+   "traits": {
+    "price": [
+     0.843,
+     4.03
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     0.062,
+     1.13
+    ],
+    "capital": [
+     0.174,
+     3.51
+    ],
+    "character": [
+     0.514,
+     2.47
+    ]
+   },
+   "view": [
+    0.107,
+    5.86
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.081,
+    null,
+    null,
+    0.243,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "carpetright",
+   "n": 5,
+   "roles": {
+    "holding_positive": 0.28,
+    "passing": 0.134,
+    "example": 0.586,
+    "holding_troubled": 0.0,
+    "sold": 0.0,
+    "mistake": 0.0
+   },
+   "traits": {
+    "price": [
+     null,
+     0.06
+    ],
+    "sharing": [
+     1.0,
+     2.22
+    ],
+    "owner": [
+     0.99,
+     1.92
+    ],
+    "capital": [
+     1.0,
+     0.61
+    ],
+    "character": [
+     0.994,
+     3.11
+    ]
+   },
+   "view": [
+    0.712,
+    4.33
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.633,
+    null,
+    0.814,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.713,
+    0.527,
+    null
+   ]
+  },
+  {
+   "key": "gm",
+   "n": 3,
+   "roles": {
+    "holding_positive": 0.0,
+    "sold": 0.0,
+    "example": 0.983,
+    "mistake": 0.0,
+    "holding_troubled": 0.013,
+    "passing": 0.003
+   },
+   "traits": {
+    "price": [
+     null,
+     0.07
+    ],
+    "sharing": [
+     0.03,
+     0.66
+    ],
+    "owner": [
+     null,
+     0.04
+    ],
+    "capital": [
+     0.0,
+     1.0
+    ],
+    "character": [
+     0.0,
+     1.41
+    ]
+   },
+   "view": [
+    0.012,
+    2.99
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.012,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "michaelpage",
+   "n": 2,
+   "roles": {
+    "holding_positive": 0.518,
+    "example": 0.417,
+    "mistake": 0.005,
+    "sold": 0.0,
+    "holding_troubled": 0.005,
+    "passing": 0.055
+   },
+   "traits": {
+    "price": [
+     null,
+     0.0
+    ],
+    "sharing": [
+     null,
+     0.02
+    ],
+    "owner": [
+     null,
+     0.0
+    ],
+    "capital": [
+     0.868,
+     0.38
+    ],
+    "character": [
+     0.909,
+     1.64
+    ]
+   },
+   "view": [
+    0.75,
+    1.89
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.75,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "asos",
+   "n": 3,
+   "roles": {
+    "example": 0.67,
+    "passing": 0.02,
+    "holding_positive": 0.31,
+    "holding_troubled": 0.0,
+    "sold": 0.0,
+    "mistake": 0.0
+   },
+   "traits": {
+    "price": [
+     null,
+     0.03
+    ],
+    "sharing": [
+     1.0,
+     1.0
+    ],
+    "owner": [
+     1.0,
+     1.0
+    ],
+    "capital": [
+     null,
+     0.01
+    ],
+    "character": [
+     0.995,
+     1.88
+    ]
+   },
+   "view": [
+    0.657,
+    2.94
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.357,
+    null,
+    0.703,
+    null,
+    null,
+    0.907,
+    null
+   ]
+  },
+  {
+   "key": "welsh",
+   "n": 3,
+   "roles": {
+    "passing": 0.013,
+    "mistake": 0.0,
+    "holding_troubled": 0.0,
+    "sold": 0.0,
+    "holding_positive": 0.057,
+    "example": 0.93
+   },
+   "traits": {
+    "price": [
+     null,
+     0.02
+    ],
+    "sharing": [
+     1.0,
+     1.0
+    ],
+    "owner": [
+     null,
+     0.21
+    ],
+    "capital": [
+     null,
+     0.27
+    ],
+    "character": [
+     0.993,
+     1.45
+    ]
+   },
+   "view": [
+    0.808,
+    2.96
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.808,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "key": "blackarrow",
+   "n": 1,
+   "roles": {
+    "sold": 0.0,
+    "mistake": 0.0,
+    "holding_troubled": 0.99,
+    "passing": 0.0,
+    "holding_positive": 0.0,
+    "example": 0.01
+   },
+   "traits": {
+    "price": [
+     0.92,
+     0.88
+    ],
+    "sharing": [
+     null,
+     0.0
+    ],
+    "owner": [
+     1.0,
+     1.0
+    ],
+    "capital": [
+     null,
+     0.28
+    ],
+    "character": [
+     0.436,
+     0.55
+    ]
+   },
+   "view": [
+    0.157,
+    1.0
+   ],
+   "timeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0.157,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "influence": [
+  {
+   "key": "buffett",
+   "name": "Warren Buffett",
+   "n": 25,
+   "roles": {
+    "passing": 0.17,
+    "anecdote": 0.279,
+    "disagrees": 0.027,
+    "evidence": 0.376,
+    "endorses": 0.149
+   },
+   "links": {
+    "c7": 1.994,
+    "c6": 0.324,
+    "c1": 1.028,
+    "c15": 1.0,
+    "c2": 1.132,
+    "c12": 0.168,
+    "c4": 2.443,
+    "c3": 1.282,
+    "c8": 0.182,
+    "c11": 0.46,
+    "c5": 1.448,
+    "c14": 2.833,
+    "c10": 1.333
+   },
+   "letters": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14,
+    15,
+    22,
+    23
+   ]
+  },
+  {
+   "key": "munger",
+   "name": "Charlie Munger",
+   "n": 18,
+   "roles": {
+    "anecdote": 0.156,
+    "disagrees": 0.005,
+    "passing": 0.094,
+    "evidence": 0.616,
+    "endorses": 0.129
+   },
+   "links": {
+    "c5": 0.315,
+    "c16": 0.664,
+    "c8": 0.447,
+    "c3": 0.374,
+    "c11": 0.198,
+    "c7": 3.756,
+    "c12": 2.605,
+    "c14": 2.072,
+    "c10": 0.28,
+    "c9": 0.395,
+    "c13": 0.123,
+    "c4": 0.059,
+    "c1": 0.096,
+    "c6": 0.242
+   },
+   "letters": [
+    2,
+    5,
+    6,
+    7,
+    8,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    22
+   ]
+  },
+  {
+   "key": "zeckhauser",
+   "name": "Richard Zeckhauser",
+   "n": 15,
+   "roles": {
+    "disagrees": 0.013,
+    "passing": 0.2,
+    "evidence": 0.117,
+    "endorses": 0.313,
+    "anecdote": 0.357
+   },
+   "links": {
+    "c14": 0.051,
+    "c1": 0.491,
+    "c8": 0.302,
+    "c12": 0.472,
+    "c16": 0.862,
+    "c7": 3.046,
+    "c6": 0.528,
+    "c3": 0.095
+   },
+   "letters": [
+    8,
+    11,
+    14,
+    18
+   ]
+  },
+  {
+   "key": "darwin",
+   "name": "Charles Darwin",
+   "n": 14,
+   "roles": {
+    "evidence": 0.201,
+    "endorses": 0.254,
+    "anecdote": 0.155,
+    "disagrees": 0.054,
+    "passing": 0.336
+   },
+   "links": {
+    "c10": 0.07,
+    "c4": 0.226,
+    "c6": 0.08,
+    "c14": 2.974,
+    "c12": 0.626,
+    "c3": 0.303,
+    "c8": 0.425,
+    "c5": 0.544,
+    "c7": 1.221
+   },
+   "letters": [
+    4,
+    15,
+    20
+   ]
+  },
+  {
+   "key": "bezos",
+   "name": "Jeff Bezos",
+   "n": 13,
+   "roles": {
+    "endorses": 0.198,
+    "anecdote": 0.058,
+    "passing": 0.222,
+    "evidence": 0.504,
+    "disagrees": 0.018
+   },
+   "links": {
+    "c2": 4.578,
+    "c4": 0.896,
+    "c6": 0.059,
+    "c3": 1.774,
+    "c10": 2.319
+   },
+   "letters": [
+    10,
+    15,
+    17,
+    19,
+    20,
+    22,
+    23
+   ]
+  },
+  {
+   "key": "santafe",
+   "name": "Santa Fe Institute",
+   "n": 12,
+   "roles": {
+    "evidence": 0.427,
+    "endorses": 0.231,
+    "passing": 0.153,
+    "anecdote": 0.188,
+    "disagrees": 0.001
+   },
+   "links": {
+    "c4": 0.149,
+    "c16": 3.442,
+    "c12": 0.761,
+    "c3": 0.305,
+    "c8": 0.193,
+    "c7": 1.248
+   },
+   "letters": [
+    7,
+    8,
+    11,
+    17
+   ]
+  },
+  {
+   "key": "sinegal",
+   "name": "Jim Sinegal",
+   "n": 6,
+   "roles": {
+    "endorses": 0.023,
+    "anecdote": 0.535,
+    "disagrees": 0.005,
+    "passing": 0.215,
+    "evidence": 0.222
+   },
+   "links": {
+    "c3": 0.56,
+    "c6": 0.106,
+    "c10": 1.694,
+    "c12": 0.079,
+    "c2": 1.788,
+    "c7": 0.117,
+    "c8": 0.067
+   },
+   "letters": [
+    2,
+    6,
+    17,
+    22,
+    23
+   ]
+  },
+  {
+   "key": "miller",
+   "name": "Bill Miller",
+   "n": 6,
+   "roles": {
+    "anecdote": 0.195,
+    "passing": 0.063,
+    "disagrees": 0.0,
+    "endorses": 0.2,
+    "evidence": 0.542
+   },
+   "links": {
+    "c3": 0.073,
+    "c2": 0.331,
+    "c4": 0.163,
+    "c7": 1.417,
+    "c8": 0.337,
+    "c5": 1.503
+   },
+   "letters": [
+    4,
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "key": "bogle",
+   "name": "Jack Bogle",
+   "n": 6,
+   "roles": {
+    "endorses": 0.067,
+    "passing": 0.157,
+    "anecdote": 0.103,
+    "disagrees": 0.012,
+    "evidence": 0.662
+   },
+   "links": {
+    "c14": 0.136,
+    "c6": 0.504,
+    "c7": 0.27,
+    "c3": 0.343,
+    "c4": 2.133
+   },
+   "letters": [
+    8,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "key": "keynes",
+   "name": "John Maynard Keynes",
+   "n": 5,
+   "roles": {
+    "evidence": 0.546,
+    "endorses": 0.194,
+    "disagrees": 0.002,
+    "anecdote": 0.014,
+    "passing": 0.244
+   },
+   "links": {
+    "c1": 0.098,
+    "c8": 0.196,
+    "c15": 0.13,
+    "c3": 0.37,
+    "c12": 0.31,
+    "c4": 0.803,
+    "c7": 1.158
+   },
+   "letters": [
+    6,
+    12,
+    13
+   ]
+  },
+  {
+   "key": "taleb",
+   "name": "Nassim Taleb",
+   "n": 5,
+   "roles": {
+    "evidence": 0.764,
+    "endorses": 0.182,
+    "disagrees": 0.002,
+    "anecdote": 0.0,
+    "passing": 0.052
+   },
+   "links": {
+    "c14": 1.968,
+    "c5": 0.456,
+    "c3": 0.8,
+    "c10": 0.332,
+    "c12": 0.47,
+    "c7": 0.248
+   },
+   "letters": [
+    8,
+    14,
+    23
+   ]
+  },
+  {
+   "key": "schloss",
+   "name": "Walter Schloss",
+   "n": 5,
+   "roles": {
+    "endorses": 0.112,
+    "passing": 0.268,
+    "disagrees": 0.0,
+    "anecdote": 0.338,
+    "evidence": 0.282
+   },
+   "links": {
+    "c3": 0.398,
+    "c7": 0.701,
+    "c6": 0.362,
+    "c14": 1.015,
+    "c8": 0.074
+   },
+   "letters": [
+    10,
+    12
+   ]
+  },
+  {
+   "key": "attenborough",
+   "name": "David Attenborough",
+   "n": 5,
+   "roles": {
+    "disagrees": 0.002,
+    "passing": 0.236,
+    "anecdote": 0.281,
+    "endorses": 0.156,
+    "evidence": 0.325
+   },
+   "links": {
+    "c12": 0.106,
+    "c14": 1.344
+   },
+   "letters": [
+    20
+   ]
+  },
+  {
+   "key": "hirt",
+   "name": "H.O. Hirt (Erie founder)",
+   "n": 4,
+   "roles": {
+    "anecdote": 0.095,
+    "disagrees": 0.0,
+    "evidence": 0.613,
+    "passing": 0.233,
+    "endorses": 0.06
+   },
+   "links": {
+    "c12": 2.932,
+    "c10": 0.111
+   },
+   "letters": [
+    3,
+    7
+   ]
+  },
+  {
+   "key": "rand",
+   "name": "Ayn Rand",
+   "n": 4,
+   "roles": {
+    "evidence": 0.323,
+    "passing": 0.212,
+    "anecdote": 0.0,
+    "disagrees": 0.007,
+    "endorses": 0.458
+   },
+   "links": {
+    "c10": 0.114,
+    "c12": 1.804
+   },
+   "letters": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "key": "mauboussin",
+   "name": "Michael Mauboussin",
+   "n": 4,
+   "roles": {
+    "disagrees": 0.0,
+    "evidence": 0.775,
+    "anecdote": 0.0,
+    "endorses": 0.2,
+    "passing": 0.025
+   },
+   "links": {
+    "c12": 0.192,
+    "c7": 1.911,
+    "c14": 0.119,
+    "c4": 0.77,
+    "c16": 0.256
+   },
+   "letters": [
+    8
+   ]
+  },
+  {
+   "key": "cialdini",
+   "name": "Robert Cialdini",
+   "n": 3,
+   "roles": {
+    "endorses": 0.08,
+    "evidence": 0.587,
+    "anecdote": 0.1,
+    "disagrees": 0.0,
+    "passing": 0.233
+   },
+   "links": {
+    "c7": 1.09,
+    "c3": 0.202
+   },
+   "letters": [
+    7,
+    8
+   ]
+  },
+  {
+   "key": "walton",
+   "name": "Sam Walton",
+   "n": 3,
+   "roles": {
+    "anecdote": 0.1,
+    "evidence": 0.567,
+    "endorses": 0.07,
+    "passing": 0.263,
+    "disagrees": 0.0
+   },
+   "links": {
+    "c5": 0.812,
+    "c2": 1.338
+   },
+   "letters": [
+    15,
+    20
+   ]
+  },
+  {
+   "key": "ariely",
+   "name": "Dan Ariely",
+   "n": 3,
+   "roles": {
+    "evidence": 0.47,
+    "anecdote": 0.393,
+    "passing": 0.083,
+    "endorses": 0.053,
+    "disagrees": 0.0
+   },
+   "links": {
+    "c7": 0.868
+   },
+   "letters": [
+    22
+   ]
+  },
+  {
+   "key": "schwed",
+   "name": "Fred Schwed",
+   "n": 2,
+   "roles": {
+    "disagrees": 0.0,
+    "anecdote": 0.01,
+    "passing": 0.105,
+    "endorses": 0.585,
+    "evidence": 0.3
+   },
+   "links": {
+    "c3": 0.701,
+    "c14": 0.127,
+    "c1": 0.071,
+    "c8": 0.079,
+    "c4": 0.054,
+    "c7": 0.423
+   },
+   "letters": [
+    1
+   ]
+  },
+  {
+   "key": "ruane",
+   "name": "Bill Ruane",
+   "n": 2,
+   "roles": {
+    "disagrees": 0.0,
+    "evidence": 0.04,
+    "anecdote": 0.485,
+    "endorses": 0.285,
+    "passing": 0.19
+   },
+   "links": {
+    "c3": 0.658,
+    "c5": 0.108,
+    "c4": 0.085
+   },
+   "letters": [
+    8,
+    10
+   ]
+  },
+  {
+   "key": "graham",
+   "name": "Benjamin Graham",
+   "n": 2,
+   "roles": {
+    "disagrees": 0.0,
+    "passing": 0.67,
+    "anecdote": 0.0,
+    "endorses": 0.08,
+    "evidence": 0.25
+   },
+   "links": {
+    "c7": 0.572
+   },
+   "letters": [
+    8
+   ]
+  }
+ ],
+ "voice": {
+  "series": {
+   "humour": [
+    0.122,
+    0.283,
+    0.322,
+    0.277,
+    0.33,
+    0.316,
+    0.329,
+    0.357,
+    0.394,
+    0.401,
+    0.333,
+    0.394,
+    0.394,
+    0.424,
+    0.408,
+    0.375,
+    0.399,
+    0.245,
+    0.304,
+    0.283,
+    0.293,
+    0.383,
+    0.351,
+    0.437
+   ],
+   "candour": [
+    0.173,
+    0.255,
+    0.238,
+    0.188,
+    0.343,
+    0.366,
+    0.219,
+    0.226,
+    0.22,
+    0.2,
+    0.294,
+    0.226,
+    0.294,
+    0.361,
+    0.181,
+    0.157,
+    0.247,
+    0.196,
+    0.221,
+    0.193,
+    0.157,
+    0.175,
+    0.253,
+    0.319
+   ],
+   "critique": [
+    0.083,
+    0.469,
+    0.225,
+    0.297,
+    0.362,
+    0.448,
+    0.436,
+    0.317,
+    0.48,
+    0.304,
+    0.402,
+    0.274,
+    0.384,
+    0.499,
+    0.384,
+    0.472,
+    0.562,
+    0.163,
+    0.251,
+    0.212,
+    0.19,
+    0.144,
+    0.228,
+    0.418
+   ],
+   "story": [
+    0.136,
+    0.266,
+    0.398,
+    0.291,
+    0.281,
+    0.281,
+    0.241,
+    0.228,
+    0.319,
+    0.216,
+    0.182,
+    0.206,
+    0.277,
+    0.292,
+    0.329,
+    0.161,
+    0.16,
+    0.263,
+    0.201,
+    0.275,
+    0.203,
+    0.369,
+    0.326,
+    0.259
+   ]
+  },
+  "tops": {
+   "humour": [
+    {
+     "ref": "humour-1",
+     "i": 20,
+     "letter": 1,
+     "page": 9,
+     "value": 0.715
+    },
+    {
+     "ref": "humour-2",
+     "i": 82,
+     "letter": 4,
+     "page": 27,
+     "value": 0.76
+    },
+    {
+     "ref": "humour-3",
+     "i": 214,
+     "letter": 7,
+     "page": 68,
+     "value": 0.785
+    },
+    {
+     "ref": "humour-4",
+     "i": 282,
+     "letter": 8,
+     "page": 85,
+     "value": 0.81
+    },
+    {
+     "ref": "humour-5",
+     "i": 305,
+     "letter": 9,
+     "page": 92,
+     "value": 1.0
+    },
+    {
+     "ref": "humour-6",
+     "i": 441,
+     "letter": 12,
+     "page": 129,
+     "value": 0.81
+    },
+    {
+     "ref": "humour-7",
+     "i": 504,
+     "letter": 13,
+     "page": 144,
+     "value": 0.93
+    },
+    {
+     "ref": "humour-8",
+     "i": 531,
+     "letter": 14,
+     "page": 154,
+     "value": 0.91
+    },
+    {
+     "ref": "humour-9",
+     "i": 708,
+     "letter": 22,
+     "page": 209,
+     "value": 0.82
+    },
+    {
+     "ref": "humour-10",
+     "i": 721,
+     "letter": 23,
+     "page": 215,
+     "value": 0.765
+    }
+   ],
+   "candour": [
+    {
+     "ref": "candour-1",
+     "i": 29,
+     "letter": 1,
+     "page": 12,
+     "value": 1.0
+    },
+    {
+     "ref": "candour-2",
+     "i": 284,
+     "letter": 8,
+     "page": 86,
+     "value": 1.0
+    },
+    {
+     "ref": "candour-3",
+     "i": 407,
+     "letter": 11,
+     "page": 120,
+     "value": 0.995
+    },
+    {
+     "ref": "candour-4",
+     "i": 434,
+     "letter": 12,
+     "page": 128,
+     "value": 1.0
+    },
+    {
+     "ref": "candour-5",
+     "i": 490,
+     "letter": 13,
+     "page": 141,
+     "value": 0.995
+    },
+    {
+     "ref": "candour-6",
+     "i": 584,
+     "letter": 16,
+     "page": 169,
+     "value": 0.99
+    }
+   ],
+   "critique": [
+    {
+     "ref": "critique-1",
+     "i": 107,
+     "letter": 4,
+     "page": 32,
+     "value": 1.0
+    },
+    {
+     "ref": "critique-2",
+     "i": 147,
+     "letter": 6,
+     "page": 46,
+     "value": 1.0
+    },
+    {
+     "ref": "critique-3",
+     "i": 241,
+     "letter": 8,
+     "page": 76,
+     "value": 1.0
+    },
+    {
+     "ref": "critique-4",
+     "i": 307,
+     "letter": 9,
+     "page": 93,
+     "value": 1.0
+    },
+    {
+     "ref": "critique-5",
+     "i": 339,
+     "letter": 10,
+     "page": 102,
+     "value": 1.0
+    },
+    {
+     "ref": "critique-6",
+     "i": 433,
+     "letter": 12,
+     "page": 127,
+     "value": 1.0
+    }
+   ]
+  }
+ },
+ "ask": [
+  {
+   "qid": "closing",
+   "q": "Why did Sleep and Zakaria close Nomad and return the money?",
+   "partial": false,
+   "answered": 0.9,
+   "hits": [
+    {
+     "doc": "postamble",
+     "letter": null,
+     "page": 218,
+     "score": 2.88
+    }
+   ]
+  },
+  {
+   "qid": "ses",
+   "q": "What does 'scale economics shared' mean?",
+   "partial": false,
+   "answered": 0.97,
+   "hits": [
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 151,
+     "score": 2.99
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 50,
+     "score": 2.65
+    },
+    {
+     "doc": "2010-06",
+     "letter": 17,
+     "page": 174,
+     "score": 2.34
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 65,
+     "score": 2.32
+    },
+    {
+     "doc": "2011-12",
+     "letter": 19,
+     "page": 187,
+     "score": 2.11
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 151,
+     "score": 1.87
+    }
+   ]
+  },
+  {
+   "qid": "costco",
+   "q": "Why did Nomad invest in Costco?",
+   "partial": false,
+   "answered": 0.72,
+   "hits": [
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 105,
+     "score": 1.87
+    },
+    {
+     "doc": "2003-06",
+     "letter": 3,
+     "page": 22,
+     "score": 1.82
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 66,
+     "score": 1.77
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 49,
+     "score": 1.76
+    },
+    {
+     "doc": "2009-12",
+     "letter": 16,
+     "page": 167,
+     "score": 1.7
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 66,
+     "score": 1.68
+    }
+   ]
+  },
+  {
+   "qid": "amazon",
+   "q": "Why did Nomad own so much Amazon?",
+   "partial": false,
+   "answered": 0.9,
+   "hits": [
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 120,
+     "score": 2.62
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 152,
+     "score": 2.44
+    },
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 119,
+     "score": 2.42
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 151,
+     "score": 2.34
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 134,
+     "score": 2.27
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 106,
+     "score": 2.24
+    }
+   ]
+  },
+  {
+   "qid": "robust",
+   "q": "What is the robustness ratio?",
+   "partial": false,
+   "answered": 0.98,
+   "hits": [
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 60,
+     "score": 2.97
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 65,
+     "score": 2.94
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 64,
+     "score": 2.4
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 66,
+     "score": 2.25
+    }
+   ]
+  },
+  {
+   "qid": "destination",
+   "q": "What is destination analysis?",
+   "partial": false,
+   "answered": 0.68,
+   "hits": [
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.44
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 1.66
+    }
+   ]
+  },
+  {
+   "qid": "biggest_mistake",
+   "q": "What did they consider their biggest mistake?",
+   "partial": false,
+   "answered": 0.88,
+   "hits": [
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 120,
+     "score": 2.9
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.75
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.71
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 85,
+     "score": 2.27
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 29,
+     "score": 2.15
+    },
+    {
+     "doc": "2009-06",
+     "letter": 15,
+     "page": 160,
+     "score": 2.0
+    }
+   ]
+  },
+  {
+   "qid": "stagecoach",
+   "q": "Why did they sell Stagecoach, and why did they regret it?",
+   "partial": false,
+   "answered": 0.81,
+   "hits": [
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.48
+    },
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 120,
+     "score": 1.94
+    }
+   ]
+  },
+  {
+   "qid": "conseco",
+   "q": "What went wrong with the investment in Conseco?",
+   "partial": false,
+   "answered": 0.96,
+   "hits": [
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.96
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.49
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 63,
+     "score": 2.23
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 77,
+     "score": 1.61
+    }
+   ]
+  },
+  {
+   "qid": "fees",
+   "q": "How did Nomad's performance fee work?",
+   "partial": false,
+   "answered": 0.96,
+   "hits": [
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 113,
+     "score": 2.93
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 112,
+     "score": 2.92
+    },
+    {
+     "doc": "2013-06",
+     "letter": 22,
+     "page": 206,
+     "score": 2.12
+    },
+    {
+     "doc": "2012-06",
+     "letter": 20,
+     "page": 192,
+     "score": 2.1
+    },
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 115,
+     "score": 2.01
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 136,
+     "score": 1.97
+    }
+   ]
+  },
+  {
+   "qid": "mgmt_fee",
+   "q": "Why should a management fee only cover costs and not make a profit?",
+   "partial": false,
+   "answered": 0.95,
+   "hits": [
+    {
+     "doc": "2012-06",
+     "letter": 20,
+     "page": 196,
+     "score": 2.98
+    },
+    {
+     "doc": "2013-06",
+     "letter": 22,
+     "page": 206,
+     "score": 2.94
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 112,
+     "score": 2.65
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 110,
+     "score": 2.6
+    },
+    {
+     "doc": "2006-06",
+     "letter": 9,
+     "page": 99,
+     "score": 2.56
+    }
+   ]
+  },
+  {
+   "qid": "close2004",
+   "q": "Why did Nomad close to new money in 2004?",
+   "partial": false,
+   "answered": 0.84,
+   "hits": [
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 72,
+     "score": 2.83
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 31,
+     "score": 2.28
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 110,
+     "score": 2.13
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 31,
+     "score": 2.12
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 106,
+     "score": 2.1
+    },
+    {
+     "doc": "2006-06",
+     "letter": 9,
+     "page": 98,
+     "score": 1.97
+    }
+   ]
+  },
+  {
+   "qid": "reopen",
+   "q": "When and why did Nomad reopen to new investors?",
+   "partial": false,
+   "answered": 0.85,
+   "hits": [
+    {
+     "doc": "2012-06",
+     "letter": 20,
+     "page": 197,
+     "score": 2.55
+    },
+    {
+     "doc": "2006-06",
+     "letter": 9,
+     "page": 94,
+     "score": 1.99
+    }
+   ]
+  },
+  {
+   "qid": "concentration",
+   "q": "How many stocks should a fund own, and why not diversify more?",
+   "partial": false,
+   "answered": 0.92,
+   "hits": [
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 121,
+     "score": 2.67
+    },
+    {
+     "doc": "2009-06",
+     "letter": 15,
+     "page": 159,
+     "score": 2.64
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 71,
+     "score": 2.2
+    },
+    {
+     "doc": "2004-06",
+     "letter": 5,
+     "page": 37,
+     "score": 2.03
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 107,
+     "score": 1.51
+    }
+   ]
+  },
+  {
+   "qid": "yield_curve",
+   "q": "What is the equity yield curve?",
+   "partial": false,
+   "answered": 0.97,
+   "hits": [
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 103,
+     "score": 2.99
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 104,
+     "score": 1.77
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 104,
+     "score": 1.52
+    }
+   ]
+  },
+  {
+   "qid": "zimbabwe",
+   "q": "Why did Nomad invest in Zimbabwe, and how did it end?",
+   "partial": false,
+   "answered": 0.95,
+   "hits": [
+    {
+     "doc": "2013-12",
+     "letter": 23,
+     "page": 215,
+     "score": 2.41
+    },
+    {
+     "doc": "2013-12",
+     "letter": 23,
+     "page": 214,
+     "score": 2.14
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 153,
+     "score": 2.12
+    },
+    {
+     "doc": "2013-12",
+     "letter": 23,
+     "page": 214,
+     "score": 2.11
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 74,
+     "score": 1.86
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 68,
+     "score": 1.75
+    }
+   ]
+  },
+  {
+   "qid": "weetabix",
+   "q": "What happened with the Weetabix investment?",
+   "partial": false,
+   "answered": 0.88,
+   "hits": [
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 32,
+     "score": 2.79
+    },
+    {
+     "doc": "2003-06",
+     "letter": 3,
+     "page": 20,
+     "score": 2.3
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 154,
+     "score": 2.24
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 32,
+     "score": 2.09
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 107,
+     "score": 2.01
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 32,
+     "score": 1.7
+    }
+   ]
+  },
+  {
+   "qid": "mbia",
+   "q": "Why did they sell MBIA so quickly?",
+   "partial": false,
+   "answered": 0.93,
+   "hits": [
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 140,
+     "score": 2.96
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 141,
+     "score": 1.94
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 139,
+     "score": 1.66
+    }
+   ]
+  },
+  {
+   "qid": "dilution",
+   "q": "What is dilution risk?",
+   "partial": false,
+   "answered": 0.98,
+   "hits": [
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 140,
+     "score": 3.0
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 140,
+     "score": 2.07
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 140,
+     "score": 1.99
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 141,
+     "score": 1.76
+    }
+   ]
+  },
+  {
+   "qid": "crash2008",
+   "q": "How did they respond to the market crash of 2008?",
+   "partial": false,
+   "answered": 0.63,
+   "hits": [
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 148,
+     "score": 1.85
+    },
+    {
+     "doc": "2003-06",
+     "letter": 3,
+     "page": 24,
+     "score": 1.81
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 104,
+     "score": 1.62
+    },
+    {
+     "doc": "2012-06",
+     "letter": 20,
+     "page": 197,
+     "score": 1.6
+    },
+    {
+     "doc": "2008-06",
+     "letter": 13,
+     "page": 143,
+     "score": 1.56
+    }
+   ]
+  },
+  {
+   "qid": "slack",
+   "q": "Why do they argue for slack?",
+   "partial": false,
+   "answered": 0.94,
+   "hits": [
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 149,
+     "score": 2.97
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 150,
+     "score": 2.8
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 149,
+     "score": 2.3
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 149,
+     "score": 1.9
+    }
+   ]
+  },
+  {
+   "qid": "santafe",
+   "q": "What is the Santa Fe Institute, and which of its ideas do the letters describe?",
+   "partial": false,
+   "answered": 0.9,
+   "hits": [
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 116,
+     "score": 2.28
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 83,
+     "score": 1.92
+    },
+    {
+     "doc": "2010-06",
+     "letter": 17,
+     "page": 175,
+     "score": 1.84
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 62,
+     "score": 1.77
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 87,
+     "score": 1.61
+    }
+   ]
+  },
+  {
+   "qid": "bridge",
+   "q": "How does Zeckhauser play bridge, and why does it matter for investing?",
+   "partial": false,
+   "answered": 0.95,
+   "hits": [
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 76,
+     "score": 2.9
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 84,
+     "score": 2.85
+    }
+   ]
+  },
+  {
+   "qid": "biases",
+   "q": "Which psychological mistakes do investors make most often?",
+   "partial": false,
+   "answered": 0.85,
+   "hits": [
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 102,
+     "score": 2.84
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 1.97
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 28,
+     "score": 1.95
+    }
+   ]
+  },
+  {
+   "qid": "marathon",
+   "q": "How did Nomad move from Marathon to Sleep, Zakaria and Company, and what changed?",
+   "partial": false,
+   "answered": 0.93,
+   "hits": [
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 112,
+     "score": 2.56
+    },
+    {
+     "doc": "2006-06",
+     "letter": 9,
+     "page": 99,
+     "score": 2.45
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 111,
+     "score": 2.42
+    },
+    {
+     "doc": "2006-06",
+     "letter": 9,
+     "page": 92,
+     "score": 2.36
+    },
+    {
+     "doc": "2006-06",
+     "letter": 9,
+     "page": 94,
+     "score": 2.21
+    },
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 110,
+     "score": 2.13
+    }
+   ]
+  },
+  {
+   "qid": "pv",
+   "q": "What is the price-to-value ratio and why did they watch it?",
+   "partial": false,
+   "answered": 0.76,
+   "hits": [
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 59,
+     "score": 2.83
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 148,
+     "score": 2.8
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 30,
+     "score": 2.7
+    },
+    {
+     "doc": "2005-06",
+     "letter": 7,
+     "page": 58,
+     "score": 2.04
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 148,
+     "score": 1.57
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 31,
+     "score": 1.52
+    }
+   ]
+  },
+  {
+   "qid": "returns_model",
+   "q": "What return did they expect from a typical investment?",
+   "partial": false,
+   "answered": 0.92,
+   "hits": [
+    {
+     "doc": "2004-06",
+     "letter": 5,
+     "page": 40,
+     "score": 2.93
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 29,
+     "score": 2.93
+    }
+   ]
+  },
+  {
+   "qid": "reporting",
+   "q": "Why did they dislike frequent reporting to clients?",
+   "partial": false,
+   "answered": 0.94,
+   "hits": [
+    {
+     "doc": "2006-12",
+     "letter": 10,
+     "page": 109,
+     "score": 2.91
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 55,
+     "score": 2.87
+    },
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 121,
+     "score": 2.78
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 54,
+     "score": 2.78
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 76,
+     "score": 2.61
+    },
+    {
+     "doc": "2005-12",
+     "letter": 8,
+     "page": 85,
+     "score": 2.52
+    }
+   ]
+  },
+  {
+   "qid": "growth_value",
+   "q": "What did they think of the growth versus value debate?",
+   "partial": false,
+   "answered": 0.9,
+   "hits": [
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 46,
+     "score": 2.85
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 46,
+     "score": 2.77
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 47,
+     "score": 2.75
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 48,
+     "score": 2.43
+    },
+    {
+     "doc": "2004-12",
+     "letter": 6,
+     "page": 45,
+     "score": 2.05
+    }
+   ]
+  },
+  {
+   "qid": "founders",
+   "q": "Why did they end up owning founder-run companies?",
+   "partial": false,
+   "answered": 0.73,
+   "hits": [
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 121,
+     "score": 2.53
+    },
+    {
+     "doc": "2007-06",
+     "letter": 11,
+     "page": 122,
+     "score": 2.03
+    },
+    {
+     "doc": "2009-06",
+     "letter": 15,
+     "page": 158,
+     "score": 1.98
+    },
+    {
+     "doc": "2009-06",
+     "letter": 15,
+     "page": 160,
+     "score": 1.81
+    },
+    {
+     "doc": "2004-06",
+     "letter": 5,
+     "page": 38,
+     "score": 1.58
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 33,
+     "score": 1.51
+    }
+   ]
+  },
+  {
+   "qid": "thinkers",
+   "q": "What did Nomad mean by its office list of super high-quality thinkers, and why did it keep one?",
+   "partial": false,
+   "answered": 0.91,
+   "hits": [
+    {
+     "doc": "2004-06",
+     "letter": 5,
+     "page": 38,
+     "score": 2.94
+    },
+    {
+     "doc": "2004-06",
+     "letter": 5,
+     "page": 39,
+     "score": 2.4
+    }
+   ]
+  },
+  {
+   "qid": "learning",
+   "q": "How should investors respond to their own mistakes?",
+   "partial": false,
+   "answered": 0.87,
+   "hits": [
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 125,
+     "score": 2.91
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 126,
+     "score": 2.5
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 2.05
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 128,
+     "score": 1.96
+    },
+    {
+     "doc": "2007-12",
+     "letter": 12,
+     "page": 125,
+     "score": 1.81
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 28,
+     "score": 1.58
+    }
+   ]
+  },
+  {
+   "qid": "regulation",
+   "q": "What did they think about financial regulation?",
+   "partial": false,
+   "answered": 0.92,
+   "hits": [
+    {
+     "doc": "2013-12",
+     "letter": 23,
+     "page": 214,
+     "score": 2.9
+    },
+    {
+     "doc": "2013-12",
+     "letter": 23,
+     "page": 213,
+     "score": 2.79
+    },
+    {
+     "doc": "2011-06",
+     "letter": 18,
+     "page": 181,
+     "score": 2.79
+    },
+    {
+     "doc": "postamble",
+     "letter": null,
+     "page": 218,
+     "score": 2.7
+    },
+    {
+     "doc": "2013-12",
+     "letter": 23,
+     "page": 213,
+     "score": 2.36
+    },
+    {
+     "doc": "2011-12",
+     "letter": 19,
+     "page": 186,
+     "score": 1.55
+    }
+   ]
+  },
+  {
+   "qid": "airasia",
+   "q": "What did they like about AirAsia?",
+   "partial": false,
+   "answered": 0.61,
+   "hits": [
+    {
+     "doc": "2012-12",
+     "letter": 21,
+     "page": 201,
+     "score": 2.07
+    },
+    {
+     "doc": "2011-12",
+     "letter": 19,
+     "page": 187,
+     "score": 2.05
+    },
+    {
+     "doc": "2011-12",
+     "letter": 19,
+     "page": 187,
+     "score": 1.91
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 151,
+     "score": 1.91
+    },
+    {
+     "doc": "2009-06",
+     "letter": 15,
+     "page": 157,
+     "score": 1.81
+    },
+    {
+     "doc": "2009-06",
+     "letter": 15,
+     "page": 160,
+     "score": 1.78
+    }
+   ]
+  },
+  {
+   "qid": "partners",
+   "q": "Why did they value the patience of their partners so much?",
+   "partial": false,
+   "answered": 0.91,
+   "hits": [
+    {
+     "doc": "2003-06",
+     "letter": 3,
+     "page": 25,
+     "score": 2.9
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 33,
+     "score": 2.88
+    },
+    {
+     "doc": "2004-06",
+     "letter": 5,
+     "page": 39,
+     "score": 2.87
+    },
+    {
+     "doc": "2002-06",
+     "letter": 1,
+     "page": 13,
+     "score": 2.8
+    },
+    {
+     "doc": "2008-12",
+     "letter": 14,
+     "page": 154,
+     "score": 1.78
+    },
+    {
+     "doc": "2003-12",
+     "letter": 4,
+     "page": 31,
+     "score": 1.62
+    }
+   ]
+  },
+  {
+   "qid": "x_amount",
+   "q": "What should successful investors do with their wealth?",
+   "partial": false,
+   "answered": 0.93,
+   "hits": [
+    {
+     "doc": "preamble",
+     "letter": null,
+     "page": 2,
+     "score": 2.93
+    },
+    {
+     "doc": "postamble",
+     "letter": null,
+     "page": 218,
+     "score": 1.81
+    }
+   ]
+  }
+ ],
+ "letter_pages": [
+  [
+   5,
+   7
+  ],
+  [
+   8,
+   13
+  ],
+  [
+   14,
+   19
+  ],
+  [
+   20,
+   25
+  ],
+  [
+   27,
+   33
+  ],
+  [
+   34,
+   41
+  ],
+  [
+   45,
+   55
+  ],
+  [
+   58,
+   70
+  ],
+  [
+   71,
+   90
+  ],
+  [
+   92,
+   99
+  ],
+  [
+   101,
+   114
+  ],
+  [
+   115,
+   122
+  ],
+  [
+   124,
+   134
+  ],
+  [
+   135,
+   145
+  ],
+  [
+   147,
+   154
+  ],
+  [
+   156,
+   164
+  ],
+  [
+   166,
+   170
+  ],
+  [
+   172,
+   176
+  ],
+  [
+   179,
+   182
+  ],
+  [
+   185,
+   189
+  ],
+  [
+   192,
+   197
+  ],
+  [
+   199,
+   203
+  ],
+  [
+   205,
+   209
+  ],
+  [
+   211,
+   216
+  ]
+ ]
+}

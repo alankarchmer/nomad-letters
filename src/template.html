@@ -1,0 +1,1186 @@
+<title>The Nomad Letters</title>
+<meta name="description" content="An interactive guide to the Nomad Investment Partnership letters by Nick Sleep and Qais Zakaria, 2001–2014.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
+<style>
+:root{
+  --paper:#F4F5EF; --panel:#EAECE3; --panel-2:#E1E4D9;
+  --ink:#1B2427; --ink-2:#48555A; --ink-3:#7A8584;
+  --rule:#D2D7CB; --rule-2:#BCC3B5;
+  --route:#B3145A; --route-soft:#F0D4E0;
+  --grid:#2B679C; --grid-soft:#D3DFE9;
+  --contour:#B7834A; --wood:#3E7A4E; --agency:#6A5A93; --ref:#8B9392;
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
+  --sans:"Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F1517; --panel:#172024; --panel-2:#1D282C;
+    --ink:#E3E8E3; --ink-2:#AAB4B1; --ink-3:#77827F;
+    --rule:#263136; --rule-2:#35434A;
+    --route:#F0619A; --route-soft:#3E1A2B;
+    --grid:#76A9D8; --grid-soft:#1A2C3A;
+    --contour:#C99A62; --wood:#7DBB8B; --agency:#A898CF; --ref:#8A9594;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1517; --panel:#172024; --panel-2:#1D282C;
+  --ink:#E3E8E3; --ink-2:#AAB4B1; --ink-3:#77827F;
+  --rule:#263136; --rule-2:#35434A;
+  --route:#F0619A; --route-soft:#3E1A2B;
+  --grid:#76A9D8; --grid-soft:#1A2C3A;
+  --contour:#C99A62; --wood:#7DBB8B; --agency:#A898CF; --ref:#8A9594;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--grid);text-decoration-thickness:1px;text-underline-offset:2px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--grid);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+.eyebrow,.label{font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:12.5px;font-weight:500;color:var(--ink-3)}
+h1,h2,h3,h4{text-wrap:balance;margin:0}
+.num{font-family:var(--sans);font-variant-numeric:tabular-nums lining-nums}
+
+/* top bar */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--paper);border-bottom:1px solid var(--rule)}
+.topbar .wrap{display:flex;align-items:center;gap:24px;height:52px}
+.mark{font-family:var(--sans);font-weight:600;letter-spacing:.24em;font-size:14px;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:9px}
+.mark svg{flex:none}
+.topnav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.topnav::-webkit-scrollbar{display:none}
+.topnav a{font-family:var(--sans);font-size:14.5px;color:var(--ink-2);text-decoration:none;padding:6px 10px;border-radius:3px;white-space:nowrap}
+.topnav a:hover{color:var(--ink);background:var(--panel)}
+
+/* hero */
+.hero{position:relative;padding-block:56px 18px;overflow:hidden}
+.contours{position:absolute;right:-60px;top:-40px;width:620px;height:520px;pointer-events:none;opacity:.55}
+.hero-inner{position:relative;max-width:760px}
+.hero h1{font-size:clamp(46px,7.4vw,92px);line-height:.98;font-weight:500;font-style:italic;letter-spacing:-.015em;margin-top:14px}
+.hero .lede{font-size:clamp(18px,2.1vw,21px);color:var(--ink-2);max-width:60ch;margin:22px 0 0}
+.hero-stats{display:flex;flex-wrap:wrap;gap:12px 44px;margin-top:34px}
+.hero-stats div{display:flex;flex-direction:column;gap:2px;min-width:150px}
+.hero-stats .v{font-family:var(--sans);font-size:40px;font-weight:500;line-height:1;font-variant-numeric:tabular-nums}
+.hero-stats .k{font-family:var(--sans);font-size:14px;color:var(--ink-2);max-width:22ch;line-height:1.3}
+.v.route{color:var(--route)} .v.grid{color:var(--grid)}
+
+/* route */
+.route-sec{padding-block:8px 56px}
+.route-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:10px}
+.route-head p{margin:0;font-family:var(--sans);font-size:15px;color:var(--ink-2);max-width:62ch}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--sans);font-size:14px;color:var(--ink-2);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{display:inline-block;width:26px;height:0;border-top:3px solid var(--route)}
+.sw.idx{border-top:2px dashed var(--grid)}
+.sw.wp{width:14px;height:14px;border-radius:50%;border:1.6px solid var(--route);background:var(--paper)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--rule-2);border-radius:3px;overflow:hidden}
+.seg button{font-family:var(--sans);font-size:14px;padding:5px 11px;background:transparent;border:0;cursor:pointer;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.check{font-family:var(--sans);font-size:14px;color:var(--ink-2);display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+#route-chart{position:relative;width:100%;min-height:300px}
+svg text{font-family:var(--sans)}
+.plot-bg{fill:var(--paper)}
+.gridline{stroke:var(--grid);stroke-width:.6;opacity:.28}
+.frame{fill:none;stroke:var(--ink);stroke-width:1}
+.neat{fill:var(--ink)}
+.axis-t{fill:var(--ink-2);font-size:12.5px}
+.axis-t.small{font-size:11px;fill:var(--ink-3)}
+.idx-line{fill:none;stroke:var(--grid);stroke-width:1.8;stroke-dasharray:6 4}
+.nomad-halo{fill:none;stroke:var(--paper);stroke-width:7;stroke-linejoin:round}
+.nomad-line{fill:none;stroke:var(--route);stroke-width:2.8;stroke-linejoin:round;stroke-linecap:round}
+.wp circle{fill:var(--paper);stroke:var(--route);stroke-width:1.6;cursor:pointer}
+.wp text{fill:var(--ink);font-size:10.5px;font-weight:600;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.wp.on circle{fill:var(--route)} .wp.on text{fill:var(--paper)}
+.wp.derived circle{stroke:var(--ink-3);stroke-dasharray:2 2;cursor:default}
+.wp:focus-visible circle{stroke:var(--grid);stroke-width:3}
+.handover{stroke:var(--ink-3);stroke-dasharray:3 4;stroke-width:1}
+.anno{fill:var(--ink-2);font-size:12.5px}
+.anno.strong{fill:var(--route);font-weight:600;font-size:15px}
+.anno.idx{fill:var(--grid);font-weight:600;font-size:13.5px}
+.guide{stroke:var(--ink-3);stroke-width:1;stroke-dasharray:2 3}
+
+/* tooltip */
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--paper);font-family:var(--sans);font-size:14px;line-height:1.35;padding:9px 11px;border-radius:3px;max-width:280px;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+#tip b{font-weight:600}
+#tip .t-r{color:var(--route-soft)} #tip .muted{opacity:.72}
+:root[data-theme="dark"] #tip .t-r{color:#B3145A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) #tip .t-r{color:#B3145A}}
+
+/* sections */
+.sec{padding-block:72px 40px;border-top:1px solid var(--rule)}
+.sec-head{display:grid;gap:10px;margin-bottom:30px;max-width:780px}
+.sec-head h2{font-size:clamp(32px,4.2vw,46px);font-weight:500;line-height:1.08;letter-spacing:-.01em}
+.sec-head p{margin:0;color:var(--ink-2);font-size:18.5px;max-width:64ch}
+
+/* letters */
+.letters-tools{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:18px}
+.search{font-family:var(--sans);font-size:15.5px;padding:8px 11px;border:1px solid var(--rule-2);border-radius:3px;background:var(--paper);color:var(--ink);min-width:0;width:min(340px,100%)}
+.btn{font-family:var(--sans);font-size:14.5px;padding:7px 12px;border:1px solid var(--rule-2);border-radius:3px;background:transparent;cursor:pointer;color:var(--ink)}
+.btn:hover{background:var(--panel)}
+.read-count{font-family:var(--sans);font-size:14.5px;color:var(--ink-2)}
+.letters-grid{display:grid;grid-template-columns:300px minmax(0,1fr);gap:36px;align-items:start}
+.letter-list{display:flex;flex-direction:column;gap:2px;position:sticky;top:68px;max-height:calc(100vh - 90px);overflow-y:auto;padding-right:6px;scrollbar-width:thin}
+.era{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);padding:14px 10px 6px;display:flex;align-items:center;gap:8px}
+.era::after{content:"";flex:1;border-top:1.5px dashed var(--rule-2)}
+.era:first-child{padding-top:2px}
+.li{display:grid;grid-template-columns:1fr auto;gap:1px 10px;text-align:left;border:0;background:transparent;padding:8px 10px;border-radius:3px;cursor:pointer;width:100%}
+.li:hover{background:var(--panel)}
+.li[aria-current="true"]{background:var(--ink);color:var(--paper)}
+.li[aria-current="true"] .li-date,.li[aria-current="true"] .li-ret{color:var(--paper);opacity:.8}
+.li-date{font-family:var(--sans);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.li-title{grid-column:1/-1;font-size:16.5px;line-height:1.25}
+.li-ret{font-family:var(--sans);font-size:13px;color:var(--ink-3);font-variant-numeric:tabular-nums;text-align:right}
+.li-ret b{font-weight:600;color:var(--route)}
+.li[aria-current="true"] .li-ret b{color:var(--paper)}
+.li .tick{color:var(--wood);font-weight:600;margin-left:4px}
+.li[hidden]{display:none}
+.list-empty{font-family:var(--sans);font-size:14.5px;color:var(--ink-3);padding:10px}
+
+.reader{background:var(--panel);border-radius:4px;padding:clamp(20px,3.4vw,40px);min-width:0}
+.r-meta{font-family:var(--sans);font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 14px}
+.r-title{font-size:clamp(28px,3.4vw,38px);font-weight:500;line-height:1.1;margin-top:10px}
+.r-stats{display:flex;flex-wrap:wrap;gap:12px 36px;margin:22px 0 24px;padding:14px 0;border-top:1px solid var(--rule-2);border-bottom:1px solid var(--rule-2)}
+.r-stats div{display:flex;flex-direction:column}
+.r-stats .k{font-family:var(--sans);font-size:13px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em}
+.r-stats .v{font-family:var(--sans);font-size:28px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1.15}
+.r-stats .s{font-family:var(--sans);font-size:13.5px;color:var(--ink-2)}
+.r-summary{font-size:19px;line-height:1.6;max-width:68ch;margin:0}
+.r-quote{margin:22px 0 0;font-style:italic;font-size:24px;line-height:1.3;max-width:34ch}
+.r-quote cite{display:block;font-style:normal;font-family:var(--sans);font-size:13.5px;color:var(--ink-3);margin-top:6px}
+.r-cols{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;margin-top:28px}
+.r-cols h4,.r-tags h4{font-family:var(--sans);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:500;margin-bottom:8px}
+.r-cols ul{margin:0;padding-left:1.1em;display:grid;gap:6px;font-size:17px}
+.r-cols ul li::marker{color:var(--route)}
+.r-story{font-style:italic;font-size:17.5px;margin:0;color:var(--ink)}
+.r-tags{display:grid;gap:16px;margin-top:28px;padding-top:22px;border-top:1px solid var(--rule-2)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-family:var(--sans);font-size:14px;padding:3px 10px 4px;border-radius:999px;border:1px solid var(--rule-2);background:var(--paper);cursor:pointer;color:var(--ink);display:inline-flex;align-items:center;gap:6px}
+.chip:hover{border-color:var(--ink-3)}
+.chip .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.chip.major{border-color:var(--route);color:var(--route)}
+.chip.word{font-style:normal}
+.r-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:30px}
+.r-foot .btn{background:var(--paper)}
+.r-foot .btn[disabled]{opacity:.35;cursor:default}
+
+/* matrices */
+.matrix-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}
+.matrix-wrap{overflow-x:auto;padding-bottom:8px;scrollbar-width:thin}
+.matrix-wrap svg{display:block}
+.m-row-bg{fill:transparent;cursor:pointer}
+.m-row-bg:hover{fill:var(--panel)}
+.m-row-bg.sel{fill:var(--route-soft)}
+.m-label{fill:var(--ink);font-size:14.5px;pointer-events:none}
+.m-sub{fill:var(--ink-3);font-size:11.5px;pointer-events:none}
+.m-band{fill:var(--panel);opacity:.7}
+.m-cell{cursor:pointer}
+.m-major{fill:var(--route)}
+.m-minor{fill:var(--paper);stroke:var(--ink-2);stroke-width:1.3}
+.dim{opacity:.18}
+.detail{position:sticky;top:72px;border-left:1px solid var(--rule-2);padding-left:24px}
+.detail h3{font-size:28px;font-weight:500;line-height:1.12}
+.detail .label{display:block;margin-bottom:8px}
+.detail p{margin:12px 0 0;font-size:17px;color:var(--ink)}
+.detail .facts{font-family:var(--sans);font-size:14.5px;color:var(--ink-2);margin-top:14px;display:grid;gap:3px}
+.detail .chips{margin-top:12px}
+.m-legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--sans);font-size:14px;color:var(--ink-2);margin:0 0 14px;align-items:center}
+.m-legend .major{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--route);vertical-align:-1px;margin-right:6px}
+.m-legend .minor{display:inline-block;width:8px;height:8px;border-radius:50%;border:1.3px solid var(--ink-2);vertical-align:0;margin-right:6px}
+.m-legend .hand{display:inline-block;width:0;height:14px;border-left:1.5px dashed var(--ink-3);vertical-align:-2px;margin:0 8px 0 4px}
+.filter-chips .chip[aria-pressed="false"]{opacity:.45}
+.size-key{display:inline-flex;align-items:center;gap:5px;flex-wrap:wrap}
+.size-key svg{vertical-align:middle}
+.spark{display:block;margin-top:16px}
+.spark-axis{display:flex;justify-content:space-between;font-family:var(--sans);font-size:12px;color:var(--ink-3);margin-top:2px}
+
+/* numbers */
+.num-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.panel{margin:0;background:transparent;border-top:2px solid var(--ink);padding-top:14px;min-width:0}
+.panel.wide{grid-column:1/-1}
+.panel h3{font-size:23px;font-weight:500}
+.panel .cap{font-family:var(--sans);font-size:15px;color:var(--ink-2);margin:6px 0 14px;max-width:70ch}
+.panel .src{font-family:var(--sans);font-size:13px;color:var(--ink-3);margin-top:10px}
+.chart{width:100%;position:relative}
+.bar-n{fill:var(--route)} .bar-i{fill:var(--grid);opacity:.75}
+.zero{stroke:var(--ink);stroke-width:1}
+.val{font-size:12px;fill:var(--ink-2);text-anchor:middle}
+.val.n{fill:var(--route);font-weight:600}
+.stack{display:flex;height:34px;border-radius:2px;overflow:hidden;margin-top:6px}
+.stack span{display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--paper);min-width:0;overflow:hidden;white-space:nowrap}
+.stack-title{font-family:var(--sans);font-size:14.5px;font-weight:600;margin-top:14px}
+.stack-legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-family:var(--sans);font-size:13.5px;color:var(--ink-2);margin-top:8px}
+.stack-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.hbar{display:grid;grid-template-columns:minmax(0,190px) minmax(0,1fr) 64px;gap:10px;align-items:center;font-family:var(--sans);font-size:14.5px;margin-top:9px}
+.hbar .lab{color:var(--ink-2);line-height:1.2}
+.hbar .track{height:14px;background:var(--panel);border-radius:2px;overflow:hidden}
+.hbar .fill{height:100%;background:var(--grid)}
+.hbar.nomad .fill{background:var(--route)}
+.hbar .n{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.line-pv{fill:none;stroke:var(--route);stroke-width:2.2}
+.pt{fill:var(--route)} .pt.approx{fill:var(--paper);stroke:var(--route);stroke-width:1.6}
+.ref-line{stroke:var(--ink-3);stroke-dasharray:4 4}
+.fee-line{fill:none;stroke:var(--grid);stroke-width:2.2}
+.pt-fee{fill:var(--grid)} .pt-fee.approx{fill:var(--paper);stroke:var(--grid);stroke-width:1.6}
+
+/* words */
+.words-controls{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:flex-end;margin-bottom:14px}
+.words-controls label{display:grid;gap:4px;font-family:var(--sans);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.words-controls .search{width:220px;font-size:17px;text-transform:none;letter-spacing:0}
+#w1{border-color:var(--route)} #w2{border-color:var(--grid)}
+.suggest{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+#words-summary{font-family:var(--sans);font-size:15.5px;color:var(--ink-2);margin:12px 0 0;max-width:80ch}
+#words-summary b{color:var(--ink);font-weight:600}
+.bar-w1{fill:var(--route)} .bar-w2{fill:var(--grid)}
+
+/* coda */
+.coda-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:48px;align-items:start}
+.coda p{font-size:19px;margin:0 0 16px;max-width:62ch}
+.coda .links{display:grid;gap:10px;margin-top:26px;font-family:var(--sans);font-size:16px}
+.note-art{width:100%;height:auto;display:block}
+.note-cap{font-family:var(--sans);font-size:14px;color:var(--ink-2);margin-top:10px}
+.final-figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px;border-top:1px solid var(--rule-2);padding-top:16px}
+.final-figs div{display:flex;flex-direction:column}
+.final-figs .v{font-family:var(--sans);font-size:28px;font-weight:500;font-variant-numeric:tabular-nums}
+.final-figs .k{font-family:var(--sans);font-size:13.5px;color:var(--ink-2);line-height:1.3}
+footer{border-top:1px solid var(--rule);padding-block:30px 60px;font-family:var(--sans);font-size:14.5px;color:var(--ink-2)}
+footer p{max-width:90ch;margin:0 0 10px}
+
+@media (max-width: 960px){
+  .letters-grid{grid-template-columns:minmax(0,1fr);gap:18px}
+  .letter-list{position:static;max-height:none;flex-direction:row;overflow-x:auto;overflow-y:hidden;padding-bottom:8px;gap:6px}
+  .era{display:none}
+  .li{flex:none;width:210px;border:1px solid var(--rule-2)}
+  .matrix-grid{grid-template-columns:minmax(0,1fr)}
+  .detail{position:static;border-left:0;border-top:1px solid var(--rule-2);padding:18px 0 0}
+  .coda-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width: 700px){
+  body{font-size:17px}
+  .num-grid{grid-template-columns:minmax(0,1fr)}
+  .r-cols{grid-template-columns:minmax(0,1fr)}
+  .contours{opacity:.28;right:-220px}
+  .hero-stats .v{font-size:34px}
+  .topbar .wrap{gap:12px}
+  .mark .mark-long{display:none}
+  .hbar{grid-template-columns:minmax(0,1fr) 56px;}
+  .hbar .lab{grid-column:1/-1}
+  .final-figs{grid-template-columns:minmax(0,1fr)}
+}
+
+/* reading paths, pdf links */
+a.pdf{white-space:nowrap}
+.rpath{margin-top:20px;border-top:1px solid var(--rule-2);padding-top:14px}
+.rpath h4,.ask-card h4{font-family:var(--sans);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:500;margin:0 0 8px}
+.rpath ol,.vl ol{margin:0;padding-left:1.2em;display:grid;gap:10px}
+.rpath li,.vl li{font-size:15.5px;line-height:1.38}
+.rp-head{display:block;font-family:var(--sans);font-size:13.5px}
+.rp-note{display:block;color:var(--ink)}
+/* ask */
+.ask-grid{display:grid;grid-template-columns:320px minmax(0,1fr);gap:32px;align-items:start}
+.ask-list-wrap{position:sticky;top:68px;display:grid;gap:10px}
+.ask-list-wrap .search{width:100%}
+.ask-list{display:flex;flex-direction:column;gap:2px;max-height:calc(100vh - 150px);overflow-y:auto;scrollbar-width:thin}
+.ask-q{text-align:left;border:0;background:transparent;padding:7px 10px;border-radius:3px;cursor:pointer;font-size:15.5px;line-height:1.3}
+.ask-q:hover{background:var(--panel)}
+.ask-q[aria-selected="true"]{background:var(--ink);color:var(--paper)}
+.ask-q[hidden]{display:none}
+.ask-card{background:var(--panel);border-radius:4px;padding:clamp(20px,3vw,34px);min-width:0}
+.ask-card .label{margin:0}
+.ask-card h3{font-size:clamp(24px,3vw,32px);font-weight:500;line-height:1.15;margin-top:8px}
+.ask-answer{font-size:19px;line-height:1.6;max-width:66ch;margin:16px 0 24px}
+.ask-answer.muted{color:var(--ink-2)}
+.ask-hits{display:grid}
+.ask-hit{display:grid;grid-template-columns:130px 92px minmax(60px,1fr) 88px;gap:10px;align-items:center;font-family:var(--sans);font-size:14.5px;padding:8px 0;border-bottom:1px solid var(--rule-2)}
+.ask-hit.used .ah-src{font-weight:600}
+.ah-bar{height:8px;background:var(--paper);border-radius:2px;overflow:hidden}
+.ah-bar i{display:block;height:100%;background:var(--route)}
+.ask-hit .chip{justify-self:end}
+/* influences */
+.inf-link{fill:none;stroke:var(--route);opacity:.28;transition:opacity .15s}
+.inf-link.on{opacity:.9}
+.inf-link.off{opacity:.05}
+.inf-node{cursor:pointer}
+.inf-node text{fill:var(--ink);font-size:14.5px}
+.inf-node.off{opacity:.35}
+.inf-person{fill:var(--ink)}
+.inf-idea{fill:var(--route)}
+.role-bars{display:grid;gap:5px;margin-top:12px;font-family:var(--sans);font-size:13.5px;color:var(--ink-2)}
+.role-bars div{display:grid;grid-template-columns:118px minmax(0,1fr) 36px;gap:8px;align-items:center}
+.role-bars .rb{height:8px;background:var(--panel);border-radius:2px;overflow:hidden}
+.role-bars .rb i{display:block;height:100%;background:var(--ink-2)}
+.role-bars .n{text-align:right;font-variant-numeric:tabular-nums}
+/* scorecard */
+.sc-presets{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px;font-family:var(--sans);font-size:14px;color:var(--ink-2)}
+.sc-presets .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.sc-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 30px;margin-bottom:16px}
+.sc-slider{display:grid;gap:3px;font-family:var(--sans);font-size:14px;color:var(--ink-2)}
+.sc-slider .top{display:flex;justify-content:space-between;gap:8px}
+.sc-slider .top b{color:var(--ink);font-weight:600}
+.sc-slider input[type=range]{width:100%;accent-color:var(--route)}
+.sc-table{overflow-x:auto;scrollbar-width:thin}
+.sc-inner{position:relative;min-width:820px}
+.sc-head,.sc-row{display:grid;grid-template-columns:30px minmax(150px,1.3fr) repeat(6,50px) minmax(120px,1fr) 150px 44px;align-items:center;gap:8px;font-family:var(--sans);font-size:14.5px}
+.sc-head{font-size:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.04em;padding:0 8px 8px;border-bottom:1px solid var(--rule-2)}
+.sc-head span{text-align:center}
+.sc-head span:nth-child(2),.sc-head span:nth-child(9){text-align:left}
+.sc-rows{position:relative}
+.sc-row{position:absolute;left:0;right:0;height:36px;padding:0 8px;transition:top .45s ease;border-bottom:1px solid var(--rule);cursor:pointer;background:var(--paper)}
+.sc-row:hover{background:var(--panel)}
+.sc-row[hidden]{display:none}
+.sc-rank{color:var(--ink-3);font-variant-numeric:tabular-nums;text-align:right}
+.sc-name{display:flex;align-items:center;gap:7px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sc-name .dot{width:8px;height:8px;border-radius:50%;flex:none}
+.sc-cell{width:28px;height:20px;border-radius:2px;margin:auto}
+.sc-cell.na{border:1.3px dashed var(--rule-2)}
+.sc-score{display:grid;grid-template-columns:minmax(0,1fr) 30px;gap:6px;align-items:center}
+.sc-score .bar{height:10px;background:var(--panel);border-radius:2px;overflow:hidden}
+.sc-score .bar i{display:block;height:100%;background:var(--route)}
+.sc-score .n,.sc-n{font-variant-numeric:tabular-nums;text-align:right;color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.sc-row{transition:none}}
+/* voice */
+.voice-lists{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:30px}
+.vl h3{font-size:21px;font-weight:500;margin:0 0 12px;border-top:2px solid var(--ink);padding-top:10px}
+@media (max-width: 960px){
+  .ask-grid{grid-template-columns:minmax(0,1fr);gap:18px}
+  .ask-list-wrap{position:static}
+  .ask-list{max-height:260px;border:1px solid var(--rule-2);border-radius:3px;padding:4px}
+  .voice-lists{grid-template-columns:minmax(0,1fr)}
+  .sc-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width: 600px){
+  .ask-hit{grid-template-columns:minmax(0,1fr) auto;row-gap:4px}
+  .ask-hit .ah-bar{grid-column:1/-1;order:3}
+  .sc-controls{grid-template-columns:minmax(0,1fr)}
+}
+</style>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="The Nomad Letters, back to top">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M9 2.5 L11 9 L9 15.5 L7 9 Z" fill="var(--route)"/></svg>
+      Nomad<span class="mark-long">&nbsp;Letters</span>
+    </a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="#route">Route</a><a href="#letters">Letters</a><a href="#ask">Ask</a><a href="#ideas">Ideas</a><a href="#influences">Influences</a><a href="#holdings">Holdings</a><a href="#scorecard">Scorecard</a><a href="#voice">Voice</a><a href="#numbers">Numbers</a><a href="#words">Words</a><a href="#coda">Coda</a>
+    </nav>
+  </div>
+</div>
+
+<header class="hero wrap" id="top">
+  <svg class="contours" id="contours" viewBox="0 0 620 520" aria-hidden="true"></svg>
+  <div class="hero-inner">
+    <p class="eyebrow">Nomad Investment Partnership · Letters to partners · Sept 2001 – Dec 2013</p>
+    <h1>The Nomad Letters</h1>
+    <p class="lede">For twelve years, Nick Sleep and Qais Zakaria wrote to their partners twice a year from a small office in London. Across these letters, a fund that started out buying the market’s rejects came to own a handful of companies that shared their savings with customers, and a dollar became ten. This page maps that journey.</p>
+    <div class="hero-stats">
+      <div><span class="v route">$10.21</span><span class="k">what $1 invested at launch was worth by the end of 2013, before fees</span></div>
+      <div><span class="v">20.8%</span><span class="k">a year before fees; 18.4% after all fees</span></div>
+      <div><span class="v grid">$2.17</span><span class="k">the same dollar in the MSCI World index</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="route-sec wrap" id="route" aria-labelledby="route-title">
+  <div class="route-head">
+    <div>
+      <h2 id="route-title" class="eyebrow" style="margin-bottom:6px">The route · growth of $1, half-year by half-year</h2>
+      <p>Each numbered marker is a letter. Hover to see the figures and click to open that letter’s summary below.</p>
+    </div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Scale">
+        <button type="button" id="scale-log" aria-pressed="true">Log scale</button>
+        <button type="button" id="scale-lin" aria-pressed="false">Linear</button>
+      </div>
+      <label class="check"><input type="checkbox" id="show-idx" checked> MSCI World</label>
+    </div>
+  </div>
+  <div class="legend" style="margin-bottom:8px">
+    <span><i class="sw"></i>Nomad, before fees</span>
+    <span><i class="sw idx"></i>MSCI World (net, US$)</span>
+    <span><i class="sw wp"></i>Letter</span>
+  </div>
+  <div id="route-chart"></div>
+</section>
+
+<section class="sec" id="letters" aria-labelledby="letters-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The letters</p>
+      <h2 id="letters-title">Twenty-four letters, summarised</h2>
+      <p>Every letter in the collection, from the first annual letter in January 2002 to the last in early 2014. The titles and summaries are paraphrases written for this page. For the real thing, read the approved originals (linked at the end).</p>
+    </div>
+    <div class="letters-tools">
+      <input class="search" id="letter-filter" type="search" placeholder="Filter by company, idea or word" aria-label="Filter letters">
+      <button class="btn" type="button" id="random-letter">Open a random letter</button>
+      <span class="read-count" id="read-count"></span>
+    </div>
+    <div class="letters-grid">
+      <nav class="letter-list" id="letter-list" aria-label="Letters"></nav>
+      <article class="reader" id="reader" aria-live="polite"></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="ask" aria-labelledby="ask-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Ask the letters</p>
+      <h2 id="ask-title">Thirty-six questions, answered from the source</h2>
+      <p>Pick a question. Jev read the twenty passages most likely to answer it, scored how directly each one does, and judged whether the letters answer it at all. The short answer is a paraphrase drafted from the passages it rated highest and then checked against them. Every source links to its page in the approved PDF, so you can read the original.</p>
+    </div>
+    <div class="ask-grid">
+      <div class="ask-list-wrap"><input class="search" id="ask-filter" type="search" placeholder="Filter questions" aria-label="Filter questions"><div class="ask-list" id="ask-list" role="listbox" aria-label="Questions"></div></div>
+      <article class="ask-card" id="ask-card" aria-live="polite"></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="ideas" aria-labelledby="ideas-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The ideas</p>
+      <h2 id="ideas-title">What they kept coming back to</h2>
+      <p>Sixteen recurring ideas, letter by letter. By default, each dot shows how much of a letter discusses an idea, judged paragraph by paragraph by TypeSafe’s Jev model. You can switch to my original hand coding to compare. Read across a row to see an idea rise and fade. Buying at half price is strongest in the early letters, while scale economics shared arrives with Costco. Click a row to read about an idea, or a dot to open that letter.</p>
+    </div>
+    <div class="m-legend" id="ideas-legend"></div>
+    <div class="matrix-grid">
+      <div class="matrix-wrap" id="ideas-matrix"></div>
+      <aside class="detail" id="idea-detail" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="influences" aria-labelledby="inf-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Influences</p>
+      <h2 id="inf-title">Who shaped which idea</h2>
+      <p>Each time a letter mentions one of these thinkers, Jev judged how the reference is used (endorsed, cited as evidence, told as a story, argued with) and which of the sixteen ideas it supports. Line thickness shows how much weight each person carries for each idea across all the letters. Hover to trace a person or an idea; click for details.</p>
+    </div>
+    <div class="matrix-grid">
+      <div class="matrix-wrap" id="inf-map"></div>
+      <aside class="detail" id="inf-detail" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="holdings" aria-labelledby="holdings-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The holdings</p>
+      <h2 id="holdings-title">From cigar butts to compounders</h2>
+      <p>The companies the letters discuss, ordered by when each first appears. Dot size shows how often a company is mentioned in each letter. Newspapers, racetracks and cheap cement give way to Costco, Amazon and AirAsia. Some are cited as examples and were never owned. Click a row for notes.</p>
+    </div>
+    <div class="m-legend filter-chips chips" id="model-filter" role="group" aria-label="Filter by type"></div>
+    <div class="matrix-grid">
+      <div class="matrix-wrap" id="hold-matrix"></div>
+      <aside class="detail" id="hold-detail" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="scorecard" aria-labelledby="sc-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Scorecard</p>
+      <h2 id="sc-title">Rank the companies the way Nomad did</h2>
+      <p>For every passage about a company, Jev judged six things the letters care about: how cheap it looked, whether it passes its scale savings to customers, whether a founder or owner runs it, how it allocates capital, the character of its managers, and how warmly the letters write about it. Set the weights and the list re-ranks instantly, with no new model calls. The presets show how Nomad’s own priorities moved between 2002 and 2009. This describes how the letters portray each company, not whether it is a good investment.</p>
+    </div>
+    <div class="sc-presets" id="sc-presets"></div>
+    <div class="sc-controls" id="sc-controls"></div>
+    <label class="check" style="margin:0 0 14px"><input type="checkbox" id="sc-all"> Include companies discussed in fewer than three paragraphs</label>
+    <div class="sc-table" id="sc-table"></div>
+    <p class="src">Squares are shaded by the letters’ verdict on each trait: darker means closer to what Nomad wanted. A dashed square means the letters say nothing about that trait for the company, and it counts as neutral in the ranking. “Over time” plots how warmly each letter writes about the company. Click a row for the company’s notes.</p>
+  </div>
+</section>
+
+<section class="sec" id="voice" aria-labelledby="voice-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Voice</p>
+      <h2 id="voice-title">How the letters sound</h2>
+      <p>Jev rated every paragraph for humour, for owning up to the authors’ own mistakes, and for criticism of the fund industry. Tone barely tracks returns: across the 24 letters, none of these measures has more than a weak link to that period’s performance. What changes is the target. Criticism of the industry runs high until 2009, then roughly halves until the final letter turns on regulation. The first letter is the plainest and the last is the funniest.</p>
+    </div>
+    <div class="chart" id="voice-chart"></div>
+    <div class="voice-lists" id="voice-lists"></div>
+  </div>
+</section>
+
+<section class="sec" id="numbers" aria-labelledby="numbers-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The numbers</p>
+      <h2 id="numbers-title">The figures they reported, and the ones they watched</h2>
+      <p>The letters ask partners to ignore annual returns and watch other measures: how cheap the portfolio is, how long they plan to own things, and how little the arrangement costs. Here are both.</p>
+    </div>
+    <div class="num-grid">
+      <figure class="panel wide">
+        <h3>Year by year</h3>
+        <p class="cap">Nomad was ahead of the index in 9 of 13 calendar years. Among the four misses were both of its losing years, 2008 and 2011. 2001 covers 10 Sept to 31 Dec only.</p>
+        <div class="legend" style="margin-bottom:6px"><span><i class="sw" style="border-top-width:10px;width:14px"></i>Nomad, before fees</span><span><i class="sw" style="border-top:10px solid var(--grid);opacity:.75;width:14px"></i>MSCI World</span></div>
+        <div class="chart" id="annual-chart"></div>
+        <p class="src">Source: calendar-year table in the December 2013 letter.</p>
+      </figure>
+      <figure class="panel">
+        <h3>What they owned, 2002 and 2009</h3>
+        <p class="cap">The portfolio, grouped the way the letters grouped it at the time. The labels changed as the thinking changed.</p>
+        <div id="mix-chart"></div>
+        <p class="src">Sources: December 2002 and June 2009 letters. ≈ marks figures given approximately (“over half”, “just under ten percent”).</p>
+      </figure>
+      <figure class="panel">
+        <h3>Price paid per dollar of value</h3>
+        <p class="cap">Their own estimate of the portfolio’s price-to-value ratio, in cents. They tracked this more closely than performance. Lower means cheaper.</p>
+        <div class="chart" id="pv-chart"></div>
+        <p class="src">Hollow markers are approximate (“low seventies”, “upper sixties”, “meaningfully less than half”).</p>
+      </figure>
+      <figure class="panel">
+        <h3>How long everyone else held on</h3>
+        <p class="cap">Average holding periods cited in the letters, in weeks, against Nomad’s plan of roughly five years.</p>
+        <div id="hold-chart"></div>
+        <p class="src">Sources: December 2006 and June 2008 letters (other holders); June 2006 letter (Phelps Dodge; fund managers, via Jack Bogle).</p>
+      </figure>
+      <figure class="panel">
+        <h3>A management fee that shrank</h3>
+        <p class="cap">After they went independent, the management fee only covered running costs, so it fell as the fund grew. The performance fee was separate: 20% of gains above a 6% hurdle, held back in a reserve that could be refunded.</p>
+        <div class="chart" id="fee-chart"></div>
+        <p class="src">Management fee in basis points (100 bp = 1%). Hollow markers are approximate.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="words" aria-labelledby="words-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The words</p>
+      <h2 id="words-title">Trace a word through thirteen years</h2>
+      <p>Type any word to see how often it appears in each letter, per 1,000 words. Plurals are counted together, and legal boilerplate is left out. The index covers about 3,000 words that appear at least three times across the collection.</p>
+    </div>
+    <div class="words-controls">
+      <label for="w1">Word<input class="search" id="w1" value="costco" autocomplete="off" spellcheck="false"></label>
+      <label for="w2">Compare with (optional)<input class="search" id="w2" value="amazon" autocomplete="off" spellcheck="false"></label>
+      <button class="btn" type="button" id="w-clear">Clear comparison</button>
+    </div>
+    <div class="suggest chips" id="w-suggest" aria-label="Suggested words"></div>
+    <div class="chart" id="words-chart"></div>
+    <p id="words-summary" aria-live="polite"></p>
+  </div>
+</section>
+
+<section class="sec" id="coda" aria-labelledby="coda-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Coda</p>
+      <h2 id="coda-title">How it ended</h2>
+    </div>
+    <div class="coda-grid">
+      <div class="coda">
+        <p>The December 2013 letter turned out to be the last. A few months later, in 2014, Sleep and Zakaria sold the portfolio and returned the money to their partners. In a postscript written in 2021, they say they hated that final phase: selling stakes built up over years felt wrong.</p>
+        <p>They give several reasons for closing. Regulation had become heavier and blunter. They no longer wanted to explain every action, and every decision not to act, to a changing cast of overseers. And they felt they had got everything they could out of the approach. They already owned a few superb businesses and were not going to sell one to buy another cheap Philippine cement stock. They were also drawn to something new while still in their mid-forties: working out how to put their gains to use for other people.</p>
+        <p>That became the idea they call <i>X-amount</i>: past a certain level of wealth, more money adds little, and meaning comes from giving it away. That is why the approved letters now live on Nick Sleep’s charitable foundation website. They note, too, that these may be the only investment letters published on a charity’s site.</p>
+        <div class="final-figs">
+          <div><span class="v" style="color:var(--route)">$10.21</span><span class="k">$1 at launch, end of 2013, before fees</span></div>
+          <div><span class="v">18.4%</span><span class="k">a year after all fees, Sept 2001 to Dec 2013</span></div>
+          <div><span class="v" style="color:var(--grid)">6.5%</span><span class="k">a year for the MSCI World over the same period</span></div>
+        </div>
+        <div class="links">
+          <a href="https://igyfoundation.org.uk/nomad-partnership-letters/" target="_blank" rel="noopener">Read the approved letters at the IGY Foundation →</a>
+          <span style="color:var(--ink-2)">For more, the authors recommend William Green’s book <i>Richer, Wiser, Happier</i>.</span>
+        </div>
+      </div>
+      <figure style="margin:0">
+        <svg class="note-art" id="note-art" viewBox="0 0 440 210" role="img" aria-label="A stylised one hundred trillion Zimbabwe dollar note"></svg>
+        <figcaption class="note-cap">A souvenir from the last letter: every limited partner was sent a 100-trillion Zimbabwe dollar note, printed at the peak of hyperinflation. Nomad had written its Zimbabwe holdings down to zero in 2008, then sold them in 2013 for three to eight times their cost in dollars. (Stylised illustration.)</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>About this page.</b> Built from the <i>Full Collection of the Nomad Investment Partnership Letters to Partners, 2001–2014</i>. All titles, summaries and notes are paraphrases written for this page, not the authors’ words. Apart from one sentence, the letters themselves are not reproduced. The authors ask readers to link to the approved version at the IGY Foundation and to respect their privacy, so this page contains no personal details beyond their names.</p>
+    <p>Performance figures are as reported in the letters: before performance fees, against the MSCI World index (net, US$). Each point uses the since-inception figure printed in that letter. Two points are derived from later tables: June 2006, when performance was sent separately, and December 2010, whose annual letter does not appear in this collection. The final letter calls itself the 25th. Word counts exclude disclaimers and housekeeping notes. Nothing here is investment advice.</p>
+    <p><b>How the summaries were checked.</b> Every factual sentence in the letter summaries, stories and company notes (272 in all) was checked against the most relevant paragraphs of the letters with TypeSafe’s Jev model (jev-1.13.0). Sentences it did not clearly support were reviewed by hand against the source, and ten were rewritten to be more accurate.</p>
+    <p><b>How the Ideas grid was made.</b> The default view asks Jev sixteen yes/no questions about each of the 726 paragraphs in the collection, for example whether a paragraph discusses a company passing the savings from its scale on to customers. A dot’s size is the share of the letter’s text judged to discuss the idea, weighting each paragraph by its length and by Jev’s probability. A dot appears only where at least one paragraph is judged more likely than not to discuss the idea. The other view is my original hand coding from reading the letters.</p>
+    <p><b>The other Jev features.</b> Reading paths: Jev rated how central each relevant paragraph is to each idea, on a scale from a passing mention to a paragraph that sets the idea out, and the strongest are listed with their pages. Scorecard: for each of the 329 passages about a company, Jev answered six multiple-choice questions, each with an option for “the passage doesn’t say”; the ranking is computed in your browser from those answers and your weights. Influences: for each mention of a thinker, Jev chose how the reference is used and which idea it supports. Voice: Jev rated every paragraph for humour, candour and industry criticism. Ask the letters: Jev scored the twenty best keyword matches for each question. The short notes and answers were drafted from the passages Jev rated highest, and then checked against those passages with Jev.</p>
+    <p><b>Page links.</b> Page numbers are positions in the 218-page approved PDF (the number printed at the foot of each page is one higher). Links open the IGY Foundation’s copy at that page in most browsers; the page numbers were taken from a copy of the same collection.</p>
+  </div>
+</footer>
+<div id="tip" hidden></div>
+
+<script>
+/*__DATA__*/
+</script>
+<script>
+(function(){
+"use strict";
+const $=(q,r=document)=>r.querySelector(q), $$=(q,r=document)=>Array.from(r.querySelectorAll(q));
+const NS="http://www.w3.org/2000/svg";
+function s(tag,attrs,parent){const e=document.createElementNS(NS,tag);if(attrs)for(const k in attrs){if(attrs[k]!=null)e.setAttribute(k,attrs[k])}if(parent)parent.appendChild(e);return e}
+function h(tag,attrs,html){const e=document.createElement(tag);if(attrs)for(const k in attrs){if(k==="class")e.className=attrs[k];else if(k.startsWith("on"))e.addEventListener(k.slice(2),attrs[k]);else if(attrs[k]!=null)e.setAttribute(k,attrs[k])}if(html!=null)e.innerHTML=html;return e}
+function lin(d0,d1,r0,r1){return v=>r0+(v-d0)/(d1-d0)*(r1-r0)}
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct=v=>(v>0?"+":v<0?"−":"")+Math.abs(v).toFixed(1)+"%";
+const dol=v=>"$"+v.toFixed(2);
+const reduceMotion=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+const MON={"06":"Jun","12":"Dec"};
+const L=DATA.letters;
+L.forEach((l,i)=>{l.i=i;const[y,m]=l.id.split("-");l.year=+y;l.mon=m;l.label=MON[m]+" "+y;l.kind=(m==="12")?"Annual letter":"Interim letter";});
+const C=DATA.concepts, H=DATA.holdings, MODELS=DATA.models, ENTS=DATA.ents;
+
+/* ---------- tooltip ---------- */
+const tip=$("#tip");
+function showTip(html,x,y){tip.innerHTML=html;tip.hidden=false;const r=tip.getBoundingClientRect();let lx=x+14,ly=y+14;if(lx+r.width>innerWidth-8)lx=x-r.width-14;if(ly+r.height>innerHeight-8)ly=y-r.height-14;tip.style.left=Math.max(8,lx)+"px";tip.style.top=Math.max(8,ly)+"px"}
+function hideTip(){tip.hidden=true}
+
+/* ---------- state ---------- */
+const state={ideaMode:store.get("nomad-ideas-mode","jev")==="hand"?"hand":"jev",scale:"log",showIdx:true,cur:0,concept:"c2",company:"costco",models:new Set(Object.keys(MODELS)),read:new Set(store.get("nomad-read",[]))};
+
+/* ---------- contours (hero) ---------- */
+(function contours(){
+  const svg=$("#contours");
+  const hills=[{cx:380,cy:210,n:13,r0:14,dr:17,ph:0.4},{cx:540,cy:420,n:6,r0:18,dr:16,ph:2.1}];
+  hills.forEach(hl=>{for(let k=0;k<hl.n;k++){const r=hl.r0+k*hl.dr;let d="";for(let a=0;a<=96;a++){const t=a/96*Math.PI*2;const rr=r*(1+0.13*Math.sin(3*t+hl.ph+k*0.22)+0.07*Math.sin(5*t+hl.ph*2-k*0.15)+0.04*Math.sin(2*t+k*0.5));const x=hl.cx+rr*Math.cos(t),y=hl.cy+rr*0.82*Math.sin(t);d+=(a?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}s("path",{d:d+"Z",fill:"none",style:"stroke:var(--contour)","stroke-width":(k%5===4)?1.5:0.8,opacity:(k%5===4)?0.9:0.7},svg)}});
+  const tri=s("g",{},svg);s("path",{d:"M380 197 L388 211 L372 211 Z",fill:"none",style:"stroke:var(--ink-2)","stroke-width":1.2},tri);s("circle",{cx:380,cy:206,r:1.6,style:"fill:var(--ink-2)"},tri);
+  s("text",{x:394,y:210,style:"fill:var(--ink-2)","font-size":13},tri).textContent="10.21";
+})();
+
+/* ---------- route chart ---------- */
+const PTS=DATA.route;
+function drawRoute(){
+  const box=$("#route-chart");const W=box.clientWidth;if(!W)return;
+  const narrow=W<640;const Hh=narrow?310:430;
+  const m={l:narrow?42:58,r:narrow?12:22,t:30,b:narrow?40:44};
+  const X0=2001.62,X1=2014.12;
+  const x=lin(X0,X1,m.l,W-m.r);
+  const logm=state.scale==="log";
+  const yl=lin(Math.log(0.75),Math.log(12),Hh-m.b,m.t), yn=lin(0,11,Hh-m.b,m.t);
+  const y=v=>logm?yl(Math.log(v)):yn(v);
+  box.innerHTML="";
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Growth of one dollar: Nomad from $1.00 in September 2001 to $10.21 in December 2013, against $2.17 for the MSCI World index."},box);
+  const Lx=m.l,R=W-m.r,T=m.t,B=Hh-m.b,band=5;
+  s("rect",{x:Lx,y:T,width:R-Lx,height:B-T,class:"plot-bg"},svg);
+  for(let yr=2002;yr<=2014;yr++)s("line",{x1:x(yr),x2:x(yr),y1:T,y2:B,class:"gridline"},svg);
+  const ticks=logm?[1,2,3,5,10]:[0,2,4,6,8,10];
+  ticks.forEach(v=>{s("line",{x1:Lx,x2:R,y1:y(v),y2:y(v),class:"gridline"},svg);const t=s("text",{x:Lx-9,y:y(v)+4,"text-anchor":"end",class:"axis-t"},svg);t.textContent="$"+v});
+  const edges=[X0];for(let yr=2002;yr<=2014;yr++)edges.push(yr);edges.push(X1);
+  for(let k=0;k<edges.length-1;k++){const x0=x(edges[k]),x1=x(edges[k+1]);if(k%2===1){s("rect",{x:x0,y:B,width:x1-x0,height:band,class:"neat"},svg);s("rect",{x:x0,y:T-band,width:x1-x0,height:band,class:"neat"},svg)}
+    const yr=k===0?2001:edges[k];if(yr<=2013){const cx=(x0+x1)/2,wid=x1-x0;if(wid>18){const t=s("text",{x:cx,y:B+band+17,"text-anchor":"middle",class:"axis-t"+(narrow?" small":"")},svg);t.textContent=(narrow||wid<38)?"’"+String(yr).slice(2):yr}}}
+  s("rect",{x:Lx,y:T-band,width:R-Lx,height:B-T+band*2,class:"frame"},svg);
+  s("line",{x1:Lx,x2:R,y1:T,y2:T,class:"frame"},svg);s("line",{x1:Lx,x2:R,y1:B,y2:B,class:"frame"},svg);
+  // handover
+  const hx=x(2006.7);s("line",{x1:hx,x2:hx,y1:T,y2:B,class:"handover"},svg);
+  const ht=s("text",{x:hx+6,y:T+15,class:"anno"},svg);ht.textContent=narrow?"Independent →":"Sept 2006: goes independent →";
+  const mk=p=>p.map((q,i)=>(i?"L":"M")+x(q.t).toFixed(1)+" "+y(q.v).toFixed(1)).join("");
+  if(state.showIdx){s("path",{d:mk(PTS.map(p=>({t:p.t,v:p.idx}))),class:"idx-line"},svg)}
+  const npath=mk(PTS.map(p=>({t:p.t,v:p.nomad})));
+  s("path",{d:npath,class:"nomad-halo"},svg);s("path",{d:npath,class:"nomad-line"},svg);
+  // annotations
+  const last=PTS[PTS.length-1];
+  const a1=s("text",{x:x(last.t)-12,y:y(last.nomad)-2,"text-anchor":"end",class:"anno strong"},svg);a1.textContent="$10.21";
+  if(state.showIdx){const a2=s("text",{x:x(last.t)-10,y:y(last.idx)+(logm?20:-10),"text-anchor":"end",class:"anno idx"},svg);a2.textContent="$2.17"}
+  const crash=PTS.find(p=>p.key==="2008-12");const a3=s("text",{x:x(crash.t),y:logm?y(crash.idx)+19:y(crash.nomad)-16,"text-anchor":"middle",class:"anno"},svg);a3.textContent="2008: −45%";
+  // guide
+  const guide=s("line",{y1:T,y2:B,class:"guide",visibility:"hidden"},svg);
+  // waypoints
+  const rr=narrow?5.5:9, showNum=!narrow;
+  const g=s("g",{},svg);
+  PTS.forEach((p,pi)=>{
+    if(p.letter==null&&!p.derived)return;
+    const cls="wp"+(p.derived?" derived":"")+(p.letter===state.cur?" on":"");
+    const wg=s("g",{class:cls,transform:`translate(${x(p.t).toFixed(1)},${y(p.nomad).toFixed(1)})`},g);
+    s("circle",{r:p.derived?rr*0.6:rr},wg);
+    if(showNum&&!p.derived){s("text",{},wg).textContent=p.letter+1}
+    if(!p.derived){wg.setAttribute("tabindex","0");wg.setAttribute("role","button");wg.setAttribute("aria-label",`Letter ${p.letter+1}, ${L[p.letter].label}: ${L[p.letter].title}. $1 had become ${dol(p.nomad)}.`);
+      wg.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openLetter(p.letter,true)}});
+      wg.addEventListener("focus",()=>{const b=wg.getBoundingClientRect();tipFor(p,b.right,b.top)});wg.addEventListener("blur",hideTip);}
+  });
+  function nearest(mx){let best=null,bd=1e9;PTS.forEach(p=>{const d=Math.abs(x(p.t)-mx);if(d<bd){bd=d;best=p}});return best}
+  function tipFor(p,cx,cy){
+    let html=`<b>${p.date}</b><br><span class="t-r">Nomad</span> ${dol(p.nomad)} &nbsp;·&nbsp; <span class="muted">MSCI World</span> ${dol(p.idx)}`;
+    if(p.letter!=null)html+=`<br><span class="muted">Letter ${p.letter+1}:</span> ${esc(L[p.letter].title)}<br><span class="muted">Click to read the summary</span>`;
+    else if(p.derived)html+=`<br><span class="muted">Derived from a later letter’s table; no letter in the collection for this date</span>`;
+    else html+=`<br><span class="muted">Launch. Nomad starts investing</span>`;
+    showTip(html,cx,cy)}
+  svg.addEventListener("pointermove",e=>{const rct=svg.getBoundingClientRect();const mx=e.clientX-rct.left;if(mx<Lx-10||mx>R+10){guide.setAttribute("visibility","hidden");hideTip();return}const p=nearest(mx);guide.setAttribute("x1",x(p.t));guide.setAttribute("x2",x(p.t));guide.setAttribute("visibility","visible");svg.style.cursor=p.letter!=null?"pointer":"default";tipFor(p,e.clientX,e.clientY)});
+  svg.addEventListener("pointerleave",()=>{guide.setAttribute("visibility","hidden");hideTip()});
+  svg.addEventListener("click",e=>{const rct=svg.getBoundingClientRect();const p=nearest(e.clientX-rct.left);if(p&&p.letter!=null){hideTip();openLetter(p.letter,true)}});
+}
+$("#scale-log").addEventListener("click",()=>{state.scale="log";$("#scale-log").setAttribute("aria-pressed","true");$("#scale-lin").setAttribute("aria-pressed","false");drawRoute()});
+$("#scale-lin").addEventListener("click",()=>{state.scale="lin";$("#scale-lin").setAttribute("aria-pressed","true");$("#scale-log").setAttribute("aria-pressed","false");drawRoute()});
+$("#show-idx").addEventListener("change",e=>{state.showIdx=e.target.checked;drawRoute()});
+
+/* ---------- letters ---------- */
+const list=$("#letter-list");
+function buildList(){
+  list.innerHTML="";
+  L.forEach((l,i)=>{
+    if(i===0)list.appendChild(h("div",{class:"era"},"Marathon years · 2001–06"));
+    if(l.id==="2006-12")list.appendChild(h("div",{class:"era"},"Sleep, Zakaria &amp; Co. · 2006–14"));
+    const b=h("button",{class:"li",type:"button","data-i":i,onclick:()=>openLetter(i,false)});
+    b.innerHTML=`<span class="li-date">${l.label} · ${l.mon==="12"?"Annual":"Interim"}${state.read.has(l.id)?'<span class="tick" aria-label="read">✓</span>':""}</span><span class="li-ret"><b>${l.ret==null?"—":pct(l.ret)}</b> / ${l.idx==null?"—":pct(l.idx)}</span><span class="li-title">${esc(l.title)}</span>`;
+    list.appendChild(b);
+  });
+  list.appendChild(h("div",{class:"list-empty",hidden:""},"No letters match. Try another word."));
+  syncList();
+}
+function syncList(){$$(".li",list).forEach(b=>{const i=+b.dataset.i;if(i===state.cur)b.setAttribute("aria-current","true");else b.removeAttribute("aria-current")});$("#read-count").textContent=`Read ${state.read.size} of ${L.length}`}
+function conceptsFor(i){return C.map(c=>({c,lv:ideaLevel(c,i),sh:jevCell(c.id,i).share})).filter(q=>q.lv>0).map(q=>({c:q.c,major:q.lv===2,sh:q.sh})).sort((a,b)=>b.major-a.major||b.sh-a.sh)}
+function holdingsFor(i){return H.filter(r=>(ENTS[r.key]||[])[i]>0).map(r=>({r,n:ENTS[r.key][i]})).sort((a,b)=>b.n-a.n)}
+function renderReader(){
+  const l=L[state.cur],i=state.cur,rd=$("#reader");
+  const si=PTS.find(p=>p.letter===i);
+  const cs=conceptsFor(i),hs=holdingsFor(i);
+  const period=l.period;
+  rd.innerHTML=`
+  <div class="r-meta"><span>Letter ${i+1} of ${L.length}</span><span>${l.kind}</span><span>${esc(period)}</span><span>≈${(Math.round(l.words/100)*100).toLocaleString()} words</span><span>${pdfLink(X.letter_pages[i][0],"Read the original: PDF pp. "+X.letter_pages[i][0]+"–"+X.letter_pages[i][1])}</span></div>
+  <h3 class="r-title">${esc(l.title)}</h3>
+  <div class="r-stats">
+    <div><span class="k">${l.id==="2001-12"?"First 16 weeks":(l.mon==="12"?"Calendar year":"First half")}</span><span class="v" style="color:var(--route)">${l.ret==null?"—":pct(l.ret)}</span>${l.retNote?`<span class="s">${esc(l.retNote)}</span>`:""}</div>
+    <div><span class="k">MSCI World</span><span class="v" style="color:var(--grid)">${l.idx==null?"—":pct(l.idx)}</span></div>
+    <div><span class="k">$1 since launch</span><span class="v">${dol(si.nomad)}</span><span class="s">index ${dol(si.idx)}</span></div>
+  </div>
+  <p class="r-summary">${l.summary}</p>
+  ${l.quote?`<blockquote class="r-quote">“${esc(l.quote)}”<cite>${esc(l.quoteBy)}</cite></blockquote>`:""}
+  <div class="r-cols">
+    <div><h4>Key ideas</h4><ul>${l.points.map(p=>`<li>${p}</li>`).join("")}</ul></div>
+    <div><h4>From the margins</h4><p class="r-story">${l.story}</p></div>
+  </div>
+  <div class="r-tags">
+    ${hs.length?`<div><h4>Companies mentioned</h4><div class="chips">${hs.slice(0,10).map(({r})=>`<button type="button" class="chip" data-co="${r.key}"><i class="dot" style="background:${MODELS[r.model].color}"></i>${esc(r.name)}</button>`).join("")}</div></div>`:""}
+    ${cs.length?`<div><h4>Ideas in this letter</h4><div class="chips">${cs.map(({c,major})=>`<button type="button" class="chip${major?" major":""}" data-concept="${c.id}">${esc(c.name)}</button>`).join("")}</div></div>`:""}
+    <div><h4>Words that set this letter apart</h4><div class="chips">${l.distinct.map(w=>`<button type="button" class="chip word" data-word="${esc(w)}">${esc(w)}</button>`).join("")}</div></div>
+  </div>
+  <div class="r-foot">
+    <button type="button" class="btn" id="prev-l" ${i===0?"disabled":""}>← ${i>0?L[i-1].label:"Previous"}</button>
+    <label class="check"><input type="checkbox" id="mark-read" ${state.read.has(l.id)?"checked":""}> Mark as read</label>
+    <button type="button" class="btn" id="next-l" ${i===L.length-1?"disabled":""}>${i<L.length-1?L[i+1].label:"Next"} →</button>
+  </div>`;
+  $("#prev-l").addEventListener("click",()=>{if(i>0)openLetter(i-1,false)});
+  $("#next-l").addEventListener("click",()=>{if(i<L.length-1)openLetter(i+1,false)});
+  $("#mark-read").addEventListener("change",e=>{if(e.target.checked)state.read.add(l.id);else state.read.delete(l.id);store.set("nomad-read",[...state.read]);buildList()});
+  $$("[data-co]",rd).forEach(b=>b.addEventListener("click",()=>{selectCompany(b.dataset.co);go("#holdings")}));
+  $$("[data-concept]",rd).forEach(b=>b.addEventListener("click",()=>{selectConcept(b.dataset.concept);go("#ideas")}));
+  $$("[data-word]",rd).forEach(b=>b.addEventListener("click",()=>{$("#w1").value=b.dataset.word;$("#w2").value="";drawWords();go("#words")}));
+}
+function go(sel){const el=$(sel);if(el)el.scrollIntoView({behavior:reduceMotion?"auto":"smooth",block:"start"})}
+function openLetter(i,scroll){
+  state.cur=i;store.set("nomad-last",L[i].id);
+  syncList();renderReader();drawRoute();markMatrices();
+  const btn=$(`.li[data-i="${i}"]`,list);
+  if(btn){if(getComputedStyle(list).flexDirection==="row"){list.scrollTo({left:btn.offsetLeft-list.offsetLeft-8,behavior:reduceMotion?"auto":"smooth"})}else{const top=btn.offsetTop-list.offsetTop;if(top<list.scrollTop||top>list.scrollTop+list.clientHeight-60)list.scrollTo({top:top-40,behavior:reduceMotion?"auto":"smooth"})}}
+  try{history.replaceState(null,"","#l"+L[i].id)}catch(e){}
+  if(scroll)go("#letters");
+}
+$("#letter-filter").addEventListener("input",e=>{
+  const q=e.target.value.trim().toLowerCase();let any=false;
+  $$(".li",list).forEach(b=>{const l=L[+b.dataset.i];const hay=(l.title+" "+l.summary+" "+l.points.join(" ")+" "+l.story+" "+holdingsFor(l.i).map(x=>x.r.name).join(" ")+" "+conceptsFor(l.i).map(x=>x.c.name).join(" ")+" "+l.distinct.join(" ")+" "+l.label).toLowerCase().replace(/<[^>]+>/g,"");const ok=!q||hay.includes(q);b.hidden=!ok;if(ok)any=true});
+  $$(".era",list).forEach(e=>e.hidden=!!q);$(".list-empty",list).hidden=any;
+});
+$("#random-letter").addEventListener("click",()=>{let i;do{i=Math.floor(Math.random()*L.length)}while(i===state.cur);openLetter(i,false)});
+
+/* ---------- matrices shared ---------- */
+function yearCenters(x){const g={};L.forEach((l,i)=>{(g[l.year]=g[l.year]||[]).push(x(i))});return Object.keys(g).map(y=>({y:+y,cx:g[y].reduce((a,b)=>a+b,0)/g[y].length,cols:g[y]}))}
+const COLW=23;
+function matrixFrame(svg,left,top,rows,rowH){
+  const x=i=>left+i*COLW+COLW/2;
+  yearCenters(x).forEach((yc,k)=>{if(k%2===0){const x0=Math.min(...yc.cols)-COLW/2,x1=Math.max(...yc.cols)+COLW/2;s("rect",{x:x0,y:top-6,width:x1-x0,height:rows*rowH+10,class:"m-band"},svg)}
+    const t=s("text",{x:yc.cx,y:top-14,"text-anchor":"middle",class:"axis-t small"},svg);t.textContent="’"+String(yc.y).slice(2)});
+  const hx=(x(9)+x(10))/2;s("line",{x1:hx,x2:hx,y1:top-8,y2:top+rows*rowH+4,class:"handover"},svg);
+  return x;
+}
+function markMatrices(){$$(".col-mark").forEach(el=>el.setAttribute("x",(+el.dataset.left+state.cur*COLW)))}
+
+/* ---------- ideas ---------- */
+const JEV=DATA.jev;
+const HAND_LABEL={"0":"not marked","1":"discussed","2":"a main theme"};
+function jevCell(cid,i){const a=JEV.grid[cid][i];return{share:a[0],k:a[1],n:a[2]}}
+function ideaLevel(c,i){if(state.ideaMode==="hand")return +c.hits[i];const j=jevCell(c.id,i);if(!j.k)return 0;return j.share>=0.25?2:j.share>=0.1?1:0}
+function jevR(sh){return 2.2+8*Math.sqrt(Math.min(sh,0.6)/0.6)}
+function jevOp(sh){return 0.45+0.55*Math.min(1,sh/0.35)}
+function renderIdeasLegend(){
+  const el=$("#ideas-legend");
+  const seg=`<span class="seg" role="group" aria-label="Grid view"><button type="button" data-mode="jev" aria-pressed="${state.ideaMode==="jev"}">Jev, paragraph by paragraph</button><button type="button" data-mode="hand" aria-pressed="${state.ideaMode==="hand"}">My original coding</button></span>`;
+  const key=state.ideaMode==="jev"
+    ?`<span class="size-key">${[0.1,0.25,0.5].map(v=>`<svg width="${Math.ceil(jevR(v)*2+2)}" height="22" aria-hidden="true"><circle cx="${(jevR(v)+1).toFixed(1)}" cy="11" r="${jevR(v).toFixed(1)}" style="fill:var(--route)" opacity="${jevOp(v).toFixed(2)}"/></svg>${Math.round(v*100)}%`).join(" ")}&nbsp;of the letter’s text discusses the idea</span>`
+    :`<span><i class="major"></i>A main theme of the letter</span><span><i class="minor"></i>Discussed</span>`;
+  el.innerHTML=seg+key+`<span><i class="hand"></i>Sept 2006: Nomad moves to Sleep, Zakaria &amp; Co.</span>`;
+  $$("[data-mode]",el).forEach(b=>b.addEventListener("click",()=>{if(state.ideaMode===b.dataset.mode)return;state.ideaMode=b.dataset.mode;store.set("nomad-ideas-mode",state.ideaMode);renderIdeasLegend();drawIdeas();selectConcept(state.concept);renderReader()}));
+}
+function drawIdeas(){
+  const wrap=$("#ideas-matrix");wrap.innerHTML="";
+  const left=208,top=34,rowH=27,W=left+L.length*COLW+8,Hh=top+C.length*rowH+10;
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":state.ideaMode==="jev"?"Grid of sixteen ideas against twenty-four letters; dot size shows the share of each letter that discusses the idea":"Grid of sixteen ideas against twenty-four letters, hand coded"},wrap);
+  const x=matrixFrame(svg,left,top,C.length,rowH);
+  s("rect",{x:left+state.cur*COLW,y:top-6,width:COLW,height:C.length*rowH+10,style:"fill:var(--grid-soft)",opacity:.7,class:"col-mark","data-left":left},svg);
+  C.forEach((c,r)=>{
+    const yy=top+r*rowH;
+    const bg=s("rect",{x:0,y:yy,width:W,height:rowH,class:"m-row-bg"+(c.id===state.concept?" sel":""),"data-row":c.id,tabindex:0,role:"button","aria-label":"Idea: "+c.name},svg);
+    bg.addEventListener("click",()=>selectConcept(c.id));bg.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectConcept(c.id)}});
+    s("text",{x:0,y:yy+rowH/2+5,class:"m-label"},svg).textContent=c.name;
+    for(let i=0;i<L.length;i++){
+      const cx=x(i),cy=yy+rowH/2,j=jevCell(c.id,i);let tipHtml;
+      if(state.ideaMode==="jev"){
+        if(!j.k)continue;
+        s("circle",{cx,cy,r:jevR(j.share).toFixed(2),style:"fill:var(--route)",opacity:jevOp(j.share).toFixed(2),"pointer-events":"none"},svg);
+        tipHtml=`<b>${esc(c.name)}</b><br>${L[i].label}: ${esc(L[i].title)}<br>About ${Math.round(j.share*100)}% of the letter · ${j.k} of ${j.n} paragraphs<br><span class="muted">My original coding: ${HAND_LABEL[c.hits[i]]}. Click to open</span>`;
+      }else{
+        const v=c.hits[i];if(v==="0")continue;
+        s("circle",{cx,cy,r:v==="2"?6.5:3.6,class:v==="2"?"m-major":"m-minor","pointer-events":"none"},svg);
+        tipHtml=`<b>${esc(c.name)}</b><br>${L[i].label}: ${esc(L[i].title)}<br>${v==="2"?"A main theme":"Discussed"}<br><span class="muted">Jev: about ${Math.round(j.share*100)}% of the letter. Click to open</span>`;
+      }
+      const hit=s("circle",{cx,cy,r:11,fill:"transparent",class:"m-cell"},svg);
+      hit.addEventListener("pointermove",e=>showTip(tipHtml,e.clientX,e.clientY));
+      hit.addEventListener("pointerleave",hideTip);hit.addEventListener("click",()=>{hideTip();openLetter(i,true)});
+    }
+  });
+}
+function selectConcept(id){
+  state.concept=id;const c=C.find(q=>q.id===id);
+  $$("#ideas-matrix .m-row-bg").forEach(r=>r.classList.toggle("sel",r.dataset.row===id));
+  const d=$("#idea-detail");
+  if(state.ideaMode==="jev"){
+    const cells=L.map((l,i)=>Object.assign({i},jevCell(id,i)));
+    const present=cells.filter(q=>q.k>0),first=present[0];
+    const top=present.slice().sort((a,b)=>b.share-a.share).slice(0,6);
+    const W=300,Hh=64,bw=W/24,mx=Math.max(0.2,...cells.map(q=>q.share));
+    const bars=cells.map(q=>{const hgt=(Hh-6)*q.share/mx;return `<rect x="${(q.i*bw+1).toFixed(1)}" y="${(Hh-2-hgt).toFixed(1)}" width="${(bw-2).toFixed(1)}" height="${hgt.toFixed(1)}" style="fill:${q.i===state.cur?"var(--ink)":"var(--route)"}" opacity="${q.k?1:.3}"><title>${L[q.i].label}: about ${Math.round(q.share*100)}%</title></rect>`}).join("");
+    d.innerHTML=`<span class="label">Idea</span><h3>${esc(c.name)}</h3><p>${c.def}</p>
+    <svg class="spark" viewBox="0 0 ${W} ${Hh}" width="100%" height="${Hh}" preserveAspectRatio="none" role="img" aria-label="Share of each letter that discusses this idea, 2001 to 2013">${bars}<line x1="0" x2="${W}" y1="${Hh-1.5}" y2="${Hh-1.5}" style="stroke:var(--rule-2)"/></svg>
+    <div class="spark-axis"><span>Dec 2001</span><span>Share of each letter, per Jev</span><span>Dec 2013</span></div>
+    <div class="facts"><span>At least one paragraph on it in ${present.length} of 24 letters${first?`, starting ${L[first.i].label}`:""}</span><span>${top.length?`Peak: ${L[top[0].i].label}, about ${Math.round(top[0].share*100)}% of the letter`:""}</span></div>
+    <div class="chips">${top.map(q=>`<button type="button" class="chip${q.share>=0.25?" major":""}" data-open="${q.i}">${L[q.i].label} · ${Math.round(q.share*100)}%</button>`).join("")}</div>`;
+  }else{
+    const idxs=[...c.hits].map((v,i)=>({v,i})).filter(q=>q.v!=="0");
+    const first=idxs[0],majors=idxs.filter(q=>q.v==="2").length;
+    d.innerHTML=`<span class="label">Idea · my original coding</span><h3>${esc(c.name)}</h3><p>${c.def}</p>
+    <div class="facts"><span>First appears: ${L[first.i].label}</span><span>A main theme in ${majors} letter${majors===1?"":"s"}; discussed in ${idxs.length}</span></div>
+    <div class="chips">${idxs.map(q=>`<button type="button" class="chip${q.v==="2"?" major":""}" data-open="${q.i}">${L[q.i].label}</button>`).join("")}</div>`;
+  }
+  d.insertAdjacentHTML("beforeend",pathHtml(id));
+  $$("[data-open]",d).forEach(b=>b.addEventListener("click",()=>openLetter(+b.dataset.open,true)));
+}
+
+/* ---------- holdings ---------- */
+function drawHoldings(){
+  const wrap=$("#hold-matrix");wrap.innerHTML="";
+  const left=208,top=34,rowH=24,rows=H,W=left+L.length*COLW+8,Hh=top+rows.length*rowH+10;
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Companies discussed, by letter"},wrap);
+  const x=matrixFrame(svg,left,top,rows.length,rowH);
+  s("rect",{x:left+state.cur*COLW,y:top-6,width:COLW,height:rows.length*rowH+10,style:"fill:var(--grid-soft)",opacity:.7,class:"col-mark","data-left":left},svg);
+  rows.forEach((r,ri)=>{
+    const yy=top+ri*rowH,cnt=ENTS[r.key]||[],col=MODELS[r.model].color,on=state.models.has(r.model);
+    const g=s("g",{class:on?"":"dim","data-hrow":r.key},svg);
+    const bg=s("rect",{x:0,y:yy,width:W,height:rowH,class:"m-row-bg"+(r.key===state.company?" sel":""),tabindex:0,role:"button","aria-label":r.name},g);
+    bg.addEventListener("click",()=>selectCompany(r.key));bg.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectCompany(r.key)}});
+    const t=s("text",{x:0,y:yy+rowH/2+5,class:"m-label"},g);t.textContent=r.name;
+    const nz=cnt.map((n,i)=>n?i:-1).filter(i=>i>=0);
+    if(nz.length>1)s("line",{x1:x(nz[0]),x2:x(nz[nz.length-1]),y1:yy+rowH/2,y2:yy+rowH/2,style:"stroke:"+col,"stroke-width":1.4,opacity:.35,"pointer-events":"none"},g);
+    nz.forEach(i=>{const n=cnt[i];const rad=Math.min(9.5,2.4+2.1*Math.sqrt(n));const cx=x(i),cy=yy+rowH/2;
+      s("circle",{cx,cy,r:rad,style:"fill:"+col,opacity:.92,"pointer-events":"none"},g);
+      const hit=s("circle",{cx,cy,r:11,fill:"transparent",class:"m-cell"},g);
+      hit.addEventListener("pointermove",e=>showTip(`<b>${esc(r.name)}</b><br>${L[i].label}: ${n} mention${n===1?"":"s"}<br><span class="muted">${esc(L[i].title)}. Click to open</span>`,e.clientX,e.clientY));
+      hit.addEventListener("pointerleave",hideTip);hit.addEventListener("click",()=>{hideTip();openLetter(i,true)});});
+  });
+}
+function buildModelFilter(){
+  const f=$("#model-filter");f.innerHTML="";
+  Object.entries(MODELS).forEach(([k,mo])=>{const b=h("button",{type:"button",class:"chip","aria-pressed":"true"},`<i class="dot" style="background:${mo.color}"></i>${esc(mo.name)}`);
+    b.addEventListener("click",()=>{if(state.models.has(k)&&state.models.size===Object.keys(MODELS).length){state.models=new Set([k])}else if(state.models.has(k)){state.models.delete(k);if(!state.models.size)state.models=new Set(Object.keys(MODELS))}else state.models.add(k);
+      $$(".chip",f).forEach((c,ci)=>c.setAttribute("aria-pressed",state.models.has(Object.keys(MODELS)[ci])?"true":"false"));
+      $$("#hold-matrix [data-hrow]").forEach(g=>{const r=H.find(q=>q.key===g.dataset.hrow);g.classList.toggle("dim",!state.models.has(r.model))})});
+    f.appendChild(b)});
+  f.appendChild(h("span",{style:"color:var(--ink-3);font-size:13.5px"},"Click a type to isolate it"));
+}
+function selectCompany(key){
+  state.company=key;const r=H.find(q=>q.key===key);if(!r)return;
+  $$("#hold-matrix .m-row-bg").forEach(b=>b.classList.toggle("sel",b.parentNode.dataset.hrow===key));
+  const cnt=ENTS[key]||[];const tot=cnt.reduce((a,b)=>a+b,0);
+  const top=cnt.map((n,i)=>({n,i})).filter(q=>q.n).sort((a,b)=>b.n-a.n||a.i-b.i).slice(0,4).sort((a,b)=>a.i-b.i);
+  const first=cnt.findIndex(n=>n>0);
+  const mo=MODELS[r.model];
+  $("#hold-detail").innerHTML=`<span class="label"><i class="dot" style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${mo.color};margin-right:6px;vertical-align:0"></i>${esc(mo.name)}</span><h3>${esc(r.name)}</h3>
+  <div class="facts"><span>${esc(r.where)} · ${esc(r.status)}</span><span>${tot} mention${tot===1?"":"s"} across ${cnt.filter(n=>n).length} letter${cnt.filter(n=>n).length===1?"":"s"}; first in ${first>=0?L[first].label:"—"}</span></div>
+  <p>${r.note}</p>
+  <div class="chips">${top.map(q=>`<button type="button" class="chip" data-open="${q.i}">${L[q.i].label} · ${q.n}</button>`).join("")}</div>`;
+  $$("#hold-detail [data-open]").forEach(b=>b.addEventListener("click",()=>openLetter(+b.dataset.open,true)));
+}
+
+/* ---------- numbers ---------- */
+function drawAnnual(){
+  const box=$("#annual-chart");const W=box.clientWidth;if(!W)return;box.innerHTML="";
+  const A=DATA.annual,narrow=W<560,Hh=narrow?240:290,m={l:38,r:6,t:18,b:30};
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Annual returns, Nomad against MSCI World, 2001 to 2013"},box);
+  const y=lin(-50,90,Hh-m.b,m.t);const bw=(W-m.l-m.r)/A.length;
+  [-40,-20,0,20,40,60,80].forEach(v=>{s("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:v===0?"zero":"gridline"},svg);const t=s("text",{x:m.l-6,y:y(v)+4,"text-anchor":"end",class:"axis-t small"},svg);t.textContent=v+"%"});
+  A.forEach((a,i)=>{const cx=m.l+bw*i+bw/2,w=Math.min(22,bw*0.34);
+    const rn=s("rect",{x:cx-w-1,y:Math.min(y(a.n),y(0)),width:w,height:Math.abs(y(a.n)-y(0)),class:"bar-n"},svg);
+    const ri=s("rect",{x:cx+1,y:Math.min(y(a.i),y(0)),width:w,height:Math.abs(y(a.i)-y(0)),class:"bar-i"},svg);
+    [rn,ri].forEach(el=>{el.addEventListener("pointermove",e=>showTip(`<b>${a.y}${a.y===2001?" (from 10 Sept)":""}</b><br><span class="t-r">Nomad</span> ${pct(a.n)} &nbsp;·&nbsp; <span class="muted">MSCI World</span> ${pct(a.i)}`,e.clientX,e.clientY));el.addEventListener("pointerleave",hideTip)});
+    if(!narrow||i%1===0){const vt=s("text",{x:cx-w/2-1,y:a.n>=0?y(a.n)-5:y(a.n)+13,class:"val n"},svg);vt.textContent=(narrow?Math.round(a.n):a.n.toFixed(1))}
+    const t=s("text",{x:cx,y:Hh-m.b+18,"text-anchor":"middle",class:"axis-t"+(narrow?" small":"")},svg);t.textContent=narrow?"’"+String(a.y).slice(2):a.y;});
+}
+function drawMix(){
+  const box=$("#mix-chart");box.innerHTML="";
+  DATA.mix.forEach(mx=>{
+    box.appendChild(h("div",{class:"stack-title"},esc(mx.title)));
+    const st=h("div",{class:"stack",role:"img","aria-label":mx.title+": "+mx.parts.map(p=>p.name+" "+p.v+"%").join(", ")});
+    mx.parts.forEach(p=>{const sp=h("span",{style:`flex:${p.v};background:${p.color}`},p.v>=12?(p.approx?"≈":"")+p.v+"%":"");st.appendChild(sp)});
+    box.appendChild(st);
+    box.appendChild(h("div",{class:"stack-legend"},mx.parts.map(p=>`<span><i style="background:${p.color}"></i>${esc(p.name)} ${p.approx?"≈":""}${p.v}%</span>`).join("")));
+  });
+}
+function drawPV(){
+  const box=$("#pv-chart");const W=box.clientWidth;if(!W)return;box.innerHTML="";
+  const P=DATA.pv,Hh=230,m={l:36,r:16,t:16,b:28};
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Price to value ratio, 2002 to 2009"},box);
+  const x=lin(2002.2,2009.8,m.l,W-m.r),y=lin(35,80,Hh-m.b,m.t);
+  [40,50,60,70,80].forEach(v=>{s("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:v===50?"ref-line":"gridline"},svg);const t=s("text",{x:m.l-6,y:y(v)+4,"text-anchor":"end",class:"axis-t small"},svg);t.textContent=v+"¢"});
+  const t50=s("text",{x:W-m.r,y:y(50)-6,"text-anchor":"end",class:"anno"},svg);t50.textContent="the 50¢ target";
+  for(let yr=2003;yr<=2009;yr++){const t=s("text",{x:x(yr),y:Hh-8,"text-anchor":"middle",class:"axis-t small"},svg);t.textContent=yr}
+  const solid=P.filter(p=>!p.gap);
+  s("path",{d:solid.map((p,i)=>(i?"L":"M")+x(p.t)+" "+y(p.v)).join(""),class:"line-pv"},svg);
+  const lastSolid=solid[solid.length-1],gapP=P.find(p=>p.gap);
+  if(gapP)s("path",{d:`M${x(lastSolid.t)} ${y(lastSolid.v)}L${x(gapP.t)} ${y(gapP.v)}`,class:"line-pv","stroke-dasharray":"3 4",opacity:.7},svg);
+  P.forEach(p=>{const c=s("circle",{cx:x(p.t),cy:y(p.v),r:4.5,class:"pt"+(p.approx?" approx":"")},svg);
+    c.addEventListener("pointermove",e=>showTip(`<b>${p.label}</b><br>${p.approx?esc(p.note):p.v+"¢ per $1 of value"}`,e.clientX,e.clientY));c.addEventListener("pointerleave",hideTip);
+    const t=s("text",{x:x(p.t),y:y(p.v)-9,"text-anchor":"middle",class:"val"},svg);t.textContent=(p.lt?"<":"")+(p.approx&&!p.lt?"≈":"")+(p.lt?50:p.v)});
+}
+function drawHold(){
+  const box=$("#hold-chart");box.innerHTML="";const mx=Math.max(...DATA.holdp.map(d=>d.w));
+  DATA.holdp.forEach(d=>{const row=h("div",{class:"hbar"+(d.nomad?" nomad":"")});row.innerHTML=`<span class="lab">${esc(d.name)}</span><span class="track"><span class="fill" style="display:block;width:${(d.w/mx*100).toFixed(1)}%"></span></span><span class="n">${d.w<10?d.w.toFixed(1):Math.round(d.w)} wk</span>`;box.appendChild(row)});
+}
+function drawFee(){
+  const box=$("#fee-chart");const W=box.clientWidth;if(!W)return;box.innerHTML="";
+  const F=DATA.fee,Hh=230,m={l:36,r:16,t:22,b:28};
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Management fee in basis points, 2001 to 2013"},box);
+  const x=lin(2001.6,2014.1,m.l,W-m.r),y=lin(0,58,Hh-m.b,m.t);
+  [0,10,20,30,40,50].forEach(v=>{s("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:v===0?"zero":"gridline"},svg);const t=s("text",{x:m.l-6,y:y(v)+4,"text-anchor":"end",class:"axis-t small"},svg);t.textContent=v});
+  [2002,2004,2006,2008,2010,2012,2014].forEach(yr=>{const t=s("text",{x:x(yr),y:Hh-8,"text-anchor":"middle",class:"axis-t small"},svg);t.textContent=yr});
+  const hx=x(2006.7);s("line",{x1:hx,x2:hx,y1:m.t,y2:Hh-m.b,class:"handover"},svg);
+  s("path",{d:F.map((p,i)=>(i?"L":"M")+x(p.t)+" "+y(p.v)).join(""),class:"fee-line"},svg);
+  F.forEach(p=>{if(!p.mark)return;const c=s("circle",{cx:x(p.t),cy:y(p.v),r:4.5,class:"pt-fee"+(p.approx?" approx":"")},svg);
+    c.addEventListener("pointermove",e=>showTip(`<b>${p.label}</b><br>${esc(p.note)}`,e.clientX,e.clientY));c.addEventListener("pointerleave",hideTip);
+    if(p.tag){const t=s("text",{x:x(p.t)+(p.dx||0),y:y(p.v)-10,"text-anchor":p.anchor||"middle",class:"anno"},svg);t.textContent=p.tag}});
+}
+
+/* ---------- words ---------- */
+const WI=new Map();DATA.words.split("|").forEach(part=>{const k=part.indexOf(":");const w=part.slice(0,k);const arr=new Array(24).fill(0);part.slice(k+1).split(",").forEach(kv=>{const[i,n]=kv.split(".");arr[+i]=+n});WI.set(w,arr)});
+const TOT=DATA.totals;
+function lookup(q){q=(q||"").trim().toLowerCase().replace(/[’']/g,"'");if(!q)return null;const vars=new Set([q,q+"s",q+"es"]);if(q.endsWith("s"))vars.add(q.slice(0,-1));if(q.endsWith("es"))vars.add(q.slice(0,-2));const arr=new Array(24).fill(0);let hit=false;vars.forEach(v=>{const a=WI.get(v);if(a){hit=true;a.forEach((n,i)=>arr[i]+=n)}});return hit?arr:[]}
+function drawWords(){
+  const box=$("#words-chart");const W=box.clientWidth;if(!W)return;box.innerHTML="";
+  const q1=$("#w1").value.trim(),q2=$("#w2").value.trim();
+  const a1=lookup(q1),a2=lookup(q2);
+  const series=[];if(a1&&a1.length)series.push({q:q1,a:a1,cls:"bar-w1"});if(a2&&a2.length)series.push({q:q2,a:a2,cls:"bar-w2"});
+  const narrow=W<600,Hh=narrow?220:260,m={l:40,r:6,t:14,b:30};
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Mentions per 1,000 words by letter"},box);
+  const rates=series.map(sr=>sr.a.map((n,i)=>n/TOT[i]*1000));
+  const mx=Math.max(0.5,...rates.flat());const nice=mx<=1?1:mx<=2?2:mx<=5?5:Math.ceil(mx/5)*5;
+  const y=lin(0,nice,Hh-m.b,m.t);const bw=(W-m.l-m.r)/24;const x=i=>m.l+bw*i;
+  const tk=[0,nice/2,nice];tk.forEach(v=>{s("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:v===0?"zero":"gridline"},svg);const t=s("text",{x:m.l-6,y:y(v)+4,"text-anchor":"end",class:"axis-t small"},svg);t.textContent=(+v.toFixed(1))});
+  const g={};L.forEach((l,i)=>{(g[l.year]=g[l.year]||[]).push(i)});Object.keys(g).forEach((yr,k)=>{const cols=g[yr];const cx=(x(cols[0])+x(cols[cols.length-1])+bw)/2;if(narrow&&k%2)return;const t=s("text",{x:cx,y:Hh-10,"text-anchor":"middle",class:"axis-t small"},svg);t.textContent="’"+yr.slice(2)});
+  const hx=x(10);s("line",{x1:hx,x2:hx,y1:m.t,y2:Hh-m.b,class:"handover"},svg);
+  const n=series.length||1;
+  for(let i=0;i<24;i++){
+    const hitR=s("rect",{x:x(i),y:m.t,width:bw,height:Hh-m.b-m.t,fill:"transparent",style:"cursor:pointer"},svg);
+    series.forEach((sr,k)=>{const r=rates[k][i];const w=Math.max(2,(bw-4)/n);s("rect",{x:x(i)+2+k*w,y:y(r),width:Math.max(1,w-1),height:Math.max(0,y(0)-y(r)),class:sr.cls,"pointer-events":"none"},svg)});
+    hitR.addEventListener("pointermove",e=>showTip(`<b>${L[i].label}</b>: ${esc(L[i].title)}<br>${series.map((sr,k)=>`<span class="${k?"muted":"t-r"}">${esc(sr.q)}</span> ${sr.a[i]} (${rates[k][i].toFixed(1)} per 1,000)`).join("<br>")||"No word selected"}<br><span class="muted">Click to open this letter</span>`,e.clientX,e.clientY));
+    hitR.addEventListener("pointerleave",hideTip);hitR.addEventListener("click",()=>{hideTip();openLetter(i,true)});
+  }
+  const sum=[];
+  [[q1,a1],[q2,a2]].forEach(([q,a],k)=>{if(!q)return;if(!a||!a.length){sum.push(`<b>${esc(q)}</b> isn’t in the index. It may appear fewer than three times, or be a very common word like “the”.`);return}
+    const tot=a.reduce((p,c)=>p+c,0);let bi=0,br=-1;a.forEach((c,i)=>{const r=c/TOT[i]*1000;if(r>br){br=r;bi=i}});
+    const nL=a.filter(c=>c).length;sum.push(`<b style="color:${k?"var(--grid)":"var(--route)"}">${esc(q)}</b> appears ${tot} time${tot===1?"":"s"} in ${nL} of 24 letters, most densely in ${L[bi].label} (${br.toFixed(1)} per 1,000 words).`)});
+  $("#words-summary").innerHTML=sum.join(" ")||"Type a word above.";
+}
+["patience","destination","cement","zimbabwe","mistakes","psychology","slack","customers","founders","regulation","bezos","buffett"].filter(w=>{const a=lookup(w);return a&&a.length}).forEach(w=>{$("#w-suggest").appendChild(h("button",{type:"button",class:"chip word",onclick:()=>{$("#w1").value=w;$("#w2").value="";drawWords()}},esc(w)))});
+let wt;["#w1","#w2"].forEach(sel=>$(sel).addEventListener("input",()=>{clearTimeout(wt);wt=setTimeout(drawWords,120)}));
+$("#w-clear").addEventListener("click",()=>{$("#w2").value="";drawWords()});
+
+/* ---------- zim note ---------- */
+(function note(){
+  const svg=$("#note-art");
+  s("rect",{x:4,y:4,width:432,height:202,rx:6,style:"fill:var(--panel);stroke:var(--contour)","stroke-width":1.5},svg);
+  s("rect",{x:14,y:14,width:412,height:182,rx:3,fill:"none",style:"stroke:var(--contour)","stroke-width":.8,opacity:.7},svg);
+  for(let k=0;k<14;k++){let d="";for(let a=0;a<=60;a++){const t=a/60*Math.PI*2;const r=18+k*4.2+3*Math.sin(6*t+k*.5);d+=(a?"L":"M")+(92+r*Math.cos(t)).toFixed(1)+" "+(105+r*Math.sin(t)).toFixed(1)}s("path",{d,fill:"none",style:"stroke:var(--wood)","stroke-width":.7,opacity:.55},svg)}
+  const tx=(x,y,t,sz,w,anchor,fill,ls)=>{const e=s("text",{x,y,"font-size":sz,"font-weight":w||500,"text-anchor":anchor||"start",style:"fill:"+(fill||"var(--ink)"),"letter-spacing":ls||0},svg);e.textContent=t;return e};
+  tx(172,48,"RESERVE BANK · SOUVENIR",11.5,600,"start","var(--ink-2)","1.6");
+  tx(172,92,"100 000 000 000 000",27,600,"start","var(--ink)");
+  tx(172,116,"ONE HUNDRED TRILLION DOLLARS",12.5,600,"start","var(--route)","1.2");
+  tx(172,150,"Sent to partners with the final letter",12.5,400,"start","var(--ink-2)");
+  tx(172,168,"Worth almost nothing, except as a souvenir",12.5,400,"start","var(--ink-2)");
+  tx(92,112,"100T",18,600,"middle","var(--ink)");
+  tx(418,190,"ZIMBABWE",11,600,"end","var(--ink-3)","2");
+})();
+
+/* ---------- extras: pdf links, ask, influences, scorecard, voice ---------- */
+const X=DATA.extras, PDF_URL="https://igyfoundation.org.uk/wp-content/uploads/2021/09/Nomad_Partnership_Letters_1-1.pdf";
+function pdfLink(p,label){return `<a class="pdf" href="${PDF_URL}#page=${p}" target="_blank" rel="noopener">${esc(label||("PDF p. "+p))}</a>`}
+function docLabel(doc,letter){return letter!=null?L[letter].label:(doc==="preamble"?"2021 preamble":"2021 postscript")}
+function pathHtml(id){const ps=X.paths[id]||[];if(!ps.length)return "";
+  return `<div class="rpath"><h4>Read it in the original</h4><ol>${ps.map(p=>`<li><span class="rp-head">${pdfLink(p.page,L[p.letter].label+" · PDF p. "+p.page)}</span>${p.note?`<span class="rp-note">${esc(p.note)}</span>`:""}</li>`).join("")}</ol></div>`}
+
+/* ask */
+function buildAsk(){
+  const list=$("#ask-list");list.innerHTML="";
+  X.ask.forEach((a,k)=>{const b=h("button",{type:"button",class:"ask-q","data-k":k,role:"option","aria-selected":"false"},esc(a.q));b.addEventListener("click",()=>selectAsk(k));list.appendChild(b)});
+  $("#ask-filter").addEventListener("input",e=>{const q=e.target.value.trim().toLowerCase();$$(".ask-q",list).forEach(b=>{const a=X.ask[+b.dataset.k];b.hidden=!!q&&!(a.q+" "+(a.answer||"")).toLowerCase().includes(q)})});
+  selectAsk(0);
+}
+function selectAsk(k){
+  const a=X.ask[k];
+  $$(".ask-q").forEach(b=>b.setAttribute("aria-selected",+b.dataset.k===k?"true":"false"));
+  const c=a.answered;
+  const verdict=a.partial?"Only partly answered in the letters":c>=0.8?"Answered directly in the letters":c>=0.5?"Probably answered in the letters":"Not clearly answered in the letters";
+  $("#ask-card").innerHTML=`<p class="label">${verdict} · Jev ${Math.round(c*100)}% sure</p><h3>${esc(a.q)}</h3>
+  ${a.answer?`<p class="ask-answer">${esc(a.answer)}</p>`:`<p class="ask-answer muted">The passages Jev found don’t answer this directly. The closest ones are below.</p>`}
+  <h4>Where the letters answer it</h4>
+  <div class="ask-hits">${a.hits.map(t=>`<div class="ask-hit${t.used?" used":""}"><span class="ah-src">${esc(docLabel(t.doc,t.letter))}</span>${pdfLink(t.page)}<span class="ah-bar" title="How directly this passage answers: ${Math.round(t.score/3*100)}%"><i style="width:${Math.round(t.score/3*100)}%"></i></span>${t.letter!=null?`<button type="button" class="chip" data-open="${t.letter}">Summary</button>`:"<span></span>"}</div>`).join("")}</div>
+  <p class="src">Bars show how directly Jev judged each passage to answer the question.${a.answer?" The answer draws on the sources in bold.":""}</p>`;
+  $$("#ask-card [data-open]").forEach(b=>b.addEventListener("click",()=>openLetter(+b.dataset.open,true)));
+}
+
+/* influences */
+const ROLE_NAMES={endorses:"Endorsed",evidence:"Cited as evidence",anecdote:"Told as a story",disagrees:"Argued with",passing:"In passing"};
+function drawInfluence(){
+  const wrap=$("#inf-map");const W=Math.max(660,wrap.clientWidth||700);wrap.innerHTML="";
+  const P=X.influence,rowH=25,top=14,nL=P.length,nR=C.length,Hh=top*2+Math.max(nL,nR)*rowH;
+  const lx=190,rx=W-240;
+  const ly=k=>top+(Hh-top*2-nL*rowH)/2+k*rowH+rowH/2, ry=k=>top+(Hh-top*2-nR*rowH)/2+k*rowH+rowH/2;
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Network linking thinkers cited in the letters to the ideas they support"},wrap);
+  const gl=s("g",{},svg);const links=[];const inc={};C.forEach(c=>inc[c.id]=0);
+  P.forEach((p,a)=>Object.entries(p.links).forEach(([cid,w])=>{if(w<0.3)return;const b=C.findIndex(c=>c.id===cid);if(b<0)return;inc[cid]+=w;
+    const x1=lx+10,y1=ly(a),x2=rx-10,y2=ry(b),mx=(x1+x2)/2;
+    links.push({p:p.key,cid,w,el:s("path",{d:`M${x1} ${y1}C${mx} ${y1} ${mx} ${y2} ${x2} ${y2}`,class:"inf-link","stroke-width":(0.8+2.4*Math.sqrt(w)).toFixed(2)},gl)})}));
+  const nodes=[];
+  function hi(kind,key){links.forEach(l=>{const on=key&&(kind==="p"?l.p===key:l.cid===key);l.el.classList.toggle("on",!!on);l.el.classList.toggle("off",!!key&&!on)});
+    nodes.forEach(n=>{const on=!key||(n.kind===kind&&n.key===key)||links.some(l=>(kind==="p"?l.p===key:l.cid===key)&&(n.kind==="p"?l.p===n.key:l.cid===n.key));n.g.classList.toggle("off",!on)})}
+  P.forEach((p,a)=>{const g=s("g",{class:"inf-node",tabindex:0,role:"button","aria-label":p.name},svg);
+    s("circle",{cx:lx,cy:ly(a),r:(2.5+1.2*Math.sqrt(p.n)).toFixed(1),class:"inf-person"},g);
+    s("text",{x:lx-12,y:ly(a)+5,"text-anchor":"end"},g).textContent=p.name;
+    nodes.push({kind:"p",key:p.key,g});
+    g.addEventListener("pointerenter",()=>hi("p",p.key));g.addEventListener("pointerleave",()=>hi(null,null));
+    g.addEventListener("focus",()=>hi("p",p.key));g.addEventListener("blur",()=>hi(null,null));
+    const act=()=>selectInf("p",p.key);g.addEventListener("click",act);g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();act()}})});
+  C.forEach((c,b)=>{const g=s("g",{class:"inf-node",tabindex:0,role:"button","aria-label":"Idea: "+c.name},svg);
+    s("circle",{cx:rx,cy:ry(b),r:(2.5+1.3*Math.sqrt(inc[c.id])).toFixed(1),class:"inf-idea"},g);
+    s("text",{x:rx+12,y:ry(b)+5},g).textContent=c.name;
+    nodes.push({kind:"i",key:c.id,g});
+    g.addEventListener("pointerenter",()=>hi("i",c.id));g.addEventListener("pointerleave",()=>hi(null,null));
+    g.addEventListener("focus",()=>hi("i",c.id));g.addEventListener("blur",()=>hi(null,null));
+    const act=()=>selectInf("i",c.id);g.addEventListener("click",act);g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();act()}})});
+}
+function selectInf(kind,key){
+  const d=$("#inf-detail");
+  if(kind==="p"){
+    const p=X.influence.find(q=>q.key===key);const ideas=Object.entries(p.links).sort((a,b)=>b[1]-a[1]);
+    const roles=Object.keys(ROLE_NAMES).map(r=>[r,p.roles[r]||0]);
+    d.innerHTML=`<span class="label">Thinker</span><h3>${esc(p.name)}</h3>
+    <div class="facts"><span>Mentioned in ${p.n} paragraph${p.n===1?"":"s"} across ${p.letters.length} letter${p.letters.length===1?"":"s"}</span></div>
+    <div class="role-bars">${roles.map(([r,v])=>`<div><span>${ROLE_NAMES[r]}</span><span class="rb"><i style="width:${Math.round(v*100)}%"></i></span><span class="n">${Math.round(v*100)}%</span></div>`).join("")}</div>
+    ${ideas.length?`<p style="font-family:var(--sans);font-size:14.5px;color:var(--ink-2);margin:16px 0 6px">Ideas they support</p><div class="chips" style="margin-top:0">${ideas.slice(0,6).map(([cid,w])=>`<button type="button" class="chip" data-concept="${cid}">${esc(C.find(c=>c.id===cid).name)}</button>`).join("")}</div>`:""}
+    <p style="font-family:var(--sans);font-size:14.5px;color:var(--ink-2);margin:16px 0 6px">Letters</p><div class="chips" style="margin-top:0">${p.letters.map(i=>`<button type="button" class="chip" data-open="${i}">${L[i].label}</button>`).join("")}</div>`;
+  }else{
+    const c=C.find(q=>q.id===key);const who=X.influence.map(p=>[p,p.links[key]||0]).filter(q=>q[1]>=0.3).sort((a,b)=>b[1]-a[1]);
+    d.innerHTML=`<span class="label">Idea</span><h3>${esc(c.name)}</h3><p>${c.def}</p>
+    <p style="font-family:var(--sans);font-size:14.5px;color:var(--ink-2);margin:16px 0 6px">${who.length?"Who shapes it":"No thinker is strongly linked to this idea"}</p>
+    <div class="chips" style="margin-top:0">${who.map(([p])=>`<button type="button" class="chip" data-person="${p.key}">${esc(p.name)}</button>`).join("")}</div>`;
+  }
+  $$("[data-open]",d).forEach(b=>b.addEventListener("click",()=>openLetter(+b.dataset.open,true)));
+  $$("[data-concept]",d).forEach(b=>b.addEventListener("click",()=>{selectConcept(b.dataset.concept);go("#ideas")}));
+  $$("[data-person]",d).forEach(b=>b.addEventListener("click",()=>selectInf("p",b.dataset.person)));
+}
+
+/* scorecard */
+const TRAITS=[["price","Cheap","How cheap it looked against its value"],["sharing","Shares","Passes scale savings to customers"],["owner","Owner","Run by its founder or an owner"],["capital","Capital","Allocates capital well"],["character","People","Character of its managers"],["view","Warmth","How warmly the letters write about it"]];
+const PRESETS={"Later Nomad (2009)":{price:1,sharing:3,owner:2,capital:2,character:2,view:1},"Early Nomad (2002)":{price:3,sharing:0,owner:0,capital:1,character:1,view:1},"Equal weights":{price:1,sharing:1,owner:1,capital:1,character:1,view:1}};
+state.w=Object.assign({},PRESETS["Later Nomad (2009)"]);state.preset="Later Nomad (2009)";
+const scVal=(c,t)=>t==="view"?c.view[0]:c.traits[t][0], scEv=(c,t)=>t==="view"?c.view[1]:c.traits[t][1];
+function scScore(c){let s=0,w=0;TRAITS.forEach(([t])=>{const wt=state.w[t];if(!wt)return;const v=scVal(c,t);s+=wt*(v==null?0.5:v);w+=wt});return w?s/w:0}
+const evWord=e=>e>=3?"strong evidence":e>=1?"some evidence":"thin evidence";
+const SC_ROW=37;
+function buildScorecard(){
+  const pr=$("#sc-presets");pr.innerHTML='<span>Presets:</span>';
+  Object.keys(PRESETS).forEach(name=>{const b=h("button",{type:"button",class:"chip","aria-pressed":String(state.preset===name)},esc(name));
+    b.addEventListener("click",()=>{state.w=Object.assign({},PRESETS[name]);state.preset=name;syncSliders();renderScorecard()});pr.appendChild(b)});
+  const ctl=$("#sc-controls");ctl.innerHTML="";
+  TRAITS.forEach(([t,short,long])=>{const lab=h("label",{class:"sc-slider",for:"w-"+t});
+    lab.innerHTML=`<span class="top"><span>${esc(long)}</span><b id="wv-${t}"></b></span><input type="range" id="w-${t}" min="0" max="3" step="1">`;
+    ctl.appendChild(lab);$("#w-"+t,lab).addEventListener("input",e=>{state.w[t]=+e.target.value;state.preset=null;syncSliders();renderScorecard()})});
+  const tbl=$("#sc-table");tbl.innerHTML=`<div class="sc-inner"><div class="sc-head"><span>#</span><span>Company</span>${TRAITS.map(([t,sh,lg])=>`<span title="${esc(lg)}">${sh}</span>`).join("")}<span>Score</span><span>Over time</span><span title="Paragraphs that discuss the company">Paras</span></div><div class="sc-rows" id="sc-rows"></div></div>`;
+  const rows=$("#sc-rows");
+  X.scorecard.forEach(c=>{const hr=H.find(q=>q.key===c.key);const row=h("div",{class:"sc-row","data-key":c.key,tabindex:0,role:"button","aria-label":hr.name});
+    const cells=TRAITS.map(([t,short,long])=>{const v=scVal(c,t),e=scEv(c,t);return v==null?`<span class="sc-cell na" data-t="${t}"></span>`:`<span class="sc-cell" data-t="${t}" style="background:var(--route);opacity:${(0.12+0.88*v).toFixed(2)}"></span>`}).join("");
+    const tl=`<svg width="150" height="24" viewBox="0 0 150 24" aria-hidden="true"><line x1="0" x2="150" y1="21.5" y2="21.5" style="stroke:var(--rule-2)"/>${c.timeline.map((v,i)=>v==null?"":`<circle cx="${(i*150/24+150/48).toFixed(1)}" cy="${(20-v*16).toFixed(1)}" r="2.4" style="fill:var(--route)" opacity="${(0.35+0.65*v).toFixed(2)}"/>`).join("")}</svg>`;
+    row.innerHTML=`<span class="sc-rank"></span><span class="sc-name"><i class="dot" style="background:${MODELS[hr.model].color}"></i>${esc(hr.name)}</span>${cells}<span class="sc-score"><span class="bar"><i></i></span><span class="n"></span></span>${tl}<span class="sc-n">${c.n}</span>`;
+    $$(".sc-cell",row).forEach(el=>{const t=el.dataset.t,tr=TRAITS.find(q=>q[0]===t),v=scVal(c,t),e=scEv(c,t);
+      el.addEventListener("pointermove",ev=>showTip(`<b>${esc(hr.name)}</b><br>${esc(tr[2])}: ${v==null?"the letters don’t say":Math.round(v*100)+" / 100"}<br><span class="muted">${v==null?"Counts as neutral (50) in the ranking":evWord(e)}</span>`,ev.clientX,ev.clientY));el.addEventListener("pointerleave",hideTip)});
+    const act=()=>{selectCompany(c.key);go("#holdings")};row.addEventListener("click",act);row.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();act()}});
+    rows.appendChild(row)});
+  $("#sc-all").addEventListener("change",renderScorecard);
+  syncSliders();
+}
+function syncSliders(){TRAITS.forEach(([t])=>{const el=$("#w-"+t);if(el)el.value=state.w[t];const b=$("#wv-"+t);if(b)b.textContent=state.w[t]?"×"+state.w[t]:"off"});
+  $$("#sc-presets .chip").forEach(b=>b.setAttribute("aria-pressed",String(b.textContent===state.preset)))}
+function renderScorecard(){
+  const all=$("#sc-all").checked;
+  const ranked=X.scorecard.map(c=>({c,s:scScore(c),on:all||c.n>=3})).filter(q=>q.on).sort((a,b)=>b.s-a.s||b.c.n-a.c.n);
+  const pos={};ranked.forEach((q,k)=>pos[q.c.key]=[k,q.s]);
+  $$("#sc-rows .sc-row").forEach(row=>{const p=pos[row.dataset.key];row.hidden=!p;if(!p)return;
+    row.style.top=(p[0]*SC_ROW)+"px";$(".sc-rank",row).textContent=p[0]+1;$(".sc-score .bar i",row).style.width=Math.round(p[1]*100)+"%";$(".sc-score .n",row).textContent=Math.round(p[1]*100)});
+  $("#sc-rows").style.height=(ranked.length*SC_ROW)+"px";
+}
+
+/* voice */
+function drawVoice(){
+  const box=$("#voice-chart");const W=box.clientWidth;if(!W)return;box.innerHTML="";
+  const V=X.voice.series,narrow=W<640;
+  const rows=[["ret","Return in the period","var(--ink-2)"],["humour","Humour","var(--route)"],["candour","Owning up to mistakes","var(--contour)"],["critique","Criticising the industry","var(--grid)"]];
+  const labW=narrow?0:176,m={l:labW+6,r:6,t:narrow?18:8},bandH=56,gap=narrow?26:14,Hh=m.t+rows.length*(bandH+gap)+20;
+  const bw=(W-m.l-m.r)/24,x=i=>m.l+bw*i;
+  const svg=s("svg",{width:W,height:Hh,viewBox:`0 0 ${W} ${Hh}`,role:"img","aria-label":"Humour, candour and industry criticism in each letter, alongside returns"},box);
+  const mxRet=Math.max(...L.map(l=>Math.abs(l.ret||0)));
+  rows.forEach(([k,name,col],r)=>{const y0=m.t+r*(bandH+gap);
+    s("rect",{x:m.l,y:y0,width:W-m.l-m.r,height:bandH,style:"fill:var(--panel)",opacity:.55},svg);
+    const lt=s("text",{x:narrow?m.l:0,y:narrow?y0-6:y0+bandH/2+5,class:"axis-t"},svg);lt.textContent=name;
+    for(let i=0;i<24;i++){
+      if(k==="ret"){const v=L[i].ret||0,mid=y0+bandH/2,hgt=Math.abs(v)/mxRet*(bandH/2-3);
+        s("rect",{x:x(i)+2,y:v>=0?mid-hgt:mid,width:Math.max(1,bw-4),height:hgt,style:"fill:"+(v>=0?"var(--ink-2)":"var(--route)")},svg)}
+      else{const v=V[k][i]||0,hgt=Math.min(1,v/0.6)*(bandH-4);s("rect",{x:x(i)+2,y:y0+bandH-hgt,width:Math.max(1,bw-4),height:hgt,style:"fill:"+col},svg)}
+    }
+    if(k==="ret")s("line",{x1:m.l,x2:W-m.r,y1:y0+bandH/2,y2:y0+bandH/2,style:"stroke:var(--rule-2)"},svg);
+  });
+  const hx=x(10);s("line",{x1:hx,x2:hx,y1:m.t,y2:Hh-20,class:"handover"},svg);
+  const g={};L.forEach((l,i)=>{(g[l.year]=g[l.year]||[]).push(i)});Object.keys(g).forEach((yr,k)=>{if(narrow&&k%2)return;const cols=g[yr];const cx=(x(cols[0])+x(cols[cols.length-1])+bw)/2;const t=s("text",{x:cx,y:Hh-5,"text-anchor":"middle",class:"axis-t small"},svg);t.textContent="’"+yr.slice(2)});
+  for(let i=0;i<24;i++){const hit=s("rect",{x:x(i),y:m.t,width:bw,height:Hh-m.t-20,fill:"transparent",style:"cursor:pointer"},svg);
+    hit.addEventListener("pointermove",e=>showTip(`<b>${L[i].label}</b>: ${esc(L[i].title)}<br>Return ${L[i].ret==null?"—":pct(L[i].ret)}<br>Humour ${Math.round(V.humour[i]*100)} · Owning up ${Math.round(V.candour[i]*100)} · Criticism ${Math.round(V.critique[i]*100)} <span class="muted">(0–100)</span><br><span class="muted">Click to open this letter</span>`,e.clientX,e.clientY));
+    hit.addEventListener("pointerleave",hideTip);hit.addEventListener("click",()=>{hideTip();openLetter(i,true)})}
+}
+function buildVoiceLists(){
+  const lists=[["humour","Funniest pages"],["candour","Where they own up"],["critique","Sharpest words for the industry"]];
+  $("#voice-lists").innerHTML=lists.map(([k,t])=>`<div class="vl"><h3>${t}</h3><ol>${X.voice.tops[k].map(v=>`<li><span class="rp-head">${pdfLink(v.page,L[v.letter].label+" · PDF p. "+v.page)}</span>${v.note?`<span class="rp-note">${esc(v.note)}</span>`:""}</li>`).join("")}</ol></div>`).join("");
+}
+
+/* ---------- init ---------- */
+buildList();
+let start=0;const hm=(location.hash||"").match(/^#l(\d{4}-\d{2})$/);
+if(hm){const k=L.findIndex(l=>l.id===hm[1]);if(k>=0)start=k}else{const last=store.get("nomad-last",null);const k=L.findIndex(l=>l.id===last);if(k>=0)start=k}
+state.cur=start;syncList();renderReader();
+drawRoute();renderIdeasLegend();drawIdeas();selectConcept(state.concept);buildModelFilter();drawHoldings();selectCompany(state.company);
+drawAnnual();drawMix();drawPV();drawHold();drawFee();drawWords();
+buildAsk();drawInfluence();selectInf("p","munger");buildScorecard();renderScorecard();drawVoice();buildVoiceLists();
+if(hm)setTimeout(()=>go("#letters"),60);
+let rt;const redraw=()=>{clearTimeout(rt);rt=setTimeout(()=>{drawRoute();drawAnnual();drawPV();drawFee();drawWords();drawVoice();drawInfluence()},80)};
+if(window.ResizeObserver){const ro=new ResizeObserver(redraw);ro.observe($("#route-chart"));ro.observe($("#annual-chart"))}else window.addEventListener("resize",redraw);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{drawIdeas();selectConcept(state.concept);drawHoldings();selectCompany(state.company)});
+})();
+</script>

@@ -1,0 +1,302 @@
+{
+ "closing": {
+  "answer": "In 2021, they wrote that the decision had several causes pulling in different directions. The regulatory climate had become irritating and its instruments too crude, and they also wanted to stop explaining both their actions and their inaction, again and again, to an ever-changing cast of interested parties. Even so, winding up felt wrong to them: selling long-held stakes, taking something away from clients they liked and handling the administration were all unwelcome.",
+  "used": [
+   0
+  ]
+ },
+ "ses": {
+  "answer": "It describes a company that returns the savings from its growing size to customers as lower prices. Customers reply by buying more, giving the firm more scale and fresh savings to pass on; in Dec 2008 Sleep called this reciprocation a key driver of business performance, in contrast to high-low retailing, whose temporary discounts train shoppers to be disloyal. The Dec 2004 letter, using the name ‘scale efficiencies shared’, took Costco as the model: many firms chase scale, but few share it.",
+  "used": [
+   0,
+   5,
+   1
+  ]
+ },
+ "costco": {
+  "answer": "Costco was Sleep's main example of ‘scale efficiencies shared’, the model analysed in the Dec 2004 letter that by Dec 2006 characterised Nomad's biggest holdings. In Jun 2005 he estimated a cardholder saved about $175 a year for a $23 fee, wage and benefit scales ran about 55% above rivals', and shareholders took only about 15% of the benefits, giving a ‘robustness ratio’ near 5:1. In Dec 2009 he cited its far higher pay as one reason the firm was widely misunderstood.",
+  "used": [
+   0,
+   2,
+   5,
+   4
+  ]
+ },
+ "amazon": {
+  "answer": "Sleep believed Amazon joined the cheap, scalable structure of internet retailing to the scale-sharing model and a founder who put customers first and cared little for Wall Street, so it could grow from a mouse into an elephant (Jun 2007). After the shares doubled he kept the large weighting, asking whether selling would repeat the error of selling Wal-Mart early. By Dec 2008 Amazon's costs plus margin undercut high-street rivals' costs, yet the market priced it as though it had no growth ahead.",
+  "used": [
+   2,
+   0,
+   3,
+   1
+  ]
+ },
+ "robust": {
+  "answer": "It is a measure Sleep introduced in 2005 to gauge the size of a company's moat: the benefit a firm passes to customers (and, in one version, employees) divided by what it keeps for shareholders. It suits businesses that win on price, like Costco, better than brands built on advertising, like Nike. Prompted by Buffett's account of GEICO, where customer savings and profits were each about $1bn, a 1:1 ratio, he put Costco's at roughly 5:1.",
+  "used": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "destination": {
+  "answer": "It means judging a business by where it is likely to end up years from now, rather than anchoring on the analysis made when the shares were bought. By Dec 2007 Sleep called it deliberately central to Nomad's research, helping them ask sharper questions and reach a firm's essential character. He credited the lessons behind it, from Stagecoach and Conseco, with keeping Nomad in Amazon and out of US banks, worth roughly $60m to investors in 2007.",
+  "used": [
+   0,
+   1
+  ]
+ },
+ "biggest_mistake": {
+  "answer": "Sleep named the sale of Stagecoach, not the purchase of the bankrupt Conseco, as Nomad's greatest error (Jun 2007). Bought at 14p and sold near 90p, the shares later traded above £2.50, an opportunity cost he put at about $12m by Dec 2007, against roughly $10m for Conseco. His wider point was that selling a future great compounder early costs far more than a failure, yet goes unrecorded; in Dec 2005 he said selling Apple had cost more than owning Northwest Airlines.",
+  "used": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "stagecoach": {
+  "answer": "They sold because they anchored on their original purchase analysis, which merely needed the business valued above its 14p cost, instead of asking where it could be years later. Sold at up to about 90p, the shares were above £2.50 by Dec 2007, forgoing £1.60 a share, an opportunity cost Sleep put at about $12m. In Jun 2007 he called it Nomad's greatest error, worse than buying Conseco, because selling a growing winner early costs more than a bankruptcy.",
+  "used": [
+   0,
+   1
+  ]
+ },
+ "conseco": {
+  "answer": "Conseco collapsed into bankruptcy when securitised manufactured-housing loans produced losses that eroded its insurance arm's capital, and the rating agency A.M. Best judged it undercapitalised. The main error, Sleep wrote in Dec 2007, was clinging to the original purchase case instead of updating as facts changed, helped along by denial, ego and too much faith in ‘price-to-value ratio’ arithmetic. A low share price also weakened shareholders' hand in the recapitalisation. The direct loss was about $5m, or $10m counting opportunity cost.",
+  "used": [
+   0,
+   1,
+   2
+  ]
+ },
+ "fees": {
+  "answer": "Originally Nomad took a fifth of gains in any year when compounded returns since subscription beat a 6% annual hurdle, standing in for long-run deposit rates, with a standard high-water mark; the founders saw a mismatch between annual fees and five-year holdings. The Dec 2006 letter replaced this: a 20% fee on each year's gains above 6% went into a Contingent Performance Reserve that refunded partners in weak years. In the first half of 2008 it did exactly that, returning about 2.5% of NAV.",
+  "used": [
+   1,
+   0,
+   5
+  ]
+ },
+ "mgmt_fee": {
+  "answer": "Sleep and Zakaria reasoned that merely running the Partnership added no value in itself, so the fee should reimburse costs but never generate a profit. Because it covers costs rather than tracking assets, the fee falls as a share of assets as the fund grows, so every partner gains from its scale: by Jun 2012 it had dropped from about 50 basis points to near 10. They also argued that incentives can corrupt behaviour and that lower fees might improve conduct across the industry.",
+  "used": [
+   0,
+   1,
+   3
+  ]
+ },
+ "close2004": {
+  "answer": "Sleep and Zakaria preferred Nomad closed, with assets growing through investment results rather than inflows. In Dec 2003 they said they would close once a normal-sized position could no longer be bought, marketing took more than about 1% of their year, or client quality was being diluted, since cash arriving faster than ideas harms existing investors. After admitting part of the waiting list in May 2004, Sleep wrote in Dec 2005 that ideas came singly, so they put performance ahead of fund size.",
+  "used": [
+   3,
+   1,
+   0
+  ]
+ },
+ "reopen": {
+  "answer": "The rule, set out in Jun 2006, was to reopen only when new money would lower the Partnership's ‘price-to-value ratio’, offering rights to existing partners first and then to a queue that ranked principals ahead of agents. Nomad reopened in October 2008, near the market's low, when almost nobody subscribed. When it reopened again at the start of 2012, demand was so strong that it closed within two weeks; Sleep and Zakaria said they preferred being closed and feared growing too large.",
+  "used": [
+   0,
+   1
+  ]
+ },
+ "concentration": {
+  "answer": "The letters favour a small number: ten stocks made up about 70% of Nomad in Dec 2005 and over 80% by Jun 2007. In Jun 2004 Sleep argued that the more stocks a manager owns, the less attention each gets on governance, capital allocation and strategy, leaving bad corporate behaviour unchecked. By Jun 2009 he went further: the industry diversifies because it has few insights, and if knowledge adds value, owning more stocks raises risk; index funds offer true diversification cheaply.",
+  "used": [
+   2,
+   0,
+   3,
+   1
+  ]
+ },
+ "yield_curve": {
+  "answer": "In the letters it is the idea that patience pays: as on a normal bond yield curve, equity returns rise the longer you hold. The logic differs from bonds, though, because business outcomes can be easier to foresee several years out than next year, so time both lifts returns and reduces risk. In Dec 2006 Sleep noted that others held Nomad's stocks for about twenty weeks against Nomad's expected 260, and that its older holdings had earned higher annual returns than newer ones.",
+  "used": [
+   0,
+   1,
+   2
+  ]
+ },
+ "zimbabwe": {
+  "answer": "In the mid-2000s, when markets elsewhere looked fully priced, Zimbabwe offered near-monopoly industrial firms far below the cost of their assets, such as cement plants for a tenth of cost. Nomad legally sidestepped exchange controls to buy a cement maker, a brewery and an engineering firm. The holdings were written down to zero when trading froze in Dec 2008, but by Dec 2013 they had been sold, up three- to eight-fold in dollars, with the money back in London.",
+  "used": [
+   3,
+   5,
+   1,
+   2,
+   0
+  ]
+ },
+ "weetabix": {
+  "answer": "After partners approved investing in unlisted shares, Nomad bought a sizeable stake in Weetabix, the UK cereal maker, while the price was depressed, and was 20% up by Jun 2003. Private equity firm Hicks, Muse, Tate and Furst then bid £53.75 a share. Sleep warned partners against celebrating, since the offer price was below value; Nomad voted against the deal, but its stake was too small to matter and the Scheme of Arrangement forced it to sell.",
+  "used": [
+   1,
+   3,
+   4,
+   0
+  ]
+ },
+ "mbia": {
+  "answer": "They sold because of dilution risk. Sleep had been drawn by the deep discount, but in Jun 2008 he explained that, with a capital raising likely, MBIA's value per share was unknowable until both the scale of losses and the terms of any new issue were clear, so its cheapness became a trap. Timid, short-term institutions tended to sell rather than back such firms, leaving small early buyers exposed. Misjudging this cost Nomad roughly 1.5% of its NAV that year.",
+  "used": [
+   0,
+   2,
+   1
+  ]
+ },
+ "dilution": {
+  "answer": "It is the risk that a company sells new shares for less than it is worth; Sleep thought it most dangerous near market lows. In his Jun 2008 example, a buyer paying $15 for a firm valued at $33 a share could, after a cheap rescue issue, find he had paid 68 cents per dollar of value, or triple value in the worst case. Holders can defend themselves by taking up their share of new capital, and backstops by large holders can largely remove it.",
+  "used": [
+   0,
+   2
+  ]
+ },
+ "crash2008": {
+  "answer": "They treated it as an opportunity. In Dec 2008, after a poor year, Sleep argued that falling prices had opened a wide gap between share prices and business value, making this, in many ways, an ideal moment for patient investors, and that crises could ultimately do good. Nomad reopened in October 2008, near the bottom, though few subscribed. In Jun 2008 he had said he and Zakaria felt little investing stress, focusing on long-run value per share rather than short-term swings.",
+  "used": [
+   0,
+   3,
+   4
+  ]
+ },
+ "slack": {
+  "answer": "Sleep argued in Dec 2008 that the crisis exposed a system with no give: cash, borrowing and diaries were all used to the full, which looks efficient short term but is not best over time. Money committed now forgoes better chances later, such as equities in 2008 and 2009, so ready cash can be worth more than its face value if later invested well. Nomad kept slack in people and time too, running below capacity so it could think and act when opportunities came.",
+  "used": [
+   0,
+   1,
+   2
+  ]
+ },
+ "santafe": {
+  "answer": "It is an interdisciplinary research body whose founders, seven mainly Los Alamos scientists plus Murray Gell-Mann, felt many problems fell between academic fields; Sleep and Zakaria joined as members to learn from sharper minds. The letters cite Brian Arthur's picture of the economy as an adaptive, complex system that changes as its participants learn, Ole Peters's point that a company travels only one branch of the decision tree at a time, and a study of how people learn to take turns.",
+  "used": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "bridge": {
+  "answer": "Richard Zeckhauser, a 1966 world bridge champion who teaches behavioural finance at Harvard, maps decisions as trees, puts odds on each branch and revises them as facts change. Sleep took this from Charlie Munger's remark that this is simply how to think correctly, and saw weak probability-based thinking as a common investor error. Someone at ease with odds, facing the vast choice of world equity and bond markets, need not bet timidly and can learn indifference to single wins or losses.",
+  "used": [
+   0,
+   1
+  ]
+ },
+ "biases": {
+  "answer": "In Dec 2006 Sleep called treating the index as a riskless base the most common mistake, since it leads to opinions outside one's competence, neglect of better investments and excessive diversification. In Dec 2003 he noted that losses can sting roughly three times as much as gains please, so investors dwell on failures and credit winners to their own reasoning, even though winners usually drive results. In Dec 2007 he named anchoring on the case made at purchase as Nomad's most serious error at Conseco.",
+  "used": [
+   0,
+   2,
+   1
+  ]
+ },
+ "marathon": {
+  "answer": "In 2006 Sleep and Zakaria left Marathon; after Marathon stepped down on 45 days’ notice, their new firm, Sleep, Zakaria and Company, took over as Nomad’s manager on 12 September. The move freed them to act on their views about the conflict between managers and clients. The firm would run only Nomad and was structured so it could never be sold to another manager. Fees changed: a management fee that just recovers running costs, and a performance fee held back and refundable.",
+  "used": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "pv": {
+  "answer": "It is Nomad's estimate of what the portfolio's shares cost as a fraction of the underlying businesses' worth: 65 cents per dollar of value in Dec 2003, and the high 60s by Jun 2005. Sleep saw it as the best guide to hidden value and future returns, and urged partners to watch it rather than recent performance, which the brain overweights, especially under stress. Even after a flat five years to Dec 2008, he argued the lower ratio pointed to healthy returns still to come.",
+  "used": [
+   2,
+   3,
+   0,
+   1,
+   4
+  ]
+ },
+ "returns_model": {
+  "answer": "The model in Dec 2003 and Jun 2004 was to buy at about half of a firm's value and let that value grow roughly 10% a year. Over five years $1 of value would become about $1.62, and if the market then priced it fairly the return from the 50-cent purchase would be around 26% a year. When wrong, usually because companies misused capital, as at Readers Digest, holdings tended to languish at low prices instead of collapsing.",
+  "used": [
+   0,
+   1
+  ]
+ },
+ "reporting": {
+  "answer": "Sleep thought frequent reports on a long-term fund were pointless at best and harmful at worst. In Dec 2004 he argued that monthly or quarterly snapshots gain undue weight, tempting clients to confuse a poor quarter with incompetence and sack managers at the wrong time, and that publicly committing to views on stocks erodes a manager's willingness to change his mind. Later letters added that extra reporting invites saying something for its own sake, offering false comfort rather than rational reassurance.",
+  "used": [
+   2,
+   1,
+   3,
+   0
+  ]
+ },
+ "growth_value": {
+  "answer": "Sleep thought the debate was needless. In Dec 2004 he defined a business's worth as the free cash it will produce over its life, discounted at a sensible rate, so growth is simply part of value; ratios like price-to-book or earnings multiples say little about it. He asked value investors what would have kept them out of K-Mart, and growth investors what would have stopped them selling Wal-Mart; Nomad itself bought at half price yet owned so-called growth stocks.",
+  "used": [
+   1,
+   0,
+   3,
+   2
+  ]
+ },
+ "founders": {
+  "answer": "Sleep saw founders as Nomad's edge: they plan years ahead, while the investors who set share prices think quarter to quarter. In Jun 2007 he called this clash between founder-principals and trading-minded fund managers the fundamental truth of markets and the source of Nomad's results; its founders were planning for growth five years out, out of sync with Wall Street. By Jun 2009 he described its firms as run by proprietors acting like owners of private businesses, Bezos among them.",
+  "used": [
+   0,
+   1,
+   2
+  ]
+ },
+ "thinkers": {
+  "answer": "It was a list, fifteen companies long in Jun 2004, of firms that were intellectually honest, economically rational and out-thinking rivals, allocating capital with discipline over many years to strengthen their advantage. Sleep saw them as businesses owners could hold without trading, and called the list the ‘terminal portfolio’. He kept it because share prices swing more than business values, so he expected many to trade at half of value within a decade, and wanted the research done in advance.",
+  "used": [
+   0,
+   1
+  ]
+ },
+ "learning": {
+  "answer": "In Dec 2007 Sleep recommended forgiving, non-judgmental acceptance: neither excusing mistakes nor condemning them, but learning from them, as a child does. Once the lesson is learnt, the error is small beside the better behaviour it produces, so mistakes can end up with positive net present value; he credited lessons from Conseco and Stagecoach with gains of about $60m in 2007. He also criticised investors who punish companies for errors, arguing that a firm which learns should be worth more afterwards, not less.",
+  "used": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ "regulation": {
+  "answer": "They found it increasingly heavy-handed and poorly aimed. By Jun 2011 Sleep complained that rules written for past rogues wore down honest firms, with no way to earn relief. By Dec 2013 Nomad's regulators had doubled to four since 2001, and a simple, long-term fund was treated like a leveraged, constantly trading hedge fund; he preferred investigator-style regulators, or a tax on short-term investing, and feared the costs would breed consolidation and fragility. In 2021, they cited regulation as one reason for closing.",
+  "used": [
+   2,
+   4,
+   0,
+   1,
+   3
+  ]
+ },
+ "airasia": {
+  "answer": "Sleep liked AirAsia as a scale-sharing business that hands margin back to customers, and by Dec 2008 its low fares gave it better load factors than traditional flag carriers. By Dec 2012 its obsession with small cost savings had made it the world's lowest-cost airline. He also admired its founder's openness: asked in 2011 how he would react if one of his planes ended up in a swamp, he gestured that he had nothing to hide, which Sleep found healthy.",
+  "used": [
+   4,
+   5,
+   3,
+   0,
+   1
+  ]
+ },
+ "partners": {
+  "answer": "Sleep saw partners' collective patience as one of Nomad's main competitive advantages, alongside his own capital allocation. Nomad backed undervalued firms whose decisions might take years to pay off, so near-term results could as easily be bad as good, and it could only beat short-term investors by looking further ahead; hence an investment partnership rather than a fund. The partners delivered: through the 2008 crisis there were no performance enquiries and net redemptions stayed under 2%, which he said mattered to the whole Nomad ecosystem.",
+  "used": [
+   0,
+   1,
+   3,
+   4
+  ]
+ },
+ "x_amount": {
+  "answer": "In 2021, Sleep and Zakaria wrote that beyond some ‘X-amount’, real meaning comes from reinvesting in society by giving to charity, which they found as thoughtful and absorbing as investing and a sign of the world working as it should. They warned that investing can become self-centred, a tendency wealth can reinforce, and that tying one's identity to money above that level does nothing to build a better world. They invited readers to join them.",
+  "used": [
+   0,
+   1
+  ]
+ }
+}
