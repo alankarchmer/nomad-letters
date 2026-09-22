@@ -45,8 +45,10 @@ private/               not committed: the letters' text, the Jev cache, writer i
 No PDF or API key is needed for this:
 
 ```bash
-python3 src/build.py      # writes site/index.html
+python3 src/build.py      # writes site/index.html (a complete UTF-8 HTML document)
 ```
+
+`--fragment out.html` also writes the page without its `<html>`/`<head>` wrapper, for hosts that add their own (such as claude.ai Artifacts).
 
 ## Deploy
 

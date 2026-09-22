@@ -12,6 +12,10 @@ PORT = int(os.environ.get("PORT", "8000"))
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
+    extensions_map = {**http.server.SimpleHTTPRequestHandler.extensions_map,
+                      ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8",
+                      ".css": "text/css; charset=utf-8", ".json": "application/json; charset=utf-8"}
+
     def end_headers(self):
         self.send_header("Cache-Control", "public, max-age=300")
         self.send_header("X-Content-Type-Options", "nosniff")

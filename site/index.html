@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Nomad Letters</title>
 <meta name="description" content="An interactive guide to the Nomad Investment Partnership letters by Nick Sleep and Qais Zakaria, 2001–2014.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,6 +41,8 @@
   color-scheme: dark;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
+img{max-width:100%}
 html{scroll-behavior:smooth;scroll-padding-top:64px}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
@@ -359,7 +366,8 @@ a.pdf{white-space:nowrap}
   .sc-controls{grid-template-columns:minmax(0,1fr)}
 }
 </style>
-
+</head>
+<body>
 <div class="topbar">
   <div class="wrap">
     <a class="mark" href="#top" aria-label="The Nomad Letters, back to top">
@@ -1184,3 +1192,6 @@ if(window.ResizeObserver){const ro=new ResizeObserver(redraw);ro.observe($("#rou
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{drawIdeas();selectConcept(state.concept);drawHoldings();selectCompany(state.company)});
 })();
 </script>
+
+</body>
+</html>

@@ -1,4 +1,5 @@
 import json, sys, os
+from pathlib import Path
 from paths import DATA, SITE, SRC
 
 ents = json.load(open(DATA / "ents.json"))
@@ -428,10 +429,19 @@ def write_page():
                 mix=mix, pv=pv, holdp=holdp, fee=fee, totals=totals, words=words)
     blob = "const DATA=" + json.dumps(page, ensure_ascii=False, separators=(",", ":")) + ";"
     blob = blob.replace("</", "<\\/")
-    tpl = open(SRC / "template.html").read()
-    out = tpl.replace("/*__DATA__*/", blob)
-    SITE.mkdir(exist_ok=True); open(SITE / "index.html", "w").write(out)
-    print("written", len(out)//1024, "KB; holdings rows", len(Hrows))
+    tpl = open(SRC / "template.html", encoding="utf-8").read()
+    frag = tpl.replace("/*__DATA__*/", blob)
+    # The template is a fragment (head tags, then body content). Wrap it into a full document so any
+    # static host serves it as UTF-8 in standards mode with a mobile viewport.
+    cut = frag.index("</style>") + len("</style>")
+    doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+           '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+           + frag[:cut] + "\n</head>\n<body>\n" + frag[cut:].lstrip("\n") + "\n</body>\n</html>\n")
+    SITE.mkdir(exist_ok=True)
+    (SITE / "index.html").write_text(doc, encoding="utf-8")
+    if "--fragment" in sys.argv:  # bare version for hosts that add their own <head> (e.g. claude.ai Artifacts)
+        Path(sys.argv[sys.argv.index("--fragment") + 1]).write_text(frag, encoding="utf-8")
+    print("written", len(doc)//1024, "KB; holdings rows", len(Hrows))
     # sanity: distinctive words exist in index
     idx = set(p.split(":",1)[0] for p in words.split("|"))
     for l in L:
